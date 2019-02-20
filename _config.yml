@@ -1,0 +1,26 @@
+# Site settings
+name: Zy's blog
+email: printzy@126.com
+author: ZY
+url: https://zydemo.github.io/
+resume_site: ''
+github: https://zydemo.github.io/
+baseurl: ''
+description: 人生苦短，我用Python！
+meta_description: 个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: zydemo
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+

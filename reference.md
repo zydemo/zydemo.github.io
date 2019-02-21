@@ -8,6 +8,23 @@ permalink: /reference/
 {:toc}
 
 
+Bootstrap最受欢迎的WEB项目及组件
+=====================
+[Bootstrap最受欢迎的WEB项目及组件](https://v3.bootcss.com/)
+
+用jekyll制作高大上的网站（二）—实际应用
+=====================
+[用jekyll制作高大上的网站（二）—实际应用](http://www.cnblogs.com/strick/p/5484779.html)
+
+使用 GitHub, Jekyll 打造自己的免费独立博客
+=====================
+[使用 GitHub, Jekyll 打造自己的免费独立博客](https://blog.csdn.net/on_1y/article/details/19259435)
+
+ZKF's博客
+=====================
+ZKF's博客
+[https://zkf85.github.io/](https://zkf85.github.io/)
+
 走向架构师之路
 =====================
 [走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)

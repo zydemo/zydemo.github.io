@@ -103,12 +103,12 @@ layout: default
             {% else %}
             <a href="{{ site.baseurl}}/article/{{ paginator.previous_page }}">
             {% endif %}
-                <span>&laquo;</span>
+            <span>&laquo;</span>
             </a>
         {% endif %}
         </li>
         {% for i in (1..paginator.total_pages) limit:9 offset:{{paginator.page-1}} %}
-            {% if paginator.page == i %}
+        	{% if paginator.page == i %}
         <li class="active">
             {% else %}
         <li>

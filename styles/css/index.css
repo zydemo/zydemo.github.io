@@ -3984,7 +3984,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #f0f4fb;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -6272,7 +6272,7 @@ hr {
 }
 .banner {
   padding: 15px 20px;
-  color: #777;
+  color: #333;
   background-color: #fafafa;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #e5e5e5;
@@ -6320,7 +6320,7 @@ hr {
 }
 /* Page headers */
 .docs-header {
-  padding: 30px 15px 50px;
+  padding: 15px 15px 15px;
   /* side padding builds on .container 15px, so 30px */
   font-size: 16px;
   text-align: center;

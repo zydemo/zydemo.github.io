@@ -13,7 +13,8 @@ banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
-paginate: 10
+# 一页有几篇文章
+paginate: 5
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 

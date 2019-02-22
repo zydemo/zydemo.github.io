@@ -22,7 +22,19 @@
           <a href="{{ '/tag' | prepend: site.baseurl }}">博客标签</a>
         </li>
       </ul>
+
       <ul class="nav navbar-nav navbar-right">
+      <!--header search button Added by zy 22/02/2019 start-->
+      <li>
+        <div class="toolbar">
+          <div id="searchFrom">
+            <input type="text" name="j_search" id="j_search" size="30" placeholder="Search for..." required="" class="ui-autocomplete-input" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+            <button type="submit">Search for...</button>
+          </div>
+        </div>
+      </li>
+      <!--header search button Added by zy 22/02/2019 end-->
+
         <li>
             <a><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></a>
         </li>

@@ -20,6 +20,14 @@ Bootstrap最受欢迎的WEB项目及组件
 =====================
 [使用 GitHub, Jekyll 打造自己的免费独立博客](https://blog.csdn.net/on_1y/article/details/19259435)
 
+为Jekyll 加上简单搜索功能(不错的主题博客)
+=====================
+[为Jekyll 加上简单搜索功能(不错的主题博客)](https://blog.fooleap.org/jekyll-simple-search.html)
+
+为Jekyll添加静态搜索
+=====================
+[为Jekyll添加静态搜索](http://kingauthur.info/2012/12/03/the-things-about-jekyll/)
+
 ZKF's博客
 =====================
 ZKF's博客

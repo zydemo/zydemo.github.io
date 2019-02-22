@@ -6369,7 +6369,8 @@ $.widget( "ui.autocomplete", {
 		};
 		this.menu = $( "<ul></ul>" )
 			.addClass( "ui-autocomplete" )
-			.appendTo( $( this.options.appendTo || "body", doc )[0] )
+			// .appendTo( $( this.options.appendTo || "body", doc )[0] )
+			.appendTo('.navbar-right')
 			// prevent the close-on-blur in case of a "slow" click on the menu (long mousedown)
 			.mousedown(function( event ) {
 				// clicking on the scrollbar causes focus to shift to the body

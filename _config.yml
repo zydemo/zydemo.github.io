@@ -14,7 +14,11 @@ banner: 学而不思则罔，思而不学则殆。
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 # 一页有几篇文章
-paginate: 5
+paginate: 10
+paginate_path: 'page:num'
+
+## Gem
+gems: [jekyll-paginate]
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
@@ -22,6 +26,7 @@ github_username: zydemo
 
 # Build settings
 markdown: kramdown
+excerpt_separator: "<!--more-->"
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 

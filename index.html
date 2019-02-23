@@ -7,38 +7,20 @@ layout: default
         <div class="col-md-3">
           <div class="sidebar hidden-print" role="complementary">
             <div id="navigation">
-              <h1>目录归档</h1>
+              <h1>博客目录</h1>
               <ul class="nav sidenav">
-                {% for post in site.posts  %}
+                {% for post in paginator.posts  %}
                   {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
                   {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
                   {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
                   {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
-                  {% if forloop.first %}
-                    <li><a href="#year_{{this_year}}">{{this_year}}</a>
-                      <ul class="nav">
-                        <li><a href="#month_{{this_year}}_{{this_month}}">{{this_month}}</a></li>
-                  {% endif %}
+                  <li><a href="#{{post.title}}">{{post.title}}</a></li>
                   {% if forloop.last %}
-                        </ul>
-                      </li>
-                  {% else %}
-                    {% if this_year != next_year %}
-                        </ul>
-                      </li>
-                      <li><a href="#year_{{next_year}}">{{next_year}}</a>
-                        <ul class="nav">
-                          <li><a href="#month_{{next_year}}_{{next_month}}">{{next_month}}</a></li>
-                    {% else %}    
-                      {% if this_month != next_month %}
-                          <li><a href="#month_{{next_year}}_{{next_month}}">{{next_month}}</a></li>
-                      {% endif %}
-                    {% endif %}
+                      </ul>
                   {% endif %}
-                {% endfor %}
-              </ul>
-              <div style="height: 200px;width: 200px;">
-                
+                  {% endfor %}
+                  
+              <div style="height: 200px;width: 200px;">                
                 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i={{ site.revolvermaps }}&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"> 
                 </script>
               </div>
@@ -49,95 +31,36 @@ layout: default
           <div class="panel docs-content">
             <div class="wrapper">
               <div class="home">
-                {% for post in site.posts  %}
+                {% for post in paginator.posts  %}
                   {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
                   {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
                   {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
                   {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-                  {% if forloop.first %}
-                    <h1 id="year_{{this_year}}">{{this_year}}</h1>
-                    <h2 id="month_{{this_year}}_{{this_month}}">{{this_month}}</h2>
-                    <ul>
-                  {% endif %}
-
-                  <ol class="breadcrumb">
-                   <li><span>{{ post.date | date: "%B %e (%Y年%m月%d日)" }}</span> &raquo; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-                  </ol>
-                  {% if forloop.last %}
-                    </ul>
-                  {% else %}
-                    {% if this_year != next_year %}
-                      </ul>
-                      <h1 id="year_{{next_year}}">{{next_year}}</h1>
-                      <h2 id="month_{{next_year}}_{{next_month}}">{{next_month}}</h2>
-                      <ul>
-                    {% else %}    
-                      {% if this_month != next_month %}
-                        </ul>
-                        <h2 id="month_{{next_year}}_{{next_month}}">{{next_month}}</h2>
-                        <ul>
+                   <li class="breadcrumb">
+                    <h2 id="{{post.title}}">                        
+                        <a class="hvr-underline-from-center" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-list-meta">
+                        <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+                    </p>
+                    <p class="post-list-description">
+                      {% if post.content contains '<!--more-->' %}
+                          {{ post.content | split:'<!--more-->' | first }}
+                          <p class="more"><a href="{{ post.url }}">Read More &raquo;</a></p>                   
+                      {% else %}
+                          {{ post.content | strip_html | strip  | slice: 0,150 }}......
+                      <p class="more"><a href="{{ post.url }}">Read More &raquo;</a></p>
                       {% endif %}
-                    {% endif %}
-                  {% endif %}
+                      </p>
+                    
+                    </li>
+                                   
                 {% endfor %}
               </div>
             </div>
           </div>
         </div>
+        {% include pagination.html %}
       </div>
-
-    <!-- index分页 Added by zy 02/21/2019 start-->
-     <ul class="pagination">
-        <li>
-            <a href="{{ site.baseurl}}/article/">
-                <span>首页</span>
-            </a>
-        </li>
-        <li>
-        {% if paginator.page == 1 %}
-            <span>&laquo;</span>
-        {% else %}
-            {% if paginator.previous_page == 1 %}
-            <a href="{{ site.baseurl}}/article/">
-            {% else %}
-            <a href="{{ site.baseurl}}/article/{{ paginator.previous_page }}">
-            {% endif %}
-            <span>&laquo;</span>
-            </a>
-        {% endif %}
-        </li>
-        {% for i in (1..paginator.total_pages) limit:9 offset:{{paginator.page-1}} %}
-        	{% if paginator.page == i %}
-        <li class="active">
-            {% else %}
-        <li>
-            {% endif %}
-            {% if i == 1 %}
-            <a href="{{site.baseurl}}/article">{{i}}</a>
-            {% else %}
-            <a href="{{site.baseurl}}/article/{{i}}">{{i}}</a>
-            {% endif %}
-        </li>
-        {% endfor %}
-        <li>
-            {% if paginator.page == paginator.total_pages %}
-            <span>&raquo;</span>
-            {% else %}
-            <a href="{{ site.baseurl}}/article/{{ paginator.next_page }}">
-                <span>&raquo;</span>
-            </a>
-            {% endif %}
-        </li>
-        <li>
-            <a href="{{ site.baseurl}}/article/{{paginator.total_pages}}">
-                <span>末页</span>
-            </a>
-        </li>
-        <li class="disabled">
-            <span>第{{paginator.page}}页 / 共{{paginator.total_pages}}页</span>
-        </li>
-      </ul>
-      <!-- index分页 Added by zy 02/21/2019 end-->
-
-    </div>
+  </div>

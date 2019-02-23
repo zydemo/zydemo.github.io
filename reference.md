@@ -33,6 +33,10 @@ ZKF's博客
 ZKF's博客
 [https://zkf85.github.io/](https://zkf85.github.io/)
 
+使用Jekyll在Github上搭建个人博客（分页实现）
+=====================
+[使用Jekyll在Github上搭建个人博客（分页实现）](https://segmentfault.com/a/1190000000406015)
+
 走向架构师之路
 =====================
 [走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)

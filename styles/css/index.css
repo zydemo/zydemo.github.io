@@ -602,6 +602,7 @@ pre code {
 .row {
   margin-left: -15px;
   margin-right: -15px;
+  /*margin-bottom: 20px;*/
 }
 .row:before,
 .row:after {
@@ -2910,7 +2911,7 @@ input[type="button"].btn-block {
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .btn-group {
-  margin-left: -1px;
+  margin-left: 9px;
 }
 .btn-toolbar:before,
 .btn-toolbar:after {
@@ -4005,6 +4006,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin: 20px 0;
   border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
 }
 .pagination > li {
   display: inline;
@@ -6357,7 +6361,7 @@ hr {
 .footer {
   padding-top: 40px;
   padding-bottom: 30px;
-  margin-top: 100px;
+  margin-top: auto;
   color: #777;
   background: #fff;
   text-align: center;
@@ -6417,7 +6421,7 @@ hr {
   overflow: hidden;
   background: #fff;
   background-color: #fff;
-  padding: 1px 60px 80px 60px;
+  padding: 50px 60px 40px 60px;
   margin: 0 -15px;
   border: none;
   border-radius: 0 0 4px 4px;
@@ -7186,6 +7190,18 @@ td.visible-print {
   /*border: 1px solid #58b195; /*如何将边框改成别的颜色？*/
   outline:none;/*去除搜索框的蓝色边框*/
 }
+
+/* readmore Added by zy 02/23/2019 */
+.more {
+  font-size: 17px;  
+}
+.more a{
+  color: red;
+}
+.more a:hover{
+  color: blue;
+}
+
 
 /**
 :target{

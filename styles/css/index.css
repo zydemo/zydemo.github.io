@@ -3564,6 +3564,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
   .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
+    /*toolbar position Added by zy 22/02/2019*/
     position: relative;
   }
   .navbar-collapse .navbar-text:last-child {
@@ -7150,6 +7151,7 @@ td.visible-print {
   box-shadow:inset 1px 1px 5px rgba(100,100,100,.3); 
  /* padding:3px 5px;*/
  margin-top: 20px;
+ margin-right: 3px;
   height:25px; 
   float:right;
 }
@@ -7176,7 +7178,7 @@ td.visible-print {
   border:none;
   background:none;
   box-shadow:none;
-  width:160px;
+  width:220px;
   /*height:16px;*/
   /*line-height:16px;*/
   vertical-align:text-bottom;

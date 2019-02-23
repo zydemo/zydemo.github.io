@@ -6370,6 +6370,7 @@ $.widget( "ui.autocomplete", {
 		this.menu = $( "<ul></ul>" )
 			.addClass( "ui-autocomplete" )
 			// .appendTo( $( this.options.appendTo || "body", doc )[0] )
+			// toolbar position Added by zy 22/02/2019
 			.appendTo('.navbar-right')
 			// prevent the close-on-blur in case of a "slow" click on the menu (long mousedown)
 			.mousedown(function( event ) {

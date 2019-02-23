@@ -7151,7 +7151,7 @@ td.visible-print {
   box-shadow:inset 1px 1px 5px rgba(100,100,100,.3); 
  /* padding:3px 5px;*/
  margin-top: 20px;
- margin-right: 3px;
+ margin-right: 10px;
   height:25px; 
   float:right;
 }

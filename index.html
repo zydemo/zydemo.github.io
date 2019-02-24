@@ -45,8 +45,8 @@ layout: default
                         <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
                     </p>
                     <p class="post-list-description">
-                      {% if post.content contains '<!--more-->' %}
-                          {{ post.content | split:'<!--more-->' | first }}
+                      {% if post.content contains '<!-- more -->' %}
+                          {{ post.content | split:'<!-- more -->' | first }}
                           <p class="more"><a href="{{ post.url }}">Read More &raquo;</a></p>                   
                       {% else %}
                           {{ post.content | strip_html | strip  | slice: 0,150 }}......

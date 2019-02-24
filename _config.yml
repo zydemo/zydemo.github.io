@@ -17,16 +17,20 @@ permalink: /:year/:month/:day/:title/
 paginate: 10
 paginate_path: 'page:num'
 
+# 设置时区，如果不设置每个文章头部date结尾需添加 +0800
+# timezone: Asia/Shanghai
+
 ## Gem
 gems: [jekyll-paginate]
+# highlighter: pygments
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'createNew_MDFile']
 
 github_username: zydemo
 
 # Build settings
 markdown: kramdown
-excerpt_separator: "<!--more-->"
+excerpt_separator: "<!-- more -->"
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 

@@ -5831,7 +5831,9 @@ body {
 }
 .highlight pre code {
   font-size: inherit;
-  color: #333;
+  /*Added by zy 24/02/2019*/
+  /*color: #333;*/
+  color: #b5b5b5;
   /* Effectively the base text color */
 }
 .highlight pre .lineno {

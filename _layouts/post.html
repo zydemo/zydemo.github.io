@@ -16,14 +16,21 @@ layout: default
               <!--
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
               -->
-              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%Y年%m月%d日 %H:%M" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
+              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a>
+
+              <div class="ca" style="float:right;text-decoration:none;">
+              	个人分类：<a target="_blank" href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{ page.categories }}</a>
+              </div>
+
+              </div>              
               <br />
             </header>
             <article class="post-content">
-              {{ content }}
+              {{ content }}              
             </article>
         </div>
       </div>
     </div>
   </div>
 </div>
+

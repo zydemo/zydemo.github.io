@@ -36,7 +36,8 @@
   color: #75715e;
 }
 .highlight .err {
-  color: #960050;
+  /*color: #960050;*/
+  color: #f92672;
 }
 .highlight .gr {
   color: #960050;

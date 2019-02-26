@@ -5828,12 +5828,16 @@ body {
   background-color: transparent;
   border: 0;
   white-space: nowrap;
+  /*Added by zy 2019/02/26增加代码块的横向滚动条*/
+  overflow-x: auto;
 }
 .highlight pre code {
   font-size: inherit;
   /*Added by zy 24/02/2019*/
   /*color: #333;*/
   color: #b5b5b5;
+  /*Added by zy 2019/02/26增加代码块不换行*/
+  white-space:pre;
   /* Effectively the base text color */
 }
 .highlight pre .lineno {
@@ -6423,7 +6427,10 @@ hr {
   overflow: hidden;
   background: #fff;
   background-color: #fff;
-  padding: 50px 60px 40px 60px;
+  /*padding: 50px 60px 40px 60px;*/
+  /*Added by zy 02/26/2019*/  
+  /*padding: 30px 60px 40px 60px;*/
+  padding: 0 20px 16px 24px;
   margin: 0 -15px;
   border: none;
   border-radius: 0 0 4px 4px;
@@ -7204,6 +7211,10 @@ td.visible-print {
   color: blue;
 }
 
+/*added by zy 02/26/2019增加文章正文字体大小，不含代码块*/
+.post-content{
+  font-size: 15px;
+}
 
 /**
 :target{

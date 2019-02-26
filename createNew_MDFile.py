@@ -18,7 +18,6 @@ import os, sys
 import time
 import re
 
-
 class Create_newMD:
     def __init__(self):
         self.contentlist = ["---"]
@@ -31,8 +30,6 @@ class Create_newMD:
         # 存储所有文件的分类名
         self.tags_list = []
 
-
-
     def create(self):
         self.path = "./_posts"
         if (not os.path.exists(self.path)):
@@ -44,7 +41,9 @@ class Create_newMD:
             filelist = os.listdir(self.path)
             for file in filelist:
                 with open(self.path+"/"+file,'r',encoding='utf-8')as f:
-                    while True:
+                    # 不用死循环，如果找20行还没找到就不用找了
+                    switch = 0
+                    while switch <= 20:
                         content = f.readline()
                         # 获取分类
                         if "categories: " in content:
@@ -54,9 +53,11 @@ class Create_newMD:
                         if "tag: " in content:
                             tag_ = content.split("tag: ")[1].strip().replace("\n","")
                             self.tags_list.append(tag_)
-                        else:
-                            if not content:
-                                break
+                        # else:
+                            # 如果到了结尾就停止循环，这样太耗内存，一般20行以内就能确定分类和标签
+                        #     if not content:
+                        #         break
+                        switch += 1
             all_categories = list(set(self.categories_list)) # 去掉重复的名字
             all_tags = list(set(self.tags_list))
 
@@ -169,6 +170,8 @@ class Create_newMD:
             self.contentlist.append("")
             self.contentlist.append("* content")
             self.contentlist.append("{:toc}")
+            self.contentlist.append("")
+            self.contentlist.append("")
             while True:
                 url = input("\n" + "md文件名(也是文章url地址名称,不输入默认为标题名字):").strip()
                 if url == "":

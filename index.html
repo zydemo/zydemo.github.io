@@ -15,7 +15,7 @@ layout: default
                       </ul>
                   {% endif %}
                   {% endfor %}
-                  
+
               <div style="height: 200px;width: 200px;">                
                 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i={{ site.revolvermaps }}&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"> 
                 </script>
@@ -33,20 +33,20 @@ layout: default
                         <a class="hvr-underline-from-center" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
                     <p class="post-list-meta">
-                        <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y-%m-%d %H:%M:%S" }}
+                        <span class="octicon octicon-calendar"> {{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</span>
                     </p>
                     <p class="post-list-description">
                       {% if post.content contains '<!-- more -->' %}
-                          {{ post.content | split:'<!-- more -->' | first }}
+                          {{ post.excerpt | strip_html| split:'<!-- more -->' | first }}
                           <p class="more"><a href="{{ post.url }}">Read More &raquo;</a></p>                   
                       {% else %}
                           {{ post.content | strip_html | strip  | slice: 0,150 }}......
-                      <p class="more"><a href="{{ post.url }}">Read More &raquo;</a></p>
+                          <p class="more"><a href="{{ post.url }}">Read More &raquo;</a></p>
                       {% endif %}
-                      </p>
-                    
+                    </p>
+                    {% if forloop.last %}                                          
                     </li>
-                                   
+                    {% endif %}                                
                 {% endfor %}
               </div>
             </div>

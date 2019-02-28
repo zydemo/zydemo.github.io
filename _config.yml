@@ -18,7 +18,7 @@ paginate: 10
 paginate_path: 'page:num'
 
 # 设置时区，如果不设置每个文章头部date结尾需添加 +0800
-# timezone: Asia/Shanghai
+timezone: Asia/Shanghai
 
 ## Gem
 gems: [jekyll-paginate]

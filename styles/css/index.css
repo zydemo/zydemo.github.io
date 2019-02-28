@@ -3993,7 +3993,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #f0f4fb;
   border-radius: 4px;
   /*Added by zy 2019/02/27*/
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 .breadcrumb > li {
   display: inline-block;

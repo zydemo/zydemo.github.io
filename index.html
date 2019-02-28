@@ -37,7 +37,7 @@ layout: default
                 <!-- 如果有文章才会去循环 -->
                 {% if paginator.posts %}
                   {% for post in paginator.posts  %}
-                     <li class="breadcrumb">
+                     <li class="breadcrumb" style="margin-top:40px;">
                       <h2 id="{{post.title}}">                        
                           <a class="hvr-underline-from-center" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                       </h2>

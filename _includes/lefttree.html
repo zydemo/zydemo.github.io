@@ -5,7 +5,10 @@
   {% if page.title == "我的书单" %}
     <h1>书单目录</h1>
    {% endif %}
-  {% if page.title != "推荐博客" and page.title != "我的书单" %}
+   {% if page.title == "公共文件" %}
+    <h1>文件目录</h1>
+  {% endif %}
+  {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" %}
     <h1>文章目录</h1>
   {% endif %}
 

@@ -1,6 +1,6 @@
 # Site settings
 name: Zy's blog
-email: printzy@126.com
+email: 564359804@163.com
 author: ZY
 url: https://zydemo.github.io/
 resume_site: ''
@@ -17,7 +17,8 @@ permalink: /:year/:month/:day/:title/
 paginate: 10
 paginate_path: 'page:num'
 
-# 设置时区，如果不设置每个文章头部date结尾需添加 +0800
+# 设置时区，如果设置每个文章头部date结尾添加 +0800，本地运行慢八个小时，GitHub上正常
+# 如果不设置，那么每个文章头部不需添加 +0800，本地运行快八个小时，GitHub上正常
 timezone: Asia/Shanghai
 
 ## Gem

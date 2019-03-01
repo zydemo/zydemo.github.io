@@ -22,9 +22,9 @@ class Create_newMD:
     def __init__(self):
         self.contentlist = ["---"]
         # 日期格式规则
-        self.date_patt = re.compile(r'\d{4}-\d{1,2}-\d{1,2}')
+        self.date_patt = re.compile(r'\d{4}-\d{2}-\d{2}')
         # 时间格式规则
-        self.time_patt = re.compile(r'\d{1,2}:\d{1,2}:\d{1,2}')
+        self.time_patt = re.compile(r'\d{2}:\d{2}:\d{2}')
         # 存储所有文件的分类名
         self.categories_list = []
         # 存储所有文件的分类名
@@ -73,7 +73,7 @@ class Create_newMD:
                 else:
                     break
             while True:
-                input_time = input("\n" + "文章发布时间(格式17:08:00,不输入默认为当前时间):").strip()
+                input_time = input("\n" + "文章发布时间(格式07:08:00,不输入默认为当前时间):").strip()
                 re_time = self.time_patt.findall(input_time)
                 if input_time != '':
                     if len(re_time) != 0:
@@ -172,10 +172,21 @@ class Create_newMD:
             self.contentlist.append("{:toc}")
             self.contentlist.append("")
             self.contentlist.append("")
+            # 这里多写一个注释将日期和时间组合成图片的名字，方便传图的时候用到
+            # <!-- ![]({{ '/styles/article-image/20190301153016_1.jpg' | prepend: site.baseurl  }}) -->
+            before = "<!-- ![]({{ '/styles/article-image/"
+            after = input_date.replace("-","") + input_time.replace(":","")+"_1.jpg' | prepend: site.baseurl }}) -->"
+            self.contentlist.append(before+after)
+            char_list = ['*','|',':','?','/','<','>','"','\\']
             while True:
-                url = input("\n" + "md文件名(也是文章url地址名称,不输入默认为标题名字):").strip()
+                # 创建文件的时候，名字不能包含一些特殊字符要转义
+                url = input("\n" + "md文件名(也是文章url地址名称,不输入默认为标题名字(特殊符号用_代替)):").strip()
                 if url == "":
                     url = input_title
+                for i in char_list:
+                    if i in url :
+                        print("'%s'包含特殊符号'%s'已转义！"%(url,i))
+                        url = url.replace(i,"_")
                 fileName = input_date + "-" + url + ".md"
                 if fileName in filelist:
                     print("\n" + "ERROR:该md文件'%s'已存在,创建失败！" % fileName)

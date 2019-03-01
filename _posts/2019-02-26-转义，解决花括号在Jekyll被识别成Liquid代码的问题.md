@@ -24,7 +24,7 @@ tag: jekyll使用相关
 
 解决方法：
 
-![/styles/images/article-image/解决花括号在Jekyll被识别成Liquid代码的问题.png]({{ '/styles/images/article-image/解决花括号在Jekyll被识别成Liquid代码的问题.png' | prepend: site.baseurl  }})
+![/styles/images/article-image/解决花括号在Jekyll被识别成Liquid代码的问题.png]({{ '/styles/article-image/解决花括号在Jekyll被识别成Liquid代码的问题.png' | prepend: site.baseurl  }})
 
 上图显示如下：
 ```ruby

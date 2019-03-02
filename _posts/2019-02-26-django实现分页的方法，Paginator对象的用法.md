@@ -101,8 +101,8 @@ def list(request,lid):
 ```
 
 ### HTML页面如下，list.html：
-{% raw %}
 
+{% raw %}
 ```html
 <!--文章列表页面-->
     <div id="main-container" class="container clearfix">
@@ -177,6 +177,5 @@ def list(request,lid):
             </div>
             <!-- /文章列表 -->
         </section>
-
 ```
 {% endraw %}

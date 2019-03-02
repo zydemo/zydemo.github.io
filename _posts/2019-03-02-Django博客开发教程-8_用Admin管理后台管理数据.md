@@ -16,11 +16,11 @@ tag: Django博客开发教程
 
 ### Pycharm Database对数据库可视化操作 ###
 
-![]({{ '/styles/article-image/20190302164542_1.jpg' | prepend: site.baseurl }}){:width='90%'}
+![]({{ '/styles/article-image/20190302164542_1.jpg' | prepend: site.baseurl }}){:height='90%' width='90%'}
 
 然后点击db，就可以查看到我们的网站数据库，我们可以对数据进行增、删、改、查操作。
 
-![]({{ '/styles/article-image/20190302164542_2.jpg' | prepend: site.baseurl }}){:height='90%' width='90%'}
+![]({{ '/styles/article-image/20190302164542_2.jpg' | prepend: site.baseurl }}){:height='80%' width='80%'}
 
 更多相关方面的操作请查看文章：[使用Pycharm里的Database对数据库进行可视化操作](https://www.django.cn/article/show-13.html)
 

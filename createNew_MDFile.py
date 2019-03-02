@@ -58,8 +58,10 @@ class Create_newMD:
                         #     if not content:
                         #         break
                         switch += 1
-            all_categories = list(set(self.categories_list)) # 去掉重复的名字
+            all_categories = list(set(self.categories_list)) # 去掉重复的名字，并排序
+            all_categories.sort()
             all_tags = list(set(self.tags_list))
+            all_tags.sort()
 
             while True:
                 input_date = input("\n" + "文章发布日期(格式2019-02-21,不输入默认为当前日期):").strip()
@@ -172,11 +174,11 @@ class Create_newMD:
             self.contentlist.append("{:toc}")
             self.contentlist.append("")
             self.contentlist.append("")
-            # 这里多写一个注释将日期和时间组合成图片的名字，方便传图的时候用到
+            # 这里多写一个注释将日期、时间和图片尺寸组合成图片的名字，方便传图的时候用到
             # <!-- ![]({{ '/styles/article-image/20190301153016_1.jpg' | prepend: site.baseurl  }}) -->
             before = "<!-- ![]({{ '/styles/article-image/"
-            after = input_date.replace("-","") + input_time.replace(":","")+"_1.jpg' | prepend: site.baseurl }}) -->"
-            self.contentlist.append(before+after)
+            after = input_date.replace("-","") + input_time.replace(":","")+"_1.jpg' | prepend: site.baseurl }}){:height='80%' width='80%'} -->"
+            self.contentlist.append(before + after)
             char_list = ['*','|',':','?','/','<','>','"','\\']
             while True:
                 # 创建文件的时候，名字不能包含一些特殊字符要转义

@@ -545,7 +545,9 @@ code {
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
+  /*added by zy 2019/03/03*/
+  white-space: pre-wrap;
   border-radius: 4px;
 }
 pre {

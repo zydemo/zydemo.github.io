@@ -6700,7 +6700,12 @@ $.widget("ui.menu", {
 			.addClass("ui-menu ui-widget ui-widget-content ui-corner-all")
 			.attr({
 				role: "listbox",
-				"aria-activedescendant": "ui-active-menuitem"
+				"aria-activedescendant": "ui-active-menuitem",				
+			}).css(
+			// added by zy 2019/03/06.css({overflow....})
+			{
+				overflow: "auto",
+				height: "600px"
 			})
 			.click(function( event ) {
 				if ( !$( event.target ).closest( ".ui-menu-item a" ).length ) {

@@ -27,4 +27,4 @@ permalink: /public/
 	暂无文件
 
 ### 其它文档 ###
-	暂无文件
+- [html魔方图素材](/public/other/img.rar)

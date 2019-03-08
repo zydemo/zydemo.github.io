@@ -6705,7 +6705,7 @@ $.widget("ui.menu", {
 			// added by zy 2019/03/06.css({overflow....})
 			{
 				overflow: "auto",
-				height: "900%"
+				height: "600px"
 			})
 			.click(function( event ) {
 				if ( !$( event.target ).closest( ".ui-menu-item a" ).length ) {

@@ -18,7 +18,7 @@ tag: Python项目
 表格形式如下：
 
 电话中是以分号分开的：
-![]({{ '/styles/article-image/20190308153252_1.png' | prepend: site.baseurl }}){:height='90%' width='90%'}
+![]({{ '/styles/article-image/20190308153252_1.png' | prepend: site.baseurl }}){:height='95%' width='95%'}
 
 ### 执行代码 ###
 
@@ -104,4 +104,4 @@ if __name__ == "__main__":
 
 处理后，全部是手机号了：
 
-![]({{ '/styles/article-image/20190308153252_2.png' | prepend: site.baseurl }})
+![]({{ '/styles/article-image/20190308153252_2.png' | prepend: site.baseurl }}){:height='95%' width='95%'}

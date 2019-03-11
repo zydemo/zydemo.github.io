@@ -47,9 +47,23 @@ title: 博客归档
               {% endif %}
 
               <div style="height: 200px;width: 200px;">
-                
+
+                {% if page.title == "博客归档" %}
+                <!-- 魔方容器只在博客归档页面显示 -->
+                <div class="magic-container">
+                  <div class="magic-box">
+                    <div class="magic-box-page top animation"></div>
+                    <div class="magic-box-page bottom"></div>
+                    <div class="magic-box-page left"></div>
+                    <div class="magic-box-page right"></div>
+                    <div class="magic-box-page before"></div>
+                    <div class="magic-box-page after"></div>
+                  </div>
+                </div>
+                 {% else %}
                 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i={{ site.revolvermaps }}&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"> 
                 </script>
+                {% endif %}
               </div>
             </div>
           </div>

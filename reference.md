@@ -20,6 +20,12 @@ Python相关
 + [机器学习三剑客之Pandas](https://www.jianshu.com/p/7414364992e4)
 
 
+Web前端
+-----------------------------------------------------------------
++ [Bootstrap中文网](http://www.bootcss.com/)
+
++ [Bootstrap最受欢迎的WEB项目及组件](https://v3.bootcss.com/)
+
 
 相关博客
 -----------------------------------------------------------------
@@ -43,7 +49,6 @@ jekyll相关
 
 其它
 -----------------------------------------------------------------
-+ [Bootstrap最受欢迎的WEB项目及组件](https://v3.bootcss.com/)
 
 + [走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
 

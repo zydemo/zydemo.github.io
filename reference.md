@@ -26,6 +26,10 @@ Web前端
 
 + [Bootstrap最受欢迎的WEB项目及组件](https://v3.bootcss.com/)
 
++ [Animate.css插件](https://daneden.github.io/animate.css/)
+
++ [swiper触摸滑动插件](https://www.swiper.com.cn/)
+
 
 相关博客
 -----------------------------------------------------------------

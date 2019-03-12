@@ -13,13 +13,12 @@
 
     {{ content }}
     
-    <!-- ZY 02/20/2019 start -->
+    <!-- To Top ZY 02/20/2019 start -->
     <!-- Add back to top button -->
     <div>
       <button onclick="topFunction()" id="myBtn" title="Back to top" style="display: none;">Top</button>
     </div>
-      <script>
-        
+     <!--  <script>
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
 
@@ -36,8 +35,45 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-      </script>
-    <!-- ZY 02/20/2019 end -->
+      </script> -->
+
+      <!-- 返回顶部增加了缓慢效果 -->
+     <script type="text/javascript"> 
+     	// 页面加载后执行
+     	// $(document).ready(function topFunction(){
+     	window.onload = function topFunction(){
+     		// 1、找到页面中的按钮
+     		var totop = document.getElementById("myBtn");
+     		// 页面刷新的时候先隐藏
+     		totop.style.display = "none";
+     		var timer = null;
+     		// 2、给按钮绑定点击事件
+     		totop.onclick = function(){
+     			// 周期性定时
+     			timer = setInterval(function(){     				
+     				// 3、获取滚动条距离浏览器顶端的距离
+	     			var backTop = document.documentElement.scrollTop || document.body.scrollTop;
+	     			// 让滚动条从快到慢的过渡效果
+	     			var speedTop = backTop / 5;
+	     			document.documentElement.scrollTop = backTop - speedTop;
+	     			// 如果滑动到顶部停止计时器
+	     			if(backTop == 0){
+	     				clearInterval(timer)
+	     			}
+     			},30);     			
+     		}
+     		window.onscroll =  function(){
+     			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        		totop.style.display = "block";
+	        	} else {
+	          		totop.style.display = "none";
+	        		}
+     		}
+     	}
+     </script>
+     
+
+    <!--ToTop ZY 02/20/2019 end -->
 
     <!--default search js Added by zy 22/02/2019 start-->
     <script type="text/javascript">

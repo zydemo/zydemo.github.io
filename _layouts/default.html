@@ -16,9 +16,14 @@
     <!-- To Top ZY 02/20/2019 start -->
     <!-- Add back to top button -->
     <div>
-      <button onclick="topFunction()" id="myBtn" title="Back to top" style="display: none;">Top</button>
+      <button id="myBtn" title="Back to top" style="display: none;">Top</button>
     </div>
-      <script>
+
+    <!-- 快速滑动的效果 -->
+    <!-- <div>
+      <button onclick="topFunction()" id="myBtn" title="Back to top" style="display: block;">Top</button>
+    </div> -->
+      <!-- <script>
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
       
@@ -35,7 +40,31 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+      </script> -->
+
+
+      <script type="text/javascript">
+      	// 页面加载后执行
+      	window.onload = function(){
+	    	var totop = document.getElementById("myBtn");
+     		// 页面刷新的时候先隐藏
+     		totop.style.display = "none";     		
+		    $("#myBtn").click(function(){	      
+	    	$('html,body').animate({scrollTop: '0px'}, 500);
+	    	});
+	    	// When the user scrolls down 20px from the top of the document, show the button
+		    window.onscroll = function() {scrollFunction()};
+		    function scrollFunction() {	    	
+		    	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    		document.getElementById("myBtn").style.display = "block";
+		     	} else {
+		     		document.getElementById("myBtn").style.display = "none";
+		     	}
+		    }
+		}
+
       </script>
+
 
       <!-- 返回顶部增加了缓慢效果 -->
      <!-- <script type="text/javascript"> 

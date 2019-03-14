@@ -64,5 +64,7 @@ jekyll相关
 
 + [视音频编解码技术学习方法](http://blog.csdn.net/leixiaohua1020/article/details/18893769)
 
++ [使用Twilio+python给手机发短信](https://www.jianshu.com/p/91b55f47de8a) 
+
 
 

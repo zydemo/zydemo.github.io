@@ -35,6 +35,8 @@ Web前端
 -----------------------------------------------------------------
 + [ZKF's博客](https://zkf85.github.io/)
 
++ [蒋振飞的博客](https://jzfblog.com/)
+
 
 
 jekyll相关
@@ -48,6 +50,8 @@ jekyll相关
 + [为Jekyll添加静态搜索](http://kingauthur.info/2012/12/03/the-things-about-jekyll/)
 
 + [使用Jekyll在Github上搭建个人博客（分页实现）](https://segmentfault.com/a/1190000000406015)
+
++ [为Jekyll博客添加小功能](https://blog.csdn.net/ds19991999/article/details/81293467)
 
 
 

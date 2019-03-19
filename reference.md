@@ -30,6 +30,12 @@ Web前端
 
 + [swiper触摸滑动插件](https://www.swiper.com.cn/)
 
++ [阿里巴巴矢量图标库](https://www.iconfont.cn/)
+
++ [知名无版权图片分享网站 Unsplash](https://unsplash.com/)
+
++ [腾讯智图-图片压缩在线工具](https://zhitu.isux.us/)
+
 
 相关博客
 -----------------------------------------------------------------
@@ -68,7 +74,11 @@ jekyll相关
 
 + [视音频编解码技术学习方法](http://blog.csdn.net/leixiaohua1020/article/details/18893769)
 
-+ [使用Twilio+python给手机发短信](https://www.jianshu.com/p/91b55f47de8a) 
++ [使用Twilio+python给手机发短信](https://www.jianshu.com/p/91b55f47de8a)
+
++ [百度脑图](http://naotu.baidu.com/)
+
++ [Topbook – 高效生活视频书](https://topbook.cc/overview)
 
 
 

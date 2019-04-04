@@ -22,11 +22,19 @@ layout: default
               	个人分类：<a target="_blank" href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{ page.categories }}</a>
               </div>
               {% endif %}
+              {% if page.title == "公共文件" %}
+              <div class="ca" style="float:right;color: red;">
+              	<!-- 文字跑马灯效果 -->
+              	<marquee loop="-1" scrollamount="8">
+                所有文件仅做学习交流使用，不做任何商业用途，严禁下载商用，违者必究！
+            	</marquee>
+              </div>
+              {% endif %}
               </div>              
               <br />
             </header>
             <article class="post-content">
-              {{ content }}              
+              {{ content }}             
             </article>   
             <!-- added by zy 2019/03/02 -->
             <br >

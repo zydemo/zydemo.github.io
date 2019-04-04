@@ -10,9 +10,23 @@ permalink: /public/
 
 ### pdf文档 ###
 
-- [python(第四版).pdf](/public/pdf/python(第四版).pdf)
+- [Python学习手册第4版).pdf](/public/pdf/Python学习手册第4版.pdf)
 
+- [笨办法学Python.pdf](/public/pdf/笨办法学Python.pdf)
 
+- [趣学Python编程_PDF电子书下载+带书签目录+完整版.pdf](/public/pdf/趣学Python编程_PDF电子书下载+带书签目录+完整版.pdf)
+
+- [正则表达式课件.pdf](/public/pdf/正则表达式课件.pdf)
+
+- [Web服务器案例课件.pdf](/public/pdf/Web服务器案例课件.pdf)
+
+- [Python高级-课件.pdf](/public/pdf/Python高级-课件.pdf)
+
+- [图说区块链.pdf](/public/pdf/图说区块链.pdf)
+
+- [《定位》（美）阿尔·里斯，杰克·特劳特.pdf](/public/pdf/定位.pdf)
+
+- [《定位》：有史以来对美国营销影响最大的观念.pdf](/public/pdf/定位：有史以来对美国营销影响最大的观念.pdf)
 
 
 ### word文档 ###
@@ -20,11 +34,17 @@ permalink: /public/
 
 
 ### 表格文档 ###
-	暂无文件
 
+- [柱状图按条件显示不同颜色.xlsx](/public/excel/柱状图按条件显示不同颜色.xlsx)
+
+- [excel学习20190404.xlsx](/public/excel/excel学习20190404.xlsx)
+
+- [超强可以自由定义的Excel版中国地图.xls](/public/excel/超强可以自由定义的Excel版中国地图.xls)
 
 ### ppt文档 ###
 	暂无文件
 
 ### 其它文档 ###
-- [html魔方图素材](/public/other/img.rar)
+- [html魔方图素材.rar](/public/other/img.rar)
+
+

@@ -15,6 +15,10 @@ Markdown在线编辑器
 
 Python相关
 -----------------------------------------------------------------
++ [Python-LeetCode在线做题网站（支持中文)](https://leetcode-cn.com)
+
++ [Python-codewars在线做题网站](https://www.codewars.com/)
+
 + [pyspider的基本使用](https://www.jianshu.com/p/ce9d26d32bcf)
 
 + [机器学习三剑客之Pandas](https://www.jianshu.com/p/7414364992e4)
@@ -84,8 +88,6 @@ jekyll相关
 + [Python-在线手册](https://docs.pythontab.com/)
 
 + [猿学365-在线学习网站](https://www.yuanxue365.com/)
-
-+ [Python-codewars在线做题网站](https://www.codewars.com/)
 
 + [Python packages查找软件包](https://pypi.org/)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jekyll生成博客后markdown页面超链接添加target='_blank'实现新窗口打开
+title: jekyll生成博客后markdown页面超链接实现新窗口打开
 date: 2019-04-08 10:19:51 +0800
 categories: jekyll
 tag: jekyll使用相关

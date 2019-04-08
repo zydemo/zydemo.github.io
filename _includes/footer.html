@@ -19,3 +19,13 @@
 <!--footer magic-cube js Added by zy 11/03/2019 start-->
 <script src="{{ '/styles/js/magic-cube.js' | prepend: site.baseurl }}"></script>
 <!--footer magic-cube js Added by zy 11/03/2019 end-->
+
+<!--为超链接加上target='_blank'属性 Added by zy 08/04/2019 start-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('a[href^="http"]').each(function() {
+			$(this).attr('target', '_blank');
+		});
+	});
+</script>
+<!--为超链接加上target='_blank'属性 Added by zy 08/04/2019 end-->

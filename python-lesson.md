@@ -8,15 +8,13 @@ permalink: /python-lesson/
 {:toc}
 
 
-
 [学习课件]
 -----------------------------------------------------------------
 + <a href="/public/other/python基础课件/index.html" target="_blank">学习课件链接</a>
 
 
-第一章
+Python第一章
 -----------------------------------------------------------------
-
 + [第一章 第1节开班环境讲解.mp4](http://python.yuanxue365.net/第一章 第1节开班环境讲解.mp4 )
 
 + [第一章 第2节课程介绍.mp4](http://python.yuanxue365.net/第一章 第2节课程介绍.mp4 )
@@ -50,9 +48,8 @@ permalink: /python-lesson/
 + [第一章 第16节软连接、硬链接、grep、cp、mv.mp4](http://python.yuanxue365.net/第一章 第16节软连接、硬链接、grep、cp、mv.mp4 )
 
 
-第二章
+Python第二章
 -----------------------------------------------------------------
-
 + [第二章 第1节find命令.mp4](http://python.yuanxue365.net/第二章 第1节find命令.mp4 )
 
 + [第二章 第2节tar压缩和解压缩、which命令.mp4](http://python.yuanxue365.net/第二章 第2节tar压缩和解压缩、which命令.mp4 )
@@ -72,9 +69,8 @@ permalink: /python-lesson/
 + [第二章 第9节vim命令.mp4](http://python.yuanxue365.net/第二章 第9节vim命令.mp4 )
 
 
-第三章
+Python第三章
 -----------------------------------------------------------------
-
 + [第三章 第1节Ubuntu安装服务器.mp4](http://python.yuanxue365.net/第三章 第1节Ubuntu安装服务器.mp4 )
 
 + [第三章 第2节python的介绍-1.mp4](http://python.yuanxue365.net/第三章 第2节python的介绍-1.mp4 )
@@ -110,9 +106,8 @@ permalink: /python-lesson/
 + [第三章 第17节print一次性输出多个变量的值.mp4](http://python.yuanxue365.net/第三章 第17节print一次性输出多个变量的值.mp4 )
 
 
-第四章
+Python第四章
 -----------------------------------------------------------------
-
 + [第四章 第1节if比较运算符、and、or.mp4](http://python.yuanxue365.net/第四章 第1节if比较运算符、and、or.mp4 )
 
 + [第四章 第2节使用if完成白富美.mp4](http://python.yuanxue365.net/第四章 第2节使用if完成白富美.mp4 )
@@ -154,7 +149,7 @@ permalink: /python-lesson/
 + [第四章 第20节while嵌套中的break作用范围.mp4](http://python.yuanxue365.net/第四章 第20节while嵌套中的break作用范围.mp4 )
 
 
-第五章
+Python第五章
 -----------------------------------------------------------------
 + [第五章 第1节字符串在内存中的存储方式.mp4](http://python.yuanxue365.net/第五章 第1节字符串在内存中的存储方式.mp4 )
 
@@ -193,7 +188,7 @@ permalink: /python-lesson/
 + [第五章 第18节字典的常见操作、遍历.mp4](http://python.yuanxue365.net/第五章 第18节字典的常见操作、遍历.mp4 )
 
 
-第六章
+Python第六章
 -----------------------------------------------------------------
 + [第六章 第1节元组.mp4](http://python.yuanxue365.net/第六章 第1节元组.mp4 )
 
@@ -226,7 +221,7 @@ permalink: /python-lesson/
 + [第六章 第15节函数的嵌套调用-2-代码.mp4](http://python.yuanxue365.net/第六章 第15节函数的嵌套调用-2-代码.mp4 )
 
 
-第七章
+Python第七章
 -----------------------------------------------------------------
 + [第七章 第1节局部变量.mp4](http://python.yuanxue365.net/第七章 第1节局部变量.mp4 )
 
@@ -267,7 +262,7 @@ permalink: /python-lesson/
 + [第七章 第19节递归.mp4](http://python.yuanxue365.net/第七章 第19节递归.mp4 )
 
 
-第八章
+Python第八章
 -----------------------------------------------------------------
 + [第八章 第1节匿名函数.mp4](http://python.yuanxue365.net/第八章 第1节匿名函数.mp4 )
 
@@ -300,7 +295,7 @@ permalink: /python-lesson/
 + [第八章 第15节批量重命名代码讲解.mp4](http://python.yuanxue365.net/第八章 第15节批量重命名代码讲解.mp4 )
 
 
-第九章
+Python第九章
 -----------------------------------------------------------------
 + [第九章 第1节面向对象、面向过程区别.mp4](http://python.yuanxue365.net/第九章 第1节面向对象、面向过程区别.mp4 )
 
@@ -339,7 +334,7 @@ permalink: /python-lesson/
 + [第九章 第18节应用：存放家具.mp4](http://python.yuanxue365.net/第九章 第18节应用：存放家具.mp4 )
 
 
-第十章
+Python第十章
 -----------------------------------------------------------------
 + [第十章 第1节隐藏属性.mp4](http://python.yuanxue365.net/第十章 第1节隐藏属性.mp4 )
 
@@ -374,7 +369,7 @@ permalink: /python-lesson/
 + [第十章 第16节实例方法、类方法、静态方法.mp4](http://python.yuanxue365.net/第十章 第16节实例方法、类方法、静态方法.mp4 )
 
 
-第十一章
+Python第十一章
 -----------------------------------------------------------------
 + [第十一章 第1节设计4s店类-1.mp4](http://python.yuanxue365.net/第十一章 第1节设计4s店类-1.mp4 )
 
@@ -413,7 +408,7 @@ permalink: /python-lesson/
 + [第十一章 第18节模块.mp4](http://python.yuanxue365.net/第十一章 第18节模块.mp4 )
 
 
-第十二章
+Python第十二章
 -----------------------------------------------------------------
 + [第十二章 第1节模块中的__all__的作用.mp4](http://python.yuanxue365.net/第十二章 第1节模块中的__all__的作用.mp4 )
 
@@ -450,7 +445,7 @@ permalink: /python-lesson/
 + [第十二章 第17节实例效果.mp4](http://python.yuanxue365.net/第十二章 第17节实例效果.mp4 )
 
 
-第十三章
+Python第十三章
 -----------------------------------------------------------------
 + [第十三章 第1节游戏的原理.mp4](http://python.yuanxue365.net/第十三章 第1节游戏的原理.mp4 )
 
@@ -481,7 +476,7 @@ permalink: /python-lesson/
 + [第十三章 第14节基础班知识-复习.mp4](http://python.yuanxue365.net/第十三章 第14节基础班知识-复习.mp4 )
 
 
-第十四章
+Python第十四章
 -----------------------------------------------------------------
 + [第十四章 第1节模块重新导入_recv.mp4](http://python.yuanxue365.net/第十四章 第1节模块重新导入_recv.mp4 )
 
@@ -514,7 +509,7 @@ permalink: /python-lesson/
 + [第十四章 第15节property的使用-3_recv.mp4](http://python.yuanxue365.net/第十四章 第15节property的使用-3_recv.mp4 )
 
 
-第十五章
+Python第十五章
 -----------------------------------------------------------------
 + [第十五章 第1节迭代器.mp4](http://python.yuanxue365.net/第十五章 第1节迭代器.mp4 )
 
@@ -555,7 +550,7 @@ permalink: /python-lesson/
 + [第十五章 第20节生成器-4-完成多任务.mp4](http://python.yuanxue365.net/第十五章 第20节生成器-4-完成多任务.mp4 )
 
 
-第十六章
+Python第十六章
 -----------------------------------------------------------------
 + [第十六章 第1节pdb调试_recv.mp4](http://python.yuanxue365.net/第十六章 第1节pdb调试_recv.mp4 )
 
@@ -598,7 +593,7 @@ permalink: /python-lesson/
 + [第十六章 第20节多进程拷贝文件_recv.mp4](http://python.yuanxue365.net/第十六章 第20节多进程拷贝文件_recv.mp4 )
 
 
-第十七章
+Python第十七章
 -----------------------------------------------------------------
 + [第十七章 第1节使用Thread完成多线程.mp4](http://python.yuanxue365.net/第十七章 第1节使用Thread完成多线程.mp4 )
 
@@ -635,7 +630,7 @@ permalink: /python-lesson/
 + [第十七章 第17节GIL的问题.mp4](http://python.yuanxue365.net/第十七章 第17节GIL的问题.mp4 )
 
 
-第十八章
+Python第十八章
 -----------------------------------------------------------------
 + [第十八章 第1节tcp-ip协议简介_recv.mp4](http://python.yuanxue365.net/第十八章 第1节tcp-ip协议简介_recv.mp4 )
 
@@ -664,7 +659,7 @@ permalink: /python-lesson/
 + [第十八章 第13节模拟QQ聊天-多线程_recv.mp4](http://python.yuanxue365.net/第十八章 第13节模拟QQ聊天-多线程_recv.mp4 )
 
 
-第十九章
+Python第十九章
 -----------------------------------------------------------------
 + [第十九章 第1节wireshark的安装.mp4](http://python.yuanxue365.net/第十九章 第1节wireshark的安装.mp4 )
 
@@ -675,7 +670,7 @@ permalink: /python-lesson/
 + [第十九章 第4节pack和unpack的使用.mp4](http://python.yuanxue365.net/第十九章 第4节pack和unpack的使用.mp4 )
 
 
-第二十章
+Python第二十章
 -----------------------------------------------------------------
 + [第二十章 第1节udp广播_recv.mp4](http://python.yuanxue365.net/第二十章 第1节udp广播_recv.mp4 )
 
@@ -716,7 +711,7 @@ permalink: /python-lesson/
 + [第二十章 第19节长连接、短连接_recv.mp4](http://python.yuanxue365.net/第二十章 第19节长连接、短连接_recv.mp4 )
 
 
-第二十一章
+Python第二十一章
 -----------------------------------------------------------------
 + [第二十一章 第1节简单复习.mp4](http://python.yuanxue365.net/第二十一章 第1节简单复习.mp4 )
 
@@ -749,7 +744,7 @@ permalink: /python-lesson/
 + [第二十一章 第15节gevent版服务器.mp4](http://python.yuanxue365.net/第二十一章 第15节gevent版服务器.mp4 )
 
 
-第二十二章
+Python第二十二章
 -----------------------------------------------------------------
 + [第二十二章 第11节静态文件的Web服务器代码_recv.mp4](http://python.yuanxue365.net/第二十二章 第11节静态文件的Web服务器代码_recv.mp4 )
 
@@ -774,7 +769,7 @@ permalink: /python-lesson/
 + [第二十二章 第10节固定返回值的Web服务器代码_recv.mp4](http://python.yuanxue365.net/第二十二章 第10节固定返回值的Web服务器代码_recv.mp4 )
 
 
-第二十三章
+Python第二十三章
 -----------------------------------------------------------------
 + [第二十三章 第1节文件打开方式_文本与二进制的区别.mp4](http://python.yuanxue365.net/第二十三章 第1节文件打开方式_文本与二进制的区别.mp4 )
 
@@ -799,7 +794,7 @@ permalink: /python-lesson/
 + [第二十三章 第11节Web框架程序扩展.mp4](http://python.yuanxue365.net/第二十三章 第11节Web框架程序扩展.mp4 )
 
 
-第二十四章
+Python第二十四章
 -----------------------------------------------------------------
 + [第二十四章 第1节属性查找_recv.mp4](http://python.yuanxue365.net/第二十四章 第1节属性查找_recv.mp4 )
 
@@ -832,7 +827,7 @@ permalink: /python-lesson/
 + [第二十四章 第15节练习题讲解_recv.mp4](http://python.yuanxue365.net/第二十四章 第15节练习题讲解_recv.mp4 )
 
 
-第二十五章
+Python第二十五章
 -----------------------------------------------------------------
 + [第二十五章 第1节算法引入.mp4](http://python.yuanxue365.net/第二十五章 第1节算法引入.mp4 )
 
@@ -861,7 +856,7 @@ permalink: /python-lesson/
 + [第二十五章 第13节顺序表添加与删除元素_Python列表的实现.mp4](http://python.yuanxue365.net/第二十五章 第13节顺序表添加与删除元素_Python列表的实现.mp4 )
 
 
-第二十六章
+Python第二十六章
 -----------------------------------------------------------------
 + [第二十六章 第1节栈与队列的概念.mp4](http://python.yuanxue365.net/第二十六章 第1节栈与队列的概念.mp4 )
 
@@ -898,7 +893,7 @@ permalink: /python-lesson/
 + [第二十六章 第17节双向链表删除元素.mp4](http://python.yuanxue365.net/第二十六章 第17节双向链表删除元素.mp4 )
 
 
-第二十七章
+Python第二十七章
 -----------------------------------------------------------------
 + [第二十七章 第1节排序算法的稳定性(可能是加密过的文件，请核实)_recv.mp4](http://python.yuanxue365.net/第二十七章 第1节排序算法的稳定性(可能是加密过的文件，请核实)_recv.mp4 )
 
@@ -933,7 +928,7 @@ permalink: /python-lesson/
 + [第二十七章 第16节二分查找时间复杂度.mp4](http://python.yuanxue365.net/第二十七章 第16节二分查找时间复杂度.mp4 )
 
 
-第二十八章
+Python第二十八章
 -----------------------------------------------------------------
 + [第二十八章 第1节树的概念_recv.mp4](http://python.yuanxue365.net/第二十八章 第1节树的概念_recv.mp4 )
 
@@ -948,7 +943,7 @@ permalink: /python-lesson/
 + [第二十八章 第6节二叉树由遍历确定一棵树.mp4](http://python.yuanxue365.net/第二十八章 第6节二叉树由遍历确定一棵树.mp4 )
 
 
-第二十九章
+Python第二十九章
 -----------------------------------------------------------------
 + [第二十九章 第1节简介_recv.mp4](http://python.yuanxue365.net/第二十九章 第1节简介_recv.mp4 )
 
@@ -995,7 +990,7 @@ permalink: /python-lesson/
 + [第二十九章 第22节复习.mp4](http://python.yuanxue365.net/第二十九章 第22节复习.mp4 )
 
 
-第三十章
+Python第三十章
 -----------------------------------------------------------------
 + [第三十章 第1节复习_recv.mp4](http://python.yuanxue365.net/第三十章 第1节复习_recv.mp4 )
 
@@ -1028,7 +1023,7 @@ permalink: /python-lesson/
 + [第三十章 第15节总结.mp4](http://python.yuanxue365.net/第三十章 第15节总结.mp4 )
 
 
-第三十一章
+Python第三十一章
 -----------------------------------------------------------------
 + [第三十一章 第1节复习_recv.mp4](http://python.yuanxue365.net/第三十一章 第1节复习_recv.mp4 )
 
@@ -1069,7 +1064,7 @@ permalink: /python-lesson/
 + [第三十一章 第19节总结.mp4](http://python.yuanxue365.net/第三十一章 第19节总结.mp4 )
 
 
-第三十二章
+Python第三十二章
 -----------------------------------------------------------------
 + [第三十二章 第1节复习_recv.mp4](http://python.yuanxue365.net/第三十二章 第1节复习_recv.mp4 )
 
@@ -1098,7 +1093,7 @@ permalink: /python-lesson/
 + [第三十二章 第13节总结_recv.mp4](http://python.yuanxue365.net/第三十二章 第13节总结_recv.mp4 )
 
 
-第三十三章
+Python第三十三章
 -----------------------------------------------------------------
 + [第三十三章 第1节html基本结构_recv.mp4](http://python.yuanxue365.net/第三十三章 第1节html基本结构_recv.mp4 )
 
@@ -1139,7 +1134,7 @@ permalink: /python-lesson/
 + [第三十三章 第19节元素类型.mp4](http://python.yuanxue365.net/第三十三章 第19节元素类型.mp4 )
 
 
-第三十四章
+Python第三十四章
 -----------------------------------------------------------------
 + [第三十四章 第1节复习及css选择器_recv.mp4](http://python.yuanxue365.net/第三十四章 第1节复习及css选择器_recv.mp4 )
 
@@ -1178,7 +1173,7 @@ permalink: /python-lesson/
 + [第三十四章 第18节布局实例02.mp4](http://python.yuanxue365.net/第三十四章 第18节布局实例02.mp4 )
 
 
-第三十五章
+Python第三十五章
 -----------------------------------------------------------------
 + [第三十五章 第1节复习-布局实例_recv.mp4](http://python.yuanxue365.net/第三十五章 第1节复习-布局实例_recv.mp4 )
 
@@ -1221,7 +1216,7 @@ permalink: /python-lesson/
 + [第三十五章 第19节布局复习.mp4](http://python.yuanxue365.net/第三十五章 第19节布局复习.mp4 )
 
 
-第三十六章
+Python第三十六章
 -----------------------------------------------------------------
 + [第三十六章 第1节主页实例-幻灯片_recv.mp4](http://python.yuanxue365.net/第三十六章 第1节主页实例-幻灯片_recv.mp4 )
 
@@ -1264,7 +1259,7 @@ permalink: /python-lesson/
 + [第三十六章 第19节复习-tansform变形.mp4](http://python.yuanxue365.net/第三十六章 第19节复习-tansform变形.mp4 )
 
 
-第三十七章
+Python第三十七章
 -----------------------------------------------------------------
 + [第三十七章 第1节移动端布局01.mp4](http://python.yuanxue365.net/第三十七章 第1节移动端布局01.mp4 )
 
@@ -1281,7 +1276,7 @@ permalink: /python-lesson/
 + [第三十七章 第7节布局类型.mp4](http://python.yuanxue365.net/第三十七章 第7节布局类型.mp4 )
 
 
-第三十八章
+Python第三十八章
 -----------------------------------------------------------------
 + [第三十八章 第1节复习rem_recv.mp4](http://python.yuanxue365.net/第三十八章 第1节复习rem_recv.mp4 )
 
@@ -1338,7 +1333,7 @@ permalink: /python-lesson/
 + [第三十八章 第27节内置对象_recv.mp4](http://python.yuanxue365.net/第三十八章 第27节内置对象_recv.mp4 )
 
 
-第三十九章
+Python第三十九章
 -----------------------------------------------------------------
 + [第三十九章 第1节复习封闭函数-闭包_recv.mp4](http://python.yuanxue365.net/第三十九章 第1节复习封闭函数-闭包_recv.mp4 )
 
@@ -1393,7 +1388,7 @@ permalink: /python-lesson/
 + [第三十九章 第26节表单验证_recv.mp4](http://python.yuanxue365.net/第三十九章 第26节表单验证_recv.mp4 )
 
 
-第四十章
+Python第四十章
 -----------------------------------------------------------------
 + [第四十章 第1节复习_recv.mp4](http://python.yuanxue365.net/第四十章 第1节复习_recv.mp4 )
 
@@ -1428,7 +1423,7 @@ permalink: /python-lesson/
 + [第四十章 第16节性能优化_recv.mp4](http://python.yuanxue365.net/第四十章 第16节性能优化_recv.mp4 )
 
 
-第四十一章
+Python第四十一章
 -----------------------------------------------------------------
 + [第四十一章 第1节简介_recv.mp4](http://python.yuanxue365.net/第四十一章 第1节简介_recv.mp4 )
 
@@ -1451,7 +1446,7 @@ permalink: /python-lesson/
 + [第四十一章 第10节总结开发过程_recv.mp4](http://python.yuanxue365.net/第四十一章 第10节总结开发过程_recv.mp4 )
 
 
-第四十二章
+Python第四十二章
 -----------------------------------------------------------------
 + [第四十二章 第1节复习.mp4](http://python.yuanxue365.net/第四十二章 第1节复习.mp4 )
 
@@ -1470,7 +1465,7 @@ permalink: /python-lesson/
 + [第四十二章 第8节聚合、F对象、Q对象.mp4](http://python.yuanxue365.net/第四十二章 第8节聚合、F对象、Q对象.mp4 )
 
 
-第四十三章
+Python第四十三章
 -----------------------------------------------------------------
 + [第四十三章 第1节复习_recv.mp4](http://python.yuanxue365.net/第四十三章 第1节复习_recv.mp4 )
 
@@ -1491,7 +1486,7 @@ permalink: /python-lesson/
 + [第四十三章 第9节总结_recv.mp4](http://python.yuanxue365.net/第四十三章 第9节总结_recv.mp4 )
 
 
-第四十四章
+Python第四十四章
 -----------------------------------------------------------------
 + [第四十四章 第1节复习.mp4](http://python.yuanxue365.net/第四十四章 第1节复习.mp4 )
 
@@ -1514,7 +1509,7 @@ permalink: /python-lesson/
 + [第四十四章 第10节总结.mp4](http://python.yuanxue365.net/第四十四章 第10节总结.mp4 )
 
 
-第四十五章
+Python第四十五章
 -----------------------------------------------------------------
 + [第四十五章 第1节复习_recv.mp4](http://python.yuanxue365.net/第四十五章 第1节复习_recv.mp4 )
 
@@ -1537,7 +1532,7 @@ permalink: /python-lesson/
 + [第四十五章 第10节总结_recv.mp4](http://python.yuanxue365.net/第四十五章 第10节总结_recv.mp4 )
 
 
-第四十六章
+Python第四十六章
 -----------------------------------------------------------------
 + [第四十六章 第1节复习.mp4](http://python.yuanxue365.net/第四十六章 第1节复习.mp4 )
 
@@ -1556,7 +1551,7 @@ permalink: /python-lesson/
 + [第四十六章 第8节celery.mp4](http://python.yuanxue365.net/第四十六章 第8节celery.mp4 )
 
 
-第四十七章
+Python第四十七章
 -----------------------------------------------------------------
 + [第四十七章 第1节创建项目_recv.mp4](http://python.yuanxue365.net/第四十七章 第1节创建项目_recv.mp4 )
 
@@ -1593,7 +1588,7 @@ permalink: /python-lesson/
 + [第四十七章 第17节自定义上下文.mp4](http://python.yuanxue365.net/第四十七章 第17节自定义上下文.mp4 )
 
 
-第四十八章
+Python第四十八章
 -----------------------------------------------------------------
 + [第四十八章 第1节复习_recv.mp4](http://python.yuanxue365.net/第四十八章 第1节复习_recv.mp4 )
 
@@ -1608,7 +1603,7 @@ permalink: /python-lesson/
 + [第四十八章 第6节git_recv.mp4](http://python.yuanxue365.net/第四十八章 第6节git_recv.mp4 )
 
 
-第四十九章
+Python第四十九章
 -----------------------------------------------------------------
 + [第四十九章 第1节爬虫概念的讲解_recv.mp4](http://python.yuanxue365.net/第四十九章 第1节爬虫概念的讲解_recv.mp4 )
 
@@ -1633,7 +1628,7 @@ permalink: /python-lesson/
 + [第四十九章 第11节利用Cookie模拟登录_recv.mp4](http://python.yuanxue365.net/第四十九章 第11节利用Cookie模拟登录_recv.mp4 )
 
 
-第五十章
+Python第五十章
 -----------------------------------------------------------------
 + [第五十章 第1节Handler和opener以及开放代理和私密代理的使用.mp4](http://python.yuanxue365.net/第五十章 第1节Handler和opener以及开放代理和私密代理的使用.mp4 )
 
@@ -1670,7 +1665,7 @@ permalink: /python-lesson/
 + [第五十章 第17节处理JS分页加载的网页_recv.mp4](http://python.yuanxue365.net/第五十章 第17节处理JS分页加载的网页_recv.mp4 )
 
 
-第五十一章
+Python第五十一章
 -----------------------------------------------------------------
 + [第五十一章 第1节Scrapy介绍和入门案例演示_recv.mp4](http://python.yuanxue365.net/第五十一章 第1节Scrapy介绍和入门案例演示_recv.mp4 )
 
@@ -1719,7 +1714,7 @@ permalink: /python-lesson/
 + [第五十一章 第23节Sina新闻资讯整站爬虫案例简介_recv.mp4](http://python.yuanxue365.net/第五十一章 第23节Sina新闻资讯整站爬虫案例简介_recv.mp4 )
 
 
-第五十二章
+Python第五十二章
 -----------------------------------------------------------------
 + [第五十二章 第1节scrapy-redis介绍和redis集群搭建_recv.mp4](http://python.yuanxue365.net/第五十二章 第1节scrapy-redis介绍和redis集群搭建_recv.mp4 )
 
@@ -1748,7 +1743,7 @@ permalink: /python-lesson/
 + [第五十二章 第14节课程回顾3_recv.mp4](http://python.yuanxue365.net/第五十二章 第14节课程回顾3_recv.mp4 )
 
 
-第五十三章
+Python第五十三章
 -----------------------------------------------------------------
 + [第五十三章 第1节简介_recv.mp4](http://python.yuanxue365.net/第五十三章 第1节简介_recv.mp4 )
 
@@ -1785,7 +1780,7 @@ permalink: /python-lesson/
 + [第五十三章 第17节建表.mp4](http://python.yuanxue365.net/第五十三章 第17节建表.mp4 )
 
 
-第五十四章
+Python第五十四章
 -----------------------------------------------------------------
 + [第五十四章 第1节作业_recv.mp4](http://python.yuanxue365.net/第五十四章 第1节作业_recv.mp4 )
 
@@ -1836,7 +1831,7 @@ permalink: /python-lesson/
 + [第五十四章 第24节tornado部署.mp4](http://python.yuanxue365.net/第五十四章 第24节tornado部署.mp4 )
 
 
-第五十五章
+Python第五十五章
 -----------------------------------------------------------------
 + [第五十五章 第1节遗留问题补充说明_recv.mp4](http://python.yuanxue365.net/第五十五章 第1节遗留问题补充说明_recv.mp4 )
 
@@ -1879,7 +1874,7 @@ permalink: /python-lesson/
 + [第五十五章 第20节补充说明与作业_recv.mp4](http://python.yuanxue365.net/第五十五章 第20节补充说明与作业_recv.mp4 )
 
 
-第五十六章
+Python第五十六章
 -----------------------------------------------------------------
 + [第五十六章 第1节Git使用.mp4](http://python.yuanxue365.net/第五十六章 第1节Git使用.mp4 )
 
@@ -1934,7 +1929,7 @@ permalink: /python-lesson/
 + [第五十六章 第26节网页授权_recv.mp4](http://python.yuanxue365.net/第五十六章 第26节网页授权_recv.mp4 )
 
 
-第五十七章
+Python第五十七章
 -----------------------------------------------------------------
 + [第五十七章 第1节运维工作内容_recv.mp4](http://python.yuanxue365.net/第五十七章 第1节运维工作内容_recv.mp4 )
 

@@ -3,13 +3,13 @@
     {% if group == null or group == node.group %}
     	{% if page.url == node.url %}
     	<ol class="breadcrumb">
-    		<li class="active"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
-    		<li style="float:right;"><span>{{ node.date | date: "%F" }}</span></li>
+    		<li class="active" style="width:80%"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
+    		<li style="float:right;width:20%;text-align:right;"><span>{{ node.date | date: "%F" }}</span></li>
     	</ol>
     	{% else %}
     	<ol class="breadcrumb">
-    		<li><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
-    		<li style="float:right;"><span>{{ node.date | date: "%F" }}</span></li>
+    		<li style="width:80%"><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+    		<li style="float:right;width:20%;text-align:right;"><span>{{ node.date | date: "%F" }}</span></li>
     	</ol>
     	{% endif %}
     {% endif %}

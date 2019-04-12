@@ -38,7 +38,7 @@ excerpt_separator: "<!-- more -->"
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-#gitment
-comment_gitment_repo: comment
+# gitment
+comment_gitment_repo: zydemo.github.io
 comment_gitment_clientId: 38a1e6571f7fcc53994a
 comment_gitment_clientSecret: 9fcd760206b6f50790e686e52b1db829c6c6bcda

@@ -72,6 +72,15 @@ jekyll相关
 
 + [Jekyll 显示每一年的文章数](https://blog.fooleap.org/posts-size-for-each-year-in-jekyll.html)
 
++ [Jekyll博客添加Valine评论](https://www.cnblogs.com/gr4ss/p/9998600.html)
+
++ [Valine: 独立博客评论系统](https://deserts.io/diy-a-comment-system/)
+
++ [Jekyll博客添加Gitment评论系统](https://blog.csdn.net/zhangquan2015/article/details/80178794)
+
++ [Gitment：使用 GitHub Issues 搭建评论系统](https://imsun.net/posts/gitment-introduction/)
+
+
 
 
 手机浏览器书签
@@ -153,4 +162,6 @@ jekyll相关
 
 + [Topbook – 高效生活视频书](https://topbook.cc/overview)
 
++ [Snipaste - 截图 + 贴图](https://zh.snipaste.com/)
 
++ [QuickLook 空格键预览文件工具](https://pooi.moe/QuickLook/)

@@ -61,8 +61,8 @@ layout: default
 			<br >
 			{% if site.comment_gitment_repo %}
 				<div id="gitmentContainer"></div>
-				<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-				<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+				<link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
+				<script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
 				<script>
 				    var gitment = new Gitment({
 						id: '{{ page.title }}',

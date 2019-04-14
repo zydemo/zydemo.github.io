@@ -65,7 +65,7 @@ layout: default
 				<script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
 				<script>
 				    var gitment = new Gitment({
-					if ({{ page.date }} ==""){
+					if ('{{ page.date }}' ==""){
 						id: '{{ page.title }}';
 					} else{
 						id: '{{ page.date }}';

@@ -65,10 +65,10 @@ layout: default
 				<script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
 				<script>
 				    var gitment = new Gitment({
-					if ({{ page.date }}){
-						id: '{{ page.date }}';
+					if ({{ page.date }} ==""){
+						id: '{{ page.title }}';
 					} else{
-						id: '{{ page.title }};
+						id: '{{ page.date }};
 					}						
 						title: '{{ page.title }}',
 				        owner: '{{site.github_username}}',

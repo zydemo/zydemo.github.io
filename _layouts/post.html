@@ -64,9 +64,9 @@ layout: default
 				<link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
 				<script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
 				<script>
+				    var gitment = new Gitment({
 					var str = '{{ page.title }}'
 					console.log(str.length)
-				    var gitment = new Gitment({
 					if (str.length < 50){
 						console.log(1)
 						id: '{{ page.title }}';

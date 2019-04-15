@@ -67,7 +67,7 @@ layout: default
 					var title_length ='{{ page.title }}'.length					
 					if (title_length < 50){
 						var gitment = new Gitment({
-						id: '{{ page.title }}',	
+						id: '{{ page.title }}',
 				        owner: '{{site.github_username}}',
 				        repo: '{{site.comment_gitment_repo}}',
 				        oauth: {
@@ -78,7 +78,7 @@ layout: default
 					else
 					{
 				    var gitment = new Gitment({
-						id: '{{ page.date }}',				
+						id: '{{ page.date }}',
 						title: '{{ page.title }}',
 				        owner: '{{site.github_username}}',
 				        repo: '{{site.comment_gitment_repo}}',

@@ -59,20 +59,26 @@ layout: default
 			{% endif %}
 
 			<br >
-			{% if site.comment_gitment_repo %}
+			{% if site.comment_gitment_repo %}				
 				<div id="gitmentContainer"></div>
 				<link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
 				<script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
 				<script>
+					var title_length ='{{ page.title }}'.length					
+					if (title_length < 50){
+						var gitment = new Gitment({
+						id: '{{ page.title }}',	
+				        owner: '{{site.github_username}}',
+				        repo: '{{site.comment_gitment_repo}}',
+				        oauth: {
+				            client_id: '{{site.comment_gitment_clientId}}',
+				            client_secret: '{{site.comment_gitment_clientSecret}}',
+				        },
+				    });}
+					else
+					{
 				    var gitment = new Gitment({
-					var str = '{{ page.title }}'
-					console.log(str.length)
-					if (str.length < 50){
-						console.log(1)
-						id: '{{ page.title }}';
-					} else{
-						id: '{{ page.date }}';
-					}						
+						id: '{{ page.date }}',				
 						title: '{{ page.title }}',
 				        owner: '{{site.github_username}}',
 				        repo: '{{site.comment_gitment_repo}}',
@@ -80,7 +86,7 @@ layout: default
 				            client_id: '{{site.comment_gitment_clientId}}',
 				            client_secret: '{{site.comment_gitment_clientSecret}}',
 				        },
-				    });
+				    });}
 				    gitment.render('gitmentContainer')
 				</script>
 			{% endif %}

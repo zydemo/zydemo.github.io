@@ -67,6 +67,7 @@ layout: default
 					var str = '{{ page.title }}'
 				    var gitment = new Gitment({
 					if (str.length < 50){
+						console.log(str.length)
 						id: '{{ page.title }}';
 					} else{
 						id: '{{ page.date }}';

@@ -183,6 +183,7 @@ a.gitment-header-issue-link:hover {
   color: #666;
   background-color: transparent;
   border-radius: 3px;
+  word-wrap: break-word;
 }
 
 .gitment-editor-header {

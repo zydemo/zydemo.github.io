@@ -65,7 +65,7 @@ layout: default
 				<script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
 				<script>
 					var title_length ='{{ page.title }}'.length
-					if (title_length < 50 && '{{ page.title }}'.indexOf(",")!= -1){
+					if (title_length < 50 && '{{ page.title }}'.indexOf(",")== -1){
 						var gitment = new Gitment({
 						id: '{{ page.title }}',
 				        owner: '{{site.github_username}}',

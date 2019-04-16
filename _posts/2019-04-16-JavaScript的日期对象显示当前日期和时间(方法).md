@@ -82,3 +82,6 @@ oBox.innerHTML=timeValue;
 }
 
 ```
+
+
+转载前端菜鸟：[http://www.bird100.cn/8960.html](http://www.bird100.cn/8960.html)

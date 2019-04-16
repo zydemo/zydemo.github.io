@@ -48,10 +48,11 @@ Error：validation failed的错误原因是因为：issue的标签label有长度
 
 	'{{ page.title }}'.indexOf(",")== -1  # !=-1代表含有 ==-1代表不含有
  
-{% endraw %}
+
 
 完整代码			{#code}
 ===========================
+
 ```js
 
 <script>
@@ -82,6 +83,8 @@ Error：validation failed的错误原因是因为：issue的标签label有长度
 </script>
 
 ```
+
+{% endraw %}
 
 当然了如果用时间去做id可以很好的避免了文章每次更新标题或路径时，会重新创建一个issue评论的问题。看自己情况。
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript的日期对象显示当前日期和时间(用途：评论系统中显示评论日期)
+title: JavaScript的日期对象显示当前日期和时间（用途：评论系统中显示评论日期）
 date: 2019-04-16 16:27:40 +0800
 categories: Java
 tag: JavaScript

@@ -86,9 +86,16 @@ class Create_newMD:
                 else:
                     break
             while True:
+                # 标题不能含特殊符号，否则博客js报错：Syntax error, unrecognized expression
                 input_title = input("\n" + "文章标题:").strip()
                 if input_title != "":
-                    title = "title: " + input_title
+                    title = "title: " + input_title.replace("(","（").replace(")","）").replace(",","，").\
+                    replace("[","【").replace("]","】").replace("/","_").replace("%","_").replace("#","_").\
+                    replace("<", "《").replace(">", "》").replace("&", "_").replace("'", '"').replace("`", "_"). \
+                    replace("^", "_").replace("@", "_").replace("$", "_").replace("!", "！").replace("?", "？").replace(";", "；")
+                    # 结尾不能是英文冒号
+                    if title[-1] == ":":
+                        title = title.rsplit(":",1)[0] + "："
                     break
                 else:
                     print("\n" + "标题不能为空或只为空格，请重新输入！")

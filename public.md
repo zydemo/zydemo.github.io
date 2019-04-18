@@ -16,12 +16,6 @@ permalink: /public/
 
 - [趣学Python编程_PDF电子书下载+带书签目录+完整版.pdf](/public/pdf/趣学Python编程_PDF电子书下载+带书签目录+完整版.pdf)
 
-- [正则表达式课件.pdf](/public/pdf/正则表达式课件.pdf)
-
-- [Web服务器案例课件.pdf](/public/pdf/Web服务器案例课件.pdf)
-
-- [Python高级-课件.pdf](/public/pdf/Python高级-课件.pdf)
-
 - [图说区块链.pdf](/public/pdf/图说区块链.pdf)
 
 - [《定位》（美）阿尔·里斯，杰克·特劳特.pdf](/public/pdf/定位.pdf)

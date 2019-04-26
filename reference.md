@@ -23,6 +23,10 @@ Python相关
 
 + [机器学习三剑客之Pandas](https://www.jianshu.com/p/7414364992e4)
 
++ [Pycharm注册码-lanyus](http://idea.lanyus.com/)
+
++ [Pycharm注册码最新版本2019激活码及破解补丁激活](https://blog.csdn.net/nobleman__/article/details/85730001)
+
 
 深度学习/机器学习等相关
 -----------------------------------------------------------------

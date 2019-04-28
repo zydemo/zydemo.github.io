@@ -27,6 +27,8 @@ Python相关
 
 + [Pycharm注册码最新版本2019激活码及破解补丁激活](https://blog.csdn.net/nobleman__/article/details/85730001)
 
++ [**我要自学网-不错的学习软件网站](https://www.51zxw.net/)
+
 
 深度学习/机器学习等相关
 -----------------------------------------------------------------
@@ -92,6 +94,8 @@ jekyll相关
 + [网易云课堂](https://study.163.com/)
 
 + [中国大学MOOC](https://www.icourse163.org/)
+
++ [爱课程视频课程](http://www.icourses.cn/home/)
 
 + [Python-思否](https://segmentfault.com/t/python)
 
@@ -168,3 +172,8 @@ jekyll相关
 + [Snipaste - 截图 + 贴图](https://zh.snipaste.com/)
 
 + [QuickLook 空格键预览文件工具](https://pooi.moe/QuickLook/)
+
++ [派代网-中国电子商务交流分享平台](http://www.paidai.com/)
+
++ [极客战记(编程类休闲手游)](https://codecombat.163.com/)
+

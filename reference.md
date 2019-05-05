@@ -60,6 +60,8 @@ Web前端
 
 + [蒋振飞的博客](https://jzfblog.com/)
 
++ [刘江的博客-django教程](http://www.liujiangblog.com/course/django/2)
+
 
 
 jekyll相关

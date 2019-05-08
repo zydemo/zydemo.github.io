@@ -22,7 +22,7 @@ permalink: /public/
 
 - [《定位》：有史以来对美国营销影响最大的观念.pdf](/public/pdf/定位：有史以来对美国营销影响最大的观念.pdf)
 
-- [2019社交和内容趋势观察（短视频、KOL、内容付费）-AdMaster](/public/pdf/2019社交和内容趋势观察（短视频、KOL、内容付费）-AdMaster.pdf)
+- [2019社交和内容趋势观察（短视频、KOL、内容付费）-AdMaster](/public/pdf/2019社交和内容趋势观察.pdf)
 
 - [社群营销与运营](/public/pdf/社群营销与运营.pdf)
 

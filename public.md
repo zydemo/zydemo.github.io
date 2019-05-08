@@ -22,6 +22,12 @@ permalink: /public/
 
 - [《定位》：有史以来对美国营销影响最大的观念.pdf](/public/pdf/定位：有史以来对美国营销影响最大的观念.pdf)
 
+- [2019社交和内容趋势观察（短视频、KOL、内容付费）-AdMaster](/public/pdf/2019社交和内容趋势观察（短视频、KOL、内容付费）-AdMaster.pdf)
+
+- [社群营销与运营](/public/pdf/社群营销与运营.pdf)
+
+- [CNNIC-第43次中国互联网络发展状况统计报告](/public/pdf/CNNIC-第43次中国互联网络发展状况统计报告.pdf)
+
 
 ### word文档 ###
 	暂无文件

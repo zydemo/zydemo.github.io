@@ -113,7 +113,7 @@ jekyll相关
 
 + [猿学365-在线学习网站](https://www.yuanxue365.com/)
 
-+ [Python packages查找软件包](https://pypi.org/)
++ [Python packages查找软件包（PyPI）](https://pypi.org/)
 
 + [Python3网络爬虫开发实战](https://germey.gitbooks.io/python3webspider/)
 

@@ -29,6 +29,8 @@ Python相关
 
 + [**我要自学网-不错的学习软件网站](https://www.51zxw.net/)
 
++ [自强学堂-Django/HTML/jQuery学习](https://code.ziqiangxuetang.com/django/django-tutorial.html)
+
 
 深度学习/机器学习等相关
 -----------------------------------------------------------------
@@ -52,6 +54,8 @@ Web前端
 + [知名无版权图片分享网站 Unsplash](https://unsplash.com/)
 
 + [腾讯智图-图片压缩在线工具](https://zhitu.isux.us/)
+
++ [jQuery手册-速查表](http://jquery.cuishifeng.cn/index.html)
 
 
 相关博客

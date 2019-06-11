@@ -147,6 +147,8 @@ jekyll相关
 
 + [北京市居住证服务平台](https://gaj.beijing.gov.cn/fwxt/)
 
++ [北京市积分落户服务专栏](http://www.bjrbj.gov.cn/jflh/)
+
 + [贝壳找房](https://bj.ke.com/)
 
 + [阿里巴巴集团社会招聘](https://job.alibaba.com/zhaopin/positionList.htm)

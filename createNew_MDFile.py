@@ -124,7 +124,6 @@ class Create_newMD:
             for i, chr in enumerate(all_categories):
                 print("{:^18}\t{:^12}".format(str(i + 1) + "-", chr))
                 categories_dic[str(i + 1) + "-"] = chr
-            # print(categories_dic)
             while True:
                 input_category = input("\n" + "输入文章分类名(可输入相应分类代号，注意后面的减号):").strip()
                 if input_category != "":
@@ -218,8 +217,6 @@ class Create_newMD:
                     print("\n" + "5秒后自动退出系统...")
                     time.sleep(5)
                     break
-
-
 if __name__ == "__main__":
     cr = Create_newMD()
     cr.create()

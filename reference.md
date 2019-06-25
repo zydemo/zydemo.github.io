@@ -109,6 +109,8 @@ jekyll相关
 
 + [爱课程视频课程](http://www.icourses.cn/home/)
 
++ [w3cschool在线学习课程](https://www.w3cschool.cn/)
+
 + [Python-思否](https://segmentfault.com/t/python)
 
 + [Python123](https://www.python123.io/)

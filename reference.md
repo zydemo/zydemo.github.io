@@ -63,6 +63,7 @@ Web前端
 
 + [jQuery手册-速查表](http://jquery.cuishifeng.cn/index.html)
 
++ [w3school前端在线使用手册](http://www.w3school.com.cn/)
 
 相关博客
 -----------------------------------------------------------------

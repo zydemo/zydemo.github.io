@@ -38,11 +38,13 @@ Python相关
 + [自强学堂-Django/HTML/jQuery学习](https://code.ziqiangxuetang.com/django/django-tutorial.html)
 
 
-深度学习/机器学习等相关
+深度学习/机器学习等相关/微信小程序
 -----------------------------------------------------------------
 + [斯坦福CS231n李飞飞计算机视觉](https://study.163.com/course/introduction.htm?courseId=1003223001)
 
 + [李飞飞课程主页](http://cs231n.stanford.edu/)
+
++ [微信小程序开发官网](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
 
 Web前端

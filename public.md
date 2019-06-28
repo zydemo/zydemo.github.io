@@ -16,6 +16,8 @@ permalink: /public/
 
 - [趣学Python编程_PDF电子书下载+带书签目录+完整版.pdf](/public/pdf/趣学Python编程_PDF电子书下载+带书签目录+完整版.pdf)
 
+- [2019中国MCN行业发展白皮书](/public/pdf/2019中国MCN行业发展白皮书.pdf)
+
 - [图说区块链.pdf](/public/pdf/图说区块链.pdf)
 
 - [《定位》（美）阿尔·里斯，杰克·特劳特.pdf](/public/pdf/定位.pdf)
@@ -58,7 +60,8 @@ permalink: /public/
 - [超强可以自由定义的Excel版中国地图.xls](/public/excel/超强可以自由定义的Excel版中国地图.xls)
 
 ### ppt文档 ###
-	暂无文件
+
+- [案例库分享](/public/ppt/案例库分享.pptx)
 
 ### 其它文档 ###
 - [html魔方图素材.rar](/public/other/img.rar)

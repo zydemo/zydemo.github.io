@@ -38,7 +38,7 @@ Python相关										{#python}
 + [自强学堂-Django/HTML/jQuery学习](https://code.ziqiangxuetang.com/django/django-tutorial.html)
 
 
-深度学习/机器学习相关/微信小程序					{#wechat}
+深度学习/机器学习/微信小程序					{#wechat}
 -----------------------------------------------------------------
 + [斯坦福CS231n李飞飞计算机视觉](https://study.163.com/course/introduction.htm?courseId=1003223001)
 

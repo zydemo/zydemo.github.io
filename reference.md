@@ -8,7 +8,7 @@ permalink: /reference/
 {:toc}
 
 
-Markdown在线编辑器
+Markdown在线编辑器								{#markdown}
 -----------------------------------------------------------------
 + [Markdown在线编辑器 MdEditor](https://www.mdeditor.com/)
 
@@ -19,7 +19,7 @@ Markdown在线编辑器
 + [天天生鲜-功能不全好理解](https://github.com/shihao1010/tiantianshengxian)
 
 
-Python相关
+Python相关										{#python}
 -----------------------------------------------------------------
 + [Python-LeetCode在线做题网站（支持中文)](https://leetcode-cn.com)
 
@@ -38,7 +38,7 @@ Python相关
 + [自强学堂-Django/HTML/jQuery学习](https://code.ziqiangxuetang.com/django/django-tutorial.html)
 
 
-深度学习/机器学习等相关/微信小程序
+深度学习/机器学习等相关/微信小程序					{#wechat}
 -----------------------------------------------------------------
 + [斯坦福CS231n李飞飞计算机视觉](https://study.163.com/course/introduction.htm?courseId=1003223001)
 
@@ -47,7 +47,7 @@ Python相关
 + [微信小程序开发官网](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
 
-Web前端
+Web前端											{#web}
 -----------------------------------------------------------------
 + [Bootstrap中文网](http://www.bootcss.com/)
 
@@ -67,7 +67,8 @@ Web前端
 
 + [w3school前端在线使用手册](http://www.w3school.com.cn/)
 
-相关博客
+
+相关博客											{#about-blog}
 -----------------------------------------------------------------
 + [ZKF's博客](https://zkf85.github.io/)
 
@@ -77,7 +78,7 @@ Web前端
 
 
 
-jekyll相关
+jekyll相关										{#jekyll}
 -----------------------------------------------------------------
 + [用jekyll制作高大上的网站（二）—实际应用](http://www.cnblogs.com/strick/p/5484779.html)
 
@@ -103,7 +104,7 @@ jekyll相关
 
 
 
-手机浏览器书签
+手机浏览器书签									{#mobile}
 -----------------------------------------------------------------
 
 + [网易云课堂](https://study.163.com/)
@@ -171,7 +172,7 @@ jekyll相关
 + [集搜客GooSeeker-Python使用xslt提取网页数据](http://www.gooseeker.com/doc/thread-1688-1-2.html)
 
 
-其它
+其它												{#other}
 -----------------------------------------------------------------
 
 + [走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)

@@ -35,6 +35,12 @@ Python相关										{#python}
 
 + [**我要自学网-不错的学习软件网站](https://www.51zxw.net/)
 
++ [国外大规模开放在线课堂平台](https://www.edx.org/)
+
++ [英语自学网站](http://english.dxsbb.com/)
+
++ [自学PHP/MYSQL/HTML](http://www.zixuephp.net/)
+
 + [自强学堂-Django/HTML/jQuery学习](https://code.ziqiangxuetang.com/django/django-tutorial.html)
 
 

@@ -35,7 +35,7 @@ Python相关										{#python}
 
 + [**我要自学网-不错的学习软件网站](https://www.51zxw.net/)
 
-+ [国外大规模开放在线课堂平台](https://www.edx.org/)
++ [edx国外大规模开放在线课堂平台](https://www.edx.org/)
 
 + [英语自学网站](http://english.dxsbb.com/)
 

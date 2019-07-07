@@ -11,6 +11,8 @@ permalink: /public/
 pdf文档						{#pdf}
 ===================================
 
+- [从零开始学微信小程序开发](/public/pdf/从零开始学微信小程序开发.pdf)
+
 - [Python学习手册第4版).pdf](/public/pdf/Python学习手册第4版.pdf)
 
 - [笨办法学Python.pdf](/public/pdf/笨办法学Python.pdf)

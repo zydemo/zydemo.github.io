@@ -177,6 +177,7 @@ jekyll相关										{#jekyll}
 
 + [集搜客GooSeeker-Python使用xslt提取网页数据](http://www.gooseeker.com/doc/thread-1688-1-2.html)
 
++ [伴读听书-老梁的四大名著情商课](http://www.bandubb.com/category/tingjian/)
 
 其它												{#other}
 -----------------------------------------------------------------

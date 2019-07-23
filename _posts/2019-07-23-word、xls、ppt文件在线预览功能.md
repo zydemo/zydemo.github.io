@@ -17,7 +17,7 @@ word、ppt、xls文件实现在线预览的方式比较简单可以直接通过�
 
 ```html
 <div style="width: 100%;height: 100%;">
-	<iframe src='https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/sublime安装的插件2019.docx' width='100%' height='100%' frameborder='1'></iframe>
+  <iframe src='https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/sublime安装的插件2019.docx' width='100%' height='100%' frameborder='1'></iframe>
 	
 	// https://view.officeapps.live.com/op/view.aspx?src=  固定写法照抄即可office官方提供
 	// https://zydemo.github.io/public/doc/sublime安装的插件2019.docx  文档地址  替换成你要预览的Word/PPT/EXCEL文档地址即可
@@ -25,4 +25,4 @@ word、ppt、xls文件实现在线预览的方式比较简单可以直接通过�
 
 ```
 
-参考资料：https://www.jianshu.com/p/2f39de746900
+[参考资料：](https://www.jianshu.com/p/2f39de746900)

@@ -55,6 +55,8 @@ word文档						{#word}
 
 - [sublime安装的插件2019](/public/doc/sublime安装的插件2019.docx)
 
+- [sublime安装的插件2019](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/sublime%E5%AE%89%E8%A3%85%E7%9A%84%E6%8F%92%E4%BB%B62019.docx)
+
 
 表格文档						{#excel}
 ===================================

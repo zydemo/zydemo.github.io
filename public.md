@@ -52,7 +52,8 @@ pdf文档						{#pdf}
 
 word文档						{#word}
 ===================================
-	暂无文件
+
+- [sublime安装的插件2019](/public/doc/sublime安装的插件2019.docx)
 
 
 表格文档						{#excel}

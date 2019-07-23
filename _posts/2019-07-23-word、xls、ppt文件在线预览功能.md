@@ -25,4 +25,4 @@ word、ppt、xls文件实现在线预览的方式比较简单可以直接通过�
 
 ```
 
-[参考资料：](https://www.jianshu.com/p/2f39de746900)
+[参考资料：https://www.jianshu.com/p/2f39de746900](https://www.jianshu.com/p/2f39de746900)

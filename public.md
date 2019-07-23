@@ -53,27 +53,25 @@ pdf文档						{#pdf}
 word文档						{#word}
 ===================================
 
-- [sublime安装的插件2019](/public/doc/sublime安装的插件2019.docx)
-
 - [sublime安装的插件2019](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/sublime%E5%AE%89%E8%A3%85%E7%9A%84%E6%8F%92%E4%BB%B62019.docx)
 
 
 表格文档						{#excel}
 ===================================
 
-- [柱状图按条件显示不同颜色.xlsx](/public/excel/柱状图按条件显示不同颜色.xlsx)
+- [柱状图按条件显示不同颜色.xlsx](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/excel/柱状图按条件显示不同颜色.xlsx)
 
-- [excel学习20190404.xlsx](/public/excel/excel学习20190404.xlsx)
+- [excel学习20190404.xlsx](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/excel/excel学习20190404.xlsx)
 
-- [超强可以自由定义的Excel版中国地图.xls](/public/excel/超强可以自由定义的Excel版中国地图.xls)
+- [超强可以自由定义的Excel版中国地图.xls](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/excel/超强可以自由定义的Excel版中国地图.xls)
 
 
 ppt文档						{#ppt}
 ===================================
 
-- [案例库分享](/public/ppt/案例库分享.pptx)
+- [案例库分享](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/案例库分享.pptx)
 
-- [MCN当下面临的挑战](/public/ppt/MCN当下面临的挑战.pptx)
+- [MCN当下面临的挑战](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/MCN当下面临的挑战.pptx)
 
 其它文档						{#other}
 ===================================

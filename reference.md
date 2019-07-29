@@ -110,6 +110,17 @@ jekyll相关										{#jekyll}
 
 
 
+关于成人教育									{#education}
+-----------------------------------------------------------------
+
++ [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
+
++ [学信网](https://www.chsi.com.cn/)
+
++ [2018年北京市成人高等学校招生专业目录](https://www.bjeea.cn/html/ckcz/zyml/2018/0823/71484.html)
+
+
+
 手机浏览器书签									{#mobile}
 -----------------------------------------------------------------
 
@@ -162,8 +173,6 @@ jekyll相关										{#jekyll}
 + [北京市居住证服务平台](https://gaj.beijing.gov.cn/fwxt/)
 
 + [北京市积分落户服务专栏](http://www.bjrbj.gov.cn/jflh/)
-
-+ [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
 
 + [贝壳找房](https://bj.ke.com/)
 

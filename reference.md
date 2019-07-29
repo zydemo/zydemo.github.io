@@ -163,6 +163,8 @@ jekyll相关										{#jekyll}
 
 + [北京市积分落户服务专栏](http://www.bjrbj.gov.cn/jflh/)
 
++ [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
+
 + [贝壳找房](https://bj.ke.com/)
 
 + [阿里巴巴集团社会招聘](https://job.alibaba.com/zhaopin/positionList.htm)

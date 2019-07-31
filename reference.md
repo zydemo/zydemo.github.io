@@ -43,6 +43,10 @@ Python相关										{#python}
 
 + [自强学堂-Django/HTML/jQuery学习](https://code.ziqiangxuetang.com/django/django-tutorial.html)
 
++ [xpath-test](https://www.freeformatter.com/xpath-tester.html)
+
++ [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
+
 
 深度学习/机器学习/微信小程序					{#wechat}
 -----------------------------------------------------------------
@@ -73,6 +77,8 @@ Web前端											{#web}
 
 + [w3school前端在线使用手册](http://www.w3school.com.cn/)
 
++ [大前端-前端开发](http://www.daqianduan.com/)
+
 
 相关博客											{#about-blog}
 -----------------------------------------------------------------
@@ -81,6 +87,8 @@ Web前端											{#web}
 + [蒋振飞的博客](https://jzfblog.com/)
 
 + [刘江的博客-django教程](http://www.liujiangblog.com/course/django/2)
+
++ [金笔头博客-爬虫技术](http://jinbitou.net/crawler)
 
 
 
@@ -131,6 +139,8 @@ jekyll相关										{#jekyll}
 + [爱课程视频课程](http://www.icourses.cn/home/)
 
 + [w3cschool在线学习课程](https://www.w3cschool.cn/)
+
++ [正则表达式测试](http://tool.oschina.net/regex/)
 
 + [Python-思否](https://segmentfault.com/t/python)
 
@@ -220,4 +230,20 @@ jekyll相关										{#jekyll}
 + [极客战记(编程类休闲手游)](https://codecombat.163.com/)
 
 + [办公资源-办公素材文档下载](http://www.bangongziyuan.com/)
+
++ [MBA智库](https://www.mbalib.com/)
+
++ [百度ueditor](https://ueditor.baidu.com/website/onlinedemo.html)
+
++ [短网址生成](http://dwz.wailian.work/)
+
++ [i黑马](http://www.iheima.com/)
+
++ [在线文件病毒扫描](http://www.virscan.org/language/zh-cn/)
+
++ [google](https://www.google.com.hk/)
+
++ [免费图片上传](http://chuantu.biz/)
+
+
 

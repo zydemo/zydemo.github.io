@@ -18,6 +18,8 @@ Markdown在线编辑器								{#markdown}
 
 + [天天生鲜-功能不全好理解](https://github.com/shihao1010/tiantianshengxian)
 
++ [在线测网速网站](http://www.speedtest.cn/)
+
 
 Python相关										{#python}
 -----------------------------------------------------------------

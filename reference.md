@@ -162,6 +162,8 @@ jekyll相关										{#jekyll}
 
 + [中央国家机关住房资金管理中心](http://www.zzz.gov.cn/)
 
++ [北京市住房公积金平台](http://gjj.beijing.gov.cn/)
+
 + [非法集资案件登记平台](http://ecidcwc.mps.gov.cn/port/index)
 
 + [北京市第一中级人民法院](http://bj1zy.chinacourt.gov.cn/index.shtml)

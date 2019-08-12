@@ -10,6 +10,7 @@ description: 人生苦短，我用Python！
 meta_description: 个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
+revolvermaps: 5z6yv4ukca1
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/

@@ -66,7 +66,7 @@ video_embed();
 
 function mp3_embed() {
     var p = document.getElementsByTagName('p');
-    var song_format = ['mp3','m4a','wma']; // 音乐格式
+    var song_format = ['.mp3','.m4a','.wma']; // 音乐格式
     for(var i = 0; i < p.length; i++) {
         for(var j=0;j<song_format.length;j++){
             if(p[i].innerHTML.toLowerCase().indexOf(song_format[j]) !== -1) {

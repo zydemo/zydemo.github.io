@@ -17,6 +17,7 @@ audio,
 canvas,
 video {
   display: inline-block;
+  margin-left: 30px;
 }
 audio:not([controls]) {
   display: none;

@@ -12,7 +12,7 @@ permalink: /song/
 -----------------------------------------------------------------
 + [在我生命中的每一天](https://webfs.yun.kugou.com/201909101720/bae46ea5c8f2b0fe226d3ad362d4a55c/G082/M06/18/14/MpQEAFgwfXuAKo0dAEH35qmf_IM609.mp3)
 
-+ [天天生鲜项目实战-思路](https://www.cnblogs.com/welan/p/9231530.html)
++ <p>在我生命中的每一天 https://webfs.yun.kugou.com/201909101720/bae46ea5c8f2b0fe226d3ad362d4a55c/G082/M06/18/14/MpQEAFgwfXuAKo0dAEH35qmf_IM609.mp3</p>
 
 + [天天生鲜-功能齐全](https://github.com/sweetdoctor/dailyfresh)
 

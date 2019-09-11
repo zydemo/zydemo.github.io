@@ -144,34 +144,34 @@ a {
   margin-left: 10px;
   width: 100px;
 }
-#player .ctrl .progress {
+#player .ctrl .song_progress {
   margin-top: 10px;
 }
-#player .ctrl .progress .timer {
+#player .ctrl .song_progress .timer {
   font-size: 12px;
   color: #ccc;
   margin-top: 8px;
 }
-#player .ctrl .progress .repeat, #player .ctrl .progress .shuffle {
+#player .ctrl .song_progress .repeat, #player .ctrl .song_progress .shuffle {
   background-position: center bottom;
 }
-#player .ctrl .progress .repeat {
+#player .ctrl .song_progress .repeat {
   background-image: url(/styles/css/song/images/repeat.png);
 }
-#player .ctrl .progress .repeat.once, #player .ctrl .progress .repeat.all {
+#player .ctrl .song_progress .repeat.once, #player .ctrl .song_progress .repeat.all {
   opacity: 1;
 }
-#player .ctrl .progress .repeat.once {
+#player .ctrl .song_progress .repeat.once {
   position: relative;
 }
-#player .ctrl .progress .repeat.once:before {
+#player .ctrl .song_progress .repeat.once:before {
   content: "1";
   position: absolute;
   top: 3px;
   right: -2px;
   font-size: 8px;
 }
-#player .ctrl .progress .shuffle {
+#player .ctrl .song_progress .shuffle {
   background-image: url(/styles/css/song/images/shuffle.png);
 }
 
@@ -264,7 +264,7 @@ a {
   color: #fff;
 }
 #playlist li.playing {
-  background: url(/images/playing.png) no-repeat 0 center;
+  background: url(/stylescss/song/images/playing.png) no-repeat 0 center;
   color: #fff;
   font-weight: bold;
 }

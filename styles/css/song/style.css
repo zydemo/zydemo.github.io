@@ -14,11 +14,11 @@ a {
   text-decoration: none;
 }
 
-.progress.left {
+.song_left {
   float: left;
 }
 
-.progress.right {
+.song_right {
   float: right;
 }
 
@@ -27,18 +27,18 @@ a {
 /*}*/
 
 #background {
-
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+  background: #333;
+  /*background-size: cover;*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*-moz-user-select: none;*/
+  /*-khtml-user-select: none;*/
+  /*-webkit-user-select: none;*/
+  /*-o-user-select: none;*/
+  /*user-select: none;*/
 }
 
 #player {
@@ -86,6 +86,7 @@ a {
 #player .ctrl .tag strong, #player .ctrl .tag span {
   display: block;
   text-overflow: ellipsis;
+  color: #fff;
 }
 #player .ctrl .tag span {
   font-size: 12px;

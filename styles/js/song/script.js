@@ -62,7 +62,7 @@ ogg: ''
 
 		$('.timer').html(parseInt(value/60)+':'+currentSec);
 		$('.song_progress .pace').css('width', ratio + '%');
-		$('.song_progress .song_slider a').css('left', ratio + '%');
+		$('.song_progress .slider a').css('left', ratio + '%');
 	}
 
 	var updateProgress = function(){
@@ -70,7 +70,7 @@ ogg: ''
 	}
 
 	// Progress slider
-	$('.song_progress .song_slider').slider({step: 0.1, slide: function(event, ui){
+	$('.song_progress .slider').slider({step: 0.1, slide: function(event, ui){
 		$(this).addClass('enable');
 		setProgress(audio.duration * ui.value / 100);
 		clearInterval(timeout);
@@ -84,11 +84,11 @@ ogg: ''
 	var setVolume = function(value){
 		audio.volume = localStorage.volume = value;
 		$('.volume .pace').css('width', value * 100 + '%');
-		$('.volume .song_slider a').css('left', value * 100 + '%');
+		$('.volume .slider a').css('left', value * 100 + '%');
 	}
 
 	var volume = localStorage.volume || 0.5;
-	$('.volume .song_slider').slider({max: 1, min: 0, step: 0.01, value: volume, slide: function(event, ui){
+	$('.volume .slider').slider({max: 1, min: 0, step: 0.01, value: volume, slide: function(event, ui){
 		setVolume(ui.value);
 		$(this).addClass('enable');
 		$('.mute').removeClass('enable');

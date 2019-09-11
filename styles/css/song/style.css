@@ -139,7 +139,7 @@ a {
 #player .ctrl .control .volume .mute.enable {
   background-image: url(/styles/css/song/images/mute.png);
 }
-#player .ctrl .control .volume .song_slider {
+#player .ctrl .control .volume .slider {
   margin-top: 11px;
   margin-left: 10px;
   width: 100px;
@@ -175,7 +175,7 @@ a {
   background-image: url(/styles/css/song/images/shuffle.png);
 }
 
-.song_slider {
+.slider {
   background: rgba(0, 0, 0, 0.3);
   height: 5px;
   position: relative;
@@ -191,10 +191,10 @@ a {
   -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
 }
-.song_slider:hover a, .song_slider.enable a {
+.slider:hover a, .slider.enable a {
   opacity: 1;
 }
-.song_slider a {
+.slider a {
   background: #fff;
   margin-left: -2.5px;
   position: absolute;
@@ -212,7 +212,7 @@ a {
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
-.song_slider .loaded, .song_slider .pace {
+.slider .loaded, .slider .pace {
   position: absolute;
   height: 100%;
   opacity: 0.7;
@@ -223,10 +223,10 @@ a {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-.song_slider .loaded {
+.slider .loaded {
   background: rgba(255, 255, 255, 0.1);
 }
-.song_slider .pace {
+.slider .pace {
   background: #258fb8;
 }
 

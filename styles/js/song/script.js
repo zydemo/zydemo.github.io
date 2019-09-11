@@ -4,7 +4,7 @@
 	var repeat = localStorage.repeat || 0,
 		shuffle = localStorage.shuffle || 'false',
 		continous = true,
-		autoplay = false,
+		autoplay = true,
 		playlist = [
 		{
 title: '在我生命中的每一天',

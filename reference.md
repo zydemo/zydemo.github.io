@@ -95,6 +95,8 @@ Web前端											{#web}
 
 + [《从案例中学习JavaScript》之酷炫音乐播放器（四）](https://www.jianshu.com/p/fc86da30c09f)
 
++ [SwitchyOmega管理和切换多个代理设置](https://github.com/FelisCatus/SwitchyOmega/releases)
+
 
 相关博客											{#about-blog}
 -----------------------------------------------------------------

@@ -85,6 +85,17 @@ Web前端											{#web}
 
 + [Node.js网站](https://nodejs.org/zh-cn/)
 
++ [音乐播放器代码-站长素材](http://sc.chinaz.com/jiaoben/bofangqi.html)
+
++ [《从案例中学习JavaScript》之酷炫音乐播放器（一）](https://www.jianshu.com/p/14dd440a8bc3)
+
++ [《从案例中学习JavaScript》之酷炫音乐播放器（二）](https://www.jianshu.com/p/f6f77d6d714f)
+
++ [《从案例中学习JavaScript》之酷炫音乐播放器（三）](https://www.jianshu.com/p/657887194654)
+
++ [《从案例中学习JavaScript》之酷炫音乐播放器（四）](https://www.jianshu.com/p/fc86da30c09f)
+
+
 相关博客											{#about-blog}
 -----------------------------------------------------------------
 + [ZKF's博客](https://zkf85.github.io/)

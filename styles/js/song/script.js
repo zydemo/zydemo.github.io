@@ -10,7 +10,7 @@ title: '德国第一装甲师进行曲',
 artist: '德国',
 album: '德国第一装甲师进行曲.mp3',
 cover:'img/1.jpg',
-mp3: 'mp3/deguo.mp3',
+mp3: '/public/song/Sleep Away.mp3',
 ogg: ''
 },
 {
@@ -61,8 +61,8 @@ ogg: ''
 			ratio = value / audio.duration * 100;
 
 		$('.timer').html(parseInt(value/60)+':'+currentSec);
-		$('.progress .pace').css('width', ratio + '%');
-		$('.progress .slider a').css('left', ratio + '%');
+		$('.song_progress .pace').css('width', ratio + '%');
+		$('.song_progress .slider a').css('left', ratio + '%');
 	}
 
 	var updateProgress = function(){
@@ -70,7 +70,7 @@ ogg: ''
 	}
 
 	// Progress slider
-	$('.progress .slider').slider({step: 0.1, slide: function(event, ui){
+	$('.song_progress .slider').slider({step: 0.1, slide: function(event, ui){
 		$(this).addClass('enable');
 		setProgress(audio.duration * ui.value / 100);
 		clearInterval(timeout);
@@ -153,7 +153,7 @@ ogg: ''
 
 	var beforeLoad = function(){
 		var endVal = this.seekable && this.seekable.length ? this.seekable.end(0) : 0;
-		$('.progress .loaded').css('width', (100 / (this.duration || 1) * endVal) +'%');
+		$('.song_progress .loaded').css('width', (100 / (this.duration || 1) * endVal) +'%');
 	}
 
 	// Fire when track loaded completely
@@ -172,7 +172,7 @@ ogg: ''
 		$('#playlist li').removeClass('playing').eq(i).addClass('playing');
 		audio = newaudio[0];
 		audio.volume = $('.mute').hasClass('enable') ? 0 : volume;
-		audio.addEventListener('progress', beforeLoad, false);
+		audio.addEventListener('song_progress', beforeLoad, false);
 		audio.addEventListener('durationchange', beforeLoad, false);
 		audio.addEventListener('canplay', afterLoad, false);
 		audio.addEventListener('ended', ended, false);

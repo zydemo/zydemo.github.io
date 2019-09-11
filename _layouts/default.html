@@ -11,12 +11,6 @@
       {% include banner.html %}
     {% endif %}
 
-    {% if page.title == "放松音乐" %}
-      {% include open-song.html %}
-    {% endif %}
-    {% if page.title == "放松音乐2" %}
-      {% include open-song2.html %}
-    {% endif %}
 
     {{ content }}
     
@@ -141,8 +135,12 @@
   });
 </script>
 <!--default search js Added by zy 22/02/2019 end-->
-    
-    {% include footer.html %}
+    {% include open-song.html %}
 
+<!--default music js Added by zy 11/09/2019 start-->
+    {% include open-song2.html %}
+<!--default music js Added by zy 11/09/2019 start-->
+
+    {% include footer.html %}
   </body>
 </html>

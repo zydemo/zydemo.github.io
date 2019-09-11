@@ -166,7 +166,7 @@ ogg: ''
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="'+item.mp3+'"><source src="'+item.ogg+'">').appendTo('#player');
 		
-		$('.cover').html('<img src="styles/images/song.jpg" alt="'+item.album+'">');
+		$('.cover').html('<img src="/styles/images/song.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');
 		$('#playlist li').removeClass('playing').eq(i).addClass('playing');

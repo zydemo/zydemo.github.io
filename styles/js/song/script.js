@@ -1,4 +1,5 @@
 ﻿(function($){
+    $('.volume .slider').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings
 	var repeat = localStorage.repeat || 0,
 		shuffle = localStorage.shuffle || 'false',
@@ -69,7 +70,7 @@ ogg: ''
 		setProgress(audio.currentTime);
 	}
 
-	// Progress slider
+	// Progress slider 歌曲进度条
 	$('.song_progress .slider').slider({step: 0.1, slide: function(event, ui){
 		$(this).addClass('enable');
 		setProgress(audio.duration * ui.value / 100);
@@ -80,27 +81,22 @@ ogg: ''
 		timeout = setInterval(updateProgress, 500);
 	}});
 
-	// Volume slider
+	// Volume slider 音量进度条
 	var setVolume = function(value){
 		audio.volume = localStorage.volume = value;
 		$('.volume .pace').css('width', value * 100 + '%');
 		$('.volume .slider a').css('left', value * 100 + '%');
-
 	}
-
+    // 音量进度条
 	var volume = localStorage.volume || 0.5;
 	$('.volume .slider').slider({max: 1, min: 0, step: 0.01, value: volume, slide: function(event, ui){
 		setVolume(ui.value);
 		$(this).addClass('enable');
 		$('.mute').removeClass('enable');
-		console.log("no stop:"+$('.volume .slider'));
-		$('.volume .slider').removeClass('ui-slider-horizontal ui-corner-all');
 	}, stop: function(){
 		$(this).removeClass('enable');
-		console.log("stop:"+$('.volume .slider'));
-		$('.volume .slider').removeClass('ui-slider-horizontal ui-corner-all');
 	}}).children('.pace').css('width', volume * 100 + '%');
-
+    // 点击喇叭图标静音和不静音
 	$('.mute').click(function(){
 		if ($(this).hasClass('enable')){
 			setVolume($(this).data('volume'));

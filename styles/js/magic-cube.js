@@ -23,7 +23,3 @@ for (var n = 0; n < arr.length; n++){
     }
   }
 }
-$(function () {
-    console.log("magic"+$('#song_volume'));
-    $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
-})

@@ -85,6 +85,7 @@ ogg: ''
 		audio.volume = localStorage.volume = value;
 		$('.volume .pace').css('width', value * 100 + '%');
 		$('.volume .slider a').css('left', value * 100 + '%');
+		$('.volume .slider a').removeClass('ui-slider-horizontal');
 	}
 
 	var volume = localStorage.volume || 0.5;

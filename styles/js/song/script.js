@@ -85,7 +85,7 @@ ogg: ''
 		audio.volume = localStorage.volume = value;
 		$('.volume .pace').css('width', value * 100 + '%');
 		$('.volume .slider a').css('left', value * 100 + '%');
-		$('.volume .slider').removeClass('ui-slider-horizontal ui-corner-all');
+
 	}
 
 	var volume = localStorage.volume || 0.5;
@@ -93,8 +93,12 @@ ogg: ''
 		setVolume(ui.value);
 		$(this).addClass('enable');
 		$('.mute').removeClass('enable');
+		console.log("no stop:"+$('.volume .slider'));
+		$('.volume .slider').removeClass('ui-slider-horizontal ui-corner-all');
 	}, stop: function(){
 		$(this).removeClass('enable');
+		console.log("stop:"+$('.volume .slider'));
+		$('.volume .slider').removeClass('ui-slider-horizontal ui-corner-all');
 	}}).children('.pace').css('width', volume * 100 + '%');
 
 	$('.mute').click(function(){
@@ -166,9 +170,10 @@ ogg: ''
 	var loadMusic = function(i){
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="'+item.mp3+'"><source src="'+item.ogg+'">').appendTo('#player');
-		
+		// 封面图
 		$('.cover').html('<img src="/styles/images/song.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
+        // 歌曲标签
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');
 		$('#playlist li').removeClass('playing').eq(i).addClass('playing');
 		audio = newaudio[0];
@@ -180,6 +185,7 @@ ogg: ''
 	}
 
 	loadMusic(currentTrack);
+	// 播放、暂停按钮
 	$('.playback').on('click', function(){
 		if ($(this).hasClass('playing')){
 			pause();
@@ -187,6 +193,7 @@ ogg: ''
 			play();
 		}
 	});
+	// 上一曲
 	$('.rewind').on('click', function(){
 		if (shuffle === 'true'){
 			shufflePlay();
@@ -194,6 +201,7 @@ ogg: ''
 			switchTrack(--currentTrack);
 		}
 	});
+	// 下一曲
 	$('.fastforward').on('click', function(){
 		if (shuffle === 'true'){
 			shufflePlay();
@@ -214,7 +222,7 @@ ogg: ''
 	} else if (repeat == 2){
 		$('.repeat').addClass('all');
 	}
-
+    // 循环播放、单曲循环按钮
 	$('.repeat').on('click', function(){
 		if ($(this).hasClass('once')){
 			repeat = localStorage.repeat = 2;
@@ -227,7 +235,7 @@ ogg: ''
 			$(this).addClass('once');
 		}
 	});
-
+    // 随机播放
 	$('.shuffle').on('click', function(){
 		if ($(this).hasClass('enable')){
 			shuffle = localStorage.shuffle = 'false';

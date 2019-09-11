@@ -7,27 +7,27 @@
 		autoplay = false,
 		playlist = [
 		{
-title: '德国第一装甲师进行曲',
-artist: '德国',
-album: '德国第一装甲师进行曲.mp3',
+title: '在我生命中的每一天',
+artist: '成龙/苏慧伦',
+album: '在我生命中的每一天.mp3',
 cover:'img/1.jpg',
-mp3: '/public/song/Sleep Away.mp3',
+mp3: 'http://audio02.dmhmusic.com/71_53_T10041182274_128_4_1_0_sdk-cpm/cn/0209/M00/2E/8F/ChR47FplCkqAamjEAEHFjBHS1tI120.mp3?xcode=dadac94892ca0cc051138934dbbd1bf2bb3f7d0',
 ogg: ''
 },
 {
-title: '亡灵序曲',
-artist: '魔兽世界',
-album: '魔兽世界 - 亡灵序曲.mp3',
+title: '萤火虫',
+artist: '小院故事多',
+album: '卓亚君-萤火虫.mp3',
 cover: 'img/2.jpg',
-mp3: 'https://webfs.yun.kugou.com/201909101720/bae46ea5c8f2b0fe226d3ad362d4a55c/G082/M06/18/14/MpQEAFgwfXuAKo0dAEH35qmf_IM609.mp3',
+mp3: '/public/song/卓亚君-萤火虫.mp3',
 ogg: ''
 },
 {
-title: 'chenparty dj.mp3',
-artist: '德国童声',
-album: 'chenparty 超好听的德国童声 dj.mp3',
+title: '从那以后的你',
+artist: '芹澤廣明',
+album: '从那以后的你.mp3',
 cover: 'img/3.jpg',
-mp3: 'https://webfs.yun.kugou.com/201909101720/bae46ea5c8f2b0fe226d3ad362d4a55c/G082/M06/18/14/MpQEAFgwfXuAKo0dAEH35qmf_IM609.mp3',
+mp3: '/public/song/从那以后的你.mp3',
 ogg: ''
 },];
 

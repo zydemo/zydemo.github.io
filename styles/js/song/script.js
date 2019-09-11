@@ -3,7 +3,7 @@
 	var repeat = localStorage.repeat || 0,
 		shuffle = localStorage.shuffle || 'false',
 		continous = true,
-		autoplay = true,
+		autoplay = false,
 		playlist = [
 		{
 title: '德国第一装甲师进行曲',

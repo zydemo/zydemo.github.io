@@ -40,7 +40,12 @@ a {
   /*-o-user-select: none;*/
   /*user-select: none;*/
 }
-
+.ui-slider-horizontal{
+  height: 0.3em;
+}
+.ui-corner-all{
+    top: 0;
+}
 #player {
   width: 500px;
   height: 130px;

@@ -1,5 +1,5 @@
 ﻿(function($){
-    $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
+    // $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings
 	var repeat = localStorage.repeat || 0,
 		shuffle = localStorage.shuffle || 'false',
@@ -103,7 +103,7 @@ ogg: ''
 		$('.mute').removeClass('enable');
 	}, stop: function(){
 		$(this).removeClass('enable');
-		$('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
+		// $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	}}).children('.pace').css('width', volume * 100 + '%');
     // 点击喇叭图标静音和不静音
 	$('.mute').click(function(){

@@ -21,9 +21,7 @@
                 title2 = title1[0].split("+");
                 title = title2[0]; // 我爱你中国
                 artist = title2[1]; // 小提琴
-                album = title+song_format[j]; // 图片不显示的时候显示的文字
                 mp3 = title1[1].replace("(","").replace(")",""); // 地址：/public/song/我爱你中国.m4a
-                cover = '/styles/song_img/'+title+'.jpg'; // 封面图
                 if (!cover) {
                     cover = "/styles/song_img/default.jpg";
                 }
@@ -33,15 +31,17 @@
                 if (!title) {
                     title = "歌曲"+(i+1);
                 }
+                cover = '/styles/song_img/'+title+'.jpg'; // 封面图
+                album = title+song_format[j]; // 图片不显示的时候显示的文字
                 json.title = title;
                 json.artist = artist;
                 json.album = album;
                 json.cover = cover;
                 json.mp3 = mp3;
-                data.push(json);
-                console.log(data);
             }
         }
+        data.push(json);
+        console.log(data);
     }
     // $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings

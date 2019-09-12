@@ -21,6 +21,7 @@
                 artist = title2[1]; // 小提琴
                 mp3 = title1[1].replace("(","").replace(")",""); // 地址：/public/song/我爱你中国.m4a
                 cover = '/styles/song_img/'+title+'.jpg'; // 封面图
+                console.log(cover);
                 if (!cover) {
                     cover = "/styles/song_img/default.jpg";
                 }
@@ -42,7 +43,7 @@
 		continous = true,
 		autoplay = true,
         playlist = data;
-    
+
 	// Load playlist
 	for (var i=0; i<playlist.length; i++){
 		var item = playlist[i];

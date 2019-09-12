@@ -15,6 +15,6 @@ permalink: /song2/
 
 <p>[在我生命中的每一天+成龙/苏慧伦](/public/song/在我生命中的每一天.m4a)</p>
 
-<p>[萤火虫+](/public/song/卓亚君-萤火虫.mp3)</p>
+<p>[萤火虫+卓亚君](/public/song/卓亚君-萤火虫.mp3)</p>
 
-<p>[+芹澤廣明](/public/song/从那以后的你.mp3)</p>
+<p>[从那以后的你+芹澤廣明](/public/song/从那以后的你.mp3)</p>

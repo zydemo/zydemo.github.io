@@ -15,7 +15,7 @@
                 </div>
                 <div class="volume song_right">
                     <div class="mute icon song_left"></div>
-                    <div class="slider song_left ui-slider-horizontal ui-corner-all" id="song_volume">
+                    <div class="slider song_left ui-slider-horizontal ui-corner-all ui-widget-content" id="song_volume">
                         <div class="pace"></div>
                     </div>
                 </div>
@@ -41,7 +41,10 @@
 .volume .ui-corner-all{
     top: 0 !important;
 }
-
+.ui-widget-content{
+    border: 0 !important;
+    background: #535353;
+}
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.333%;

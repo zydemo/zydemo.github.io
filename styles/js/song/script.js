@@ -214,6 +214,7 @@
         ImgObj.src= url;
         if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
          {
+           $('.cover img').remove();
            $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
          } else {
            $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');

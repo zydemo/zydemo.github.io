@@ -35,15 +35,16 @@
                 }
                 album = title+song_format[j]; // 图片不显示的时候显示的文字
 
-                // json.title = title;
-                // json.artist = artist;
-                // json.album = album;
-                // json.cover = cover;
-                // json.mp3 = mp3;
+
             }
         }
-        DateOption = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
-        json[i] = DateOption;
+        // json.title = title;
+        // json.artist = artist;
+        // json.album = album;
+        // json.cover = cover;
+        // json.mp3 = mp3;
+        json = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
+        // json = DateOption;
         data.push(json);
     }
     console.log(data);

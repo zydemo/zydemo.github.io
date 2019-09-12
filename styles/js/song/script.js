@@ -176,13 +176,18 @@
 	var loadMusic = function(i){
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="'+item.mp3+'">').appendTo('#player');
+		var fso,s=item.cover;
+		fso=new ActiveXObject("Scripting.FileSystemObject");
+		if(fso.FileExists(filespec)){
+		    $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
+        }else{
+		    $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
+        }
 		// 封面图
 		// $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
-        if (!item.cover) {
-            item.cover = "/styles/song_img/default.jpg";
-        }
-		$('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
+
+		// $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
         // 歌曲标签
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');
 		$('#playlist li').removeClass('playing').eq(i).addClass('playing');

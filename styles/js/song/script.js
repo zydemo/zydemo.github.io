@@ -195,7 +195,7 @@
         var item = playlist[i],
             newaudio = $('<audio>').html('<source src="' + item.mp3 + '">').appendTo('#player');
         // 判断图片是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
-        // url = item.cover;
+        url = item.cover;
         // var xmlHttp;
         // if (window.ActiveXObject) {
         //     xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
@@ -210,17 +210,17 @@
         // else
         //     $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
 
-        // var ImgObj=new Image();
-        // ImgObj.src= url;
-        // if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
-        //  {
-        //    $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
-        //  } else {
-        //    $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');
-        // }
+        var ImgObj=new Image();
+        ImgObj.src= url;
+        if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
+         {
+           $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
+         } else {
+           $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');
+        }
 
         // 封面图
-        $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
+        // $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
 

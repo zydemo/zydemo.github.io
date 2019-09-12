@@ -9,7 +9,6 @@
     var cover = ''; // 封面图
     var json = {};
     var data = [];
-    var DateOption;
 
     for(var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -38,16 +37,15 @@
 
             }
         }
-        // json.title = title;
-        // json.artist = artist;
-        // json.album = album;
-        // json.cover = cover;
-        // json.mp3 = mp3;
-        json = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
-        // json = DateOption;
+        json.title = title;
+        json.artist = artist;
+        json.album = album;
+        json.cover = cover;
+        json.mp3 = mp3;
+        // json = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
         data.push(json);
     }
-    console.log(data);
+    console.log("**"+data);
     // $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings
 	var repeat = localStorage.repeat || 0,

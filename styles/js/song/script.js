@@ -53,20 +53,20 @@
         audio, timeout, isPlaying, playCounts;
 
     var play = function () {
-        // audio.play();
-        playPromise = audio.play();
-        if (playPromise) {
-            playPromise.then(() => {
-                // 音频加载成功
-                // 音频的播放需要耗时
-                setTimeout(() => {
-                    // 后续操作
-                    console.log("done");
-                },audio.duration * 1000); // audio.duration 为音频的时长单位为秒
-            }).catch((e) => {
-            console.log("Operation is too fast, audio play fails");
-            });
-        }
+        audio.play();
+        // playPromise = audio.play();
+        // if (playPromise) {
+        //     playPromise.then(() => {
+        //         // 音频加载成功
+        //         // 音频的播放需要耗时
+        //         setTimeout(() => {
+        //             // 后续操作
+        //             console.log("done");
+        //         },audio.duration * 1000); // audio.duration 为音频的时长单位为秒
+        //     }).catch((e) => {
+        //     console.log("Operation is too fast, audio play fails");
+        //     });
+        // }
 
         $('.playback').addClass('playing');
         timeout = setInterval(updateProgress, 500);
@@ -195,20 +195,20 @@
         var item = playlist[i],
             newaudio = $('<audio>').html('<source src="' + item.mp3 + '">').appendTo('#player');
         // 判断图片是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
-        url = item.cover;
-        var xmlHttp;
-        if (window.ActiveXObject) {
-            xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        else if (window.XMLHttpRequest) {
-            xmlHttp = new XMLHttpRequest();
-        }
-        xmlHttp.open("Get", url, false);
-        xmlHttp.send();
-        if (xmlHttp.status === 404)
-            $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');
-        else
-            $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
+        // url = item.cover;
+        // var xmlHttp;
+        // if (window.ActiveXObject) {
+        //     xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+        // }
+        // else if (window.XMLHttpRequest) {
+        //     xmlHttp = new XMLHttpRequest();
+        // }
+        // xmlHttp.open("Get", url, false);
+        // xmlHttp.send();
+        // if (xmlHttp.status === 404)
+        //     $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');
+        // else
+        //     $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
 
         // var ImgObj=new Image();
         // ImgObj.src= url;
@@ -220,7 +220,7 @@
         // }
 
         // 封面图
-        // $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
+        $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
 

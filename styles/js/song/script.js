@@ -180,6 +180,7 @@
     var loadMusic = function (i) {
         var item = playlist[i],
             newaudio = $('<audio>').html('<source src="' + item.mp3 + '">').appendTo('#player');
+        // 判断图片是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
         url = item.cover;
         // var xmlHttp;
         // if (window.ActiveXObject) {

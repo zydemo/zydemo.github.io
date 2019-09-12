@@ -168,6 +168,7 @@ a {
 }
 #player .ctrl .song_progress .repeat.once {
   position: relative;
+  color: #ff6600;
 }
 #player .ctrl .song_progress .repeat.once:before {
   content: "1";

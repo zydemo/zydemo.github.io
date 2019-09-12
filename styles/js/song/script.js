@@ -21,10 +21,7 @@
                 artist = title2[1]; // 小提琴
                 mp3 = title1[1].replace("(","").replace(")",""); // 地址：/public/song/我爱你中国.m4a
                 cover = '/styles/song_img/'+title+'.jpg'; // 封面图
-                console.log(cover);
-                if (!cover) {
-                    cover = "/styles/song_img/default.jpg";
-                }
+
                 if (!artist) {
                     artist = "曲目"+(i+1);
                 }
@@ -108,7 +105,6 @@
 		$('.mute').removeClass('enable');
 	}, stop: function(){
 		$(this).removeClass('enable');
-		// $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	}}).children('.pace').css('width', volume * 100 + '%');
     // 点击喇叭图标静音和不静音
 	$('.mute').click(function(){
@@ -183,6 +179,9 @@
 		// 封面图
 		// $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
+        if (!item.cover) {
+            item.cover = "/styles/song_img/default.jpg";
+        }
 		$('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
         // 歌曲标签
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');

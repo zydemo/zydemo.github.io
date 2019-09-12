@@ -43,9 +43,9 @@ a {
 .ui-slider-horizontal{
   height: 0.3em !important;
 }
-.ui-corner-all{
-    top: 0 !important;
-}
+/*.ui-corner-all{*/
+    /*top: 0 !important;*/
+/*}*/
 #player {
   width: 500px;
   height: 130px;

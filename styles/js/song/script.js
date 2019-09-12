@@ -7,7 +7,7 @@
     var mp3 = ''; // 歌曲地址：/public/song/我爱你中国.m4a
     var album = ''; // 图片不显示的时候显示的文字: 歌曲.mp3  title[i]+song_format[j]
     var cover = ''; // 封面图
-    var json = {};
+    // var json = {};
     var data = [];
 
     for(var i = 0; i < p.length; i++) {
@@ -16,7 +16,6 @@
             // 如果出现了上述音乐格式
             if (pi.toLowerCase().indexOf(song_format[j]) !== -1) {
                 // 把歌曲名字切出来
-                console.log(pi);
                 title1 = pi.replace("[","").split(']'); //  ["我爱你中国+小提琴", "(/public/song/我爱你中国.m4a)"]
                 title2 = title1[0].split("+");
                 title = title2[0]; // 我爱你中国
@@ -33,8 +32,6 @@
                     title = "歌曲"+(i+1);
                 }
                 album = title+song_format[j]; // 图片不显示的时候显示的文字
-
-
             }
         }
         json = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}

@@ -53,7 +53,21 @@
         audio, timeout, isPlaying, playCounts;
 
     var play = function () {
-        audio.play();
+        // audio.play();
+        playPromise = audio.play();
+        if (playPromise) {
+            playPromise.then(() => {
+                // 音频加载成功
+                // 音频的播放需要耗时
+                setTimeout(() => {
+                    // 后续操作
+                    console.log("done");
+                },audio.duration * 1000); // audio.duration 为音频的时长单位为秒
+            }).catch((e) => {
+            console.log("Operation is too fast, audio play fails");
+            });
+        }
+
         $('.playback').addClass('playing');
         timeout = setInterval(updateProgress, 500);
         isPlaying = true;

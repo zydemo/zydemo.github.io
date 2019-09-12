@@ -1,12 +1,45 @@
 ﻿(function($){
     var p = document.getElementsByTagName('p');
     var song_format = ['.mp3','.m4a','.wma']; // 音乐格式
+    //  <p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>
+    var title = ''; // 歌曲名字:我爱你中国
+    var artist = ''; // 演唱者:小提琴
+    var mp3 = ''; // 歌曲地址：/public/song/我爱你中国.m4a
+    var album = ''; // 图片不显示的时候显示的文字: 歌曲.mp3  title[i]+song_format[j]
+    var cover = ''; // 封面图
+    var json = {};
+    var data = [];
+
     for(var i = 0; i < p.length; i++) {
+        var pi = p[i].innerHTML;
         for (var j = 0; j < song_format.length; j++) {
             // 如果出现了上述音乐格式
-            if (p[i].innerHTML.toLowerCase().indexOf(song_format[j]) !== -1) {
+            if (pi.toLowerCase().indexOf(song_format[j]) !== -1) {
                 // 把歌曲名字切出来
-                console.log(p[i]);
+                console.log(pi);
+                title1 = pi.replace("[","").split(']'); //  ["我爱你中国+小提琴", "(/public/song/我爱你中国.m4a)"]
+                title2 = title1[0].split("+");
+                title = title2[0]; // 我爱你中国
+                artist = title2[1]; // 小提琴
+                album = title+song_format[j]; // 图片不显示的时候显示的文字
+                mp3 = title1[1].replace("(","").replace(")",""); // 地址：/public/song/我爱你中国.m4a
+                cover = '/styles/song_img/'+title+'.jpg'; // 封面图
+                if (!cover) {
+                    cover = "/styles/song_img/default.jpg";
+                }
+                if (!artist) {
+                    artist = "曲目"+(i+1);
+                }
+                if (!title) {
+                    title = "歌曲"+(i+1);
+                }
+                json.title = title;
+                json.artist = artist;
+                json.album = album;
+                json.cover = cover;
+                json.mp3 = mp3;
+                data.push(json);
+                console.log(data);
             }
         }
     }
@@ -185,9 +218,9 @@ ogg: ''
 	// Load track
 	var loadMusic = function(i){
 		var item = playlist[i],
-			newaudio = $('<audio>').html('<source src="'+item.mp3+'"><source src="'+item.ogg+'">').appendTo('#player');
+			newaudio = $('<audio>').html('<source src="'+item.mp3+'">').appendTo('#player');
 		// 封面图
-		$('.cover').html('<img src="/styles/images/song.jpg" alt="'+item.album+'">');
+		$('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
         // 歌曲标签
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');

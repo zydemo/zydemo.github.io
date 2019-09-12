@@ -7,11 +7,19 @@
 		autoplay = true,
 		playlist = [
 		{
+title: '我爱你中国',
+artist: '小提琴',
+album: '我爱你中国.m4a',
+cover:'img/1.jpg',
+mp3: '/public/song/我爱你中国.m4a',
+ogg: ''
+},
+{
 title: '在我生命中的每一天',
 artist: '成龙/苏慧伦',
-album: '在我生命中的每一天.mp3',
+album: '在我生命中的每一天.m4a',
 cover:'img/1.jpg',
-mp3: 'http://audio02.dmhmusic.com/71_53_T10041182274_128_4_1_0_sdk-cpm/cn/0209/M00/2E/8F/ChR47FplCkqAamjEAEHFjBHS1tI120.mp3?xcode=dadac94892ca0cc051138934dbbd1bf2bb3f7d0',
+mp3: '/public/song/在我生命中的每一天.m4a',
 ogg: ''
 },
 {

@@ -177,7 +177,18 @@
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="'+item.mp3+'">').appendTo('#player');
 		var fso,s=item.cover;
-		fso=new ActiveXObject("Scripting.FileSystemObject");
+
+		// var xmlHttp;
+        //判断浏览器是否支持ActiveX控件
+        if(window.ActiveXObject){
+            //支持-通过ActiveXObject的一个新实例来创建XMLHttpRequest对象
+            fso = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        //不支持
+        else if(window.XMLHttpRequest){
+            fso = new XMLHttpRequest()
+        }
+		// fso=new ActiveXObject("Scripting.FileSystemObject");
 		if(fso.FileExists(item.cover)){
 		    $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
         }else{

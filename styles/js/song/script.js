@@ -42,11 +42,11 @@
                 // json.mp3 = mp3;
             }
         }
-        DateOption = {"":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
+        DateOption = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
         json[i] = DateOption;
         data.push(json);
-        console.log(data);
     }
+    console.log(data);
     // $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings
 	var repeat = localStorage.repeat || 0,

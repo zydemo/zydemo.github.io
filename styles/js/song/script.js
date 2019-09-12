@@ -197,7 +197,7 @@
 		// $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
-        
+
         // 歌曲标签
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');
 		$('#playlist li').removeClass('playing').eq(i).addClass('playing');

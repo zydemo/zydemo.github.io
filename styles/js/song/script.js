@@ -176,24 +176,30 @@
 	var loadMusic = function(i){
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="'+item.mp3+'">').appendTo('#player');
-		var fso,s=item.cover;
-
-		// var xmlHttp;
-        //判断浏览器是否支持ActiveX控件
-        if(window.ActiveXObject){
-            //支持-通过ActiveXObject的一个新实例来创建XMLHttpRequest对象
-            fso = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        //不支持
-        else if(window.XMLHttpRequest){
-            fso = new XMLHttpRequest()
-        }
+		// var fso,s=item.cover;
 		// fso=new ActiveXObject("Scripting.FileSystemObject");
-		if(fso.FileExists(item.cover)){
-		    $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
-        }else{
-		    $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
-        }
+        var xmlHttp ;
+        url = item.cover;
+        if (window.ActiveXObject)
+         {
+          xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+         }
+         else if (window.XMLHttpRequest)
+         {
+          xmlHttp = new XMLHttpRequest();
+         }
+        xmlHttp.open("Get",url,false);
+        xmlHttp.send();
+        if(xmlHttp.status==404)
+        $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
+        else
+        $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
+
+        // if(fso.FileExists(item.cover)){
+		 //    $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
+        // }else{
+		 //    $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
+        // }
 		// 封面图
 		// $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
 		// $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');

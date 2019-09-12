@@ -1,4 +1,13 @@
 ﻿(function($){
+    var p = document.getElementsByTagName('p');
+    var song_format = ['.mp3','.m4a','.wma']; // 音乐格式
+    for(var i = 0; i < p.length; i++) {
+        for(var j=0;j<song_format.length;j++){
+            // 如果出现了上述音乐格式
+            if(p[i].innerHTML.toLowerCase().indexOf(song_format[j]) !== -1) {
+                // 把歌曲名字切出来
+                console.log(p[i]);
+            }
     // $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings
 	var repeat = localStorage.repeat || 0,

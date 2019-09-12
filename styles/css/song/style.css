@@ -145,8 +145,8 @@ a {
   background-image: url(/styles/css/song/images/mute.png);
 }
 #player .ctrl .control .volume .slider {
-  margin-top: 11px;
-  margin-left: 10px;
+  margin-top: 13px;
+  margin-left: 5px;
   width: 100px;
 }
 #player .ctrl .song_progress {

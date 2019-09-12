@@ -9,6 +9,7 @@
     var cover = ''; // 封面图
     var json = {};
     var data = [];
+    var DateOption;
 
     for(var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -33,13 +34,16 @@
                     title = "歌曲"+(i+1);
                 }
                 album = title+song_format[j]; // 图片不显示的时候显示的文字
-                json.title = title;
-                json.artist = artist;
-                json.album = album;
-                json.cover = cover;
-                json.mp3 = mp3;
+
+                // json.title = title;
+                // json.artist = artist;
+                // json.album = album;
+                // json.cover = cover;
+                // json.mp3 = mp3;
             }
         }
+        DateOption = {"":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
+        json[i] = DateOption;
         data.push(json);
         console.log(data);
     }

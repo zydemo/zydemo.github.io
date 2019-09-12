@@ -41,10 +41,10 @@ a {
   /*user-select: none;*/
 }
 .ui-slider-horizontal{
-  height: 0.3em;
+  height: 0.3em !important;
 }
 .ui-corner-all{
-    top: 0;
+    top: 0 !important;
 }
 #player {
   width: 500px;

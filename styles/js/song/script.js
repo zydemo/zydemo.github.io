@@ -37,54 +37,50 @@
 
             }
         }
-        json.title = title;
-        json.artist = artist;
-        json.album = album;
-        json.cover = cover;
-        json.mp3 = mp3;
-        // json = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
+        json = {"title":title,"artist":artist,"album":album,"cover":cover,"mp3":mp3}
         data.push(json);
     }
-    console.log("**"+data);
+    console.log(data);
     // $('#song_volume').removeClass('ui-slider-horizontal ui-corner-all');
 	// Settings
 	var repeat = localStorage.repeat || 0,
 		shuffle = localStorage.shuffle || 'false',
 		continous = true,
 		autoplay = true,
-		playlist = [
-		{
-title: '我爱你中国',
-artist: '小提琴',
-album: '我爱你中国.m4a',
-cover:'img/1.jpg',
-mp3: '/public/song/我爱你中国.m4a',
-ogg: ''
-},
-{
-title: '在我生命中的每一天',
-artist: '成龙/苏慧伦',
-album: '在我生命中的每一天.m4a',
-cover:'img/1.jpg',
-mp3: '/public/song/在我生命中的每一天.m4a',
-ogg: ''
-},
-{
-title: '萤火虫',
-artist: '小院故事多',
-album: '卓亚君-萤火虫.mp3',
-cover: 'img/2.jpg',
-mp3: '/public/song/卓亚君-萤火虫.mp3',
-ogg: ''
-},
-{
-title: '从那以后的你',
-artist: '芹澤廣明',
-album: '从那以后的你.mp3',
-cover: 'img/3.jpg',
-mp3: '/public/song/从那以后的你.mp3',
-ogg: ''
-},];
+        playlist = data;
+// 		playlist = [
+// 		{
+// title: '我爱你中国',
+// artist: '小提琴',
+// album: '我爱你中国.m4a',
+// cover:'img/1.jpg',
+// mp3: '/public/song/我爱你中国.m4a',
+// ogg: ''
+// },
+// {
+// title: '在我生命中的每一天',
+// artist: '成龙/苏慧伦',
+// album: '在我生命中的每一天.m4a',
+// cover:'img/1.jpg',
+// mp3: '/public/song/在我生命中的每一天.m4a',
+// ogg: ''
+// },
+// {
+// title: '萤火虫',
+// artist: '小院故事多',
+// album: '卓亚君-萤火虫.mp3',
+// cover: 'img/2.jpg',
+// mp3: '/public/song/卓亚君-萤火虫.mp3',
+// ogg: ''
+// },
+// {
+// title: '从那以后的你',
+// artist: '芹澤廣明',
+// album: '从那以后的你.mp3',
+// cover: 'img/3.jpg',
+// mp3: '/public/song/从那以后的你.mp3',
+// ogg: ''
+// },];
 
 	// Load playlist
 	for (var i=0; i<playlist.length; i++){

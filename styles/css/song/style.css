@@ -204,8 +204,8 @@ a {
   margin-left: -2.5px !important;
   position: absolute;
   opacity: 0;
-  width: 5px !important;
-  height: 5px !important;
+  width: 10px !important;
+  height: 10px !important;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;

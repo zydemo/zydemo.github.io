@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="song_progress">
-                <div class="slider">
+                <div class="slider ui-corner-all">
                     <div class="loaded"></div>
                     <div class="pace"></div>
                 </div>
@@ -39,12 +39,18 @@
 
 <style>
 .volume .ui-corner-all{
-    top: 0 !important;
+    top: -2.5px !important;
 }
 .ui-widget-content{
     border: 0 !important;
     background: #535353;
 }
+.song_progress .ui-corner-all{
+    top: -2.5px !important;
+}
+ .ui-slider-handle{
+    top: 0 !important;
+ }
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.333%;

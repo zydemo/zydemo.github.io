@@ -38,15 +38,15 @@
                 //     cover = '/styles/song_img/' + title + '.jpg';
                 // }
 
-                cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
-                var ImgObj=new Image();
-                ImgObj.src= cover_url;
-                if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
-                 {
-                   cover = cover_url;
-                 } else {
-                    cover = "/styles/song_img/default.jpg";
-                }
+                // cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
+                // var ImgObj=new Image();
+                // ImgObj.src= cover_url;
+                // if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
+                //  {
+                //    cover = cover_url;
+                //  } else {
+                //     cover = "/styles/song_img/default.jpg";
+                // }
 
                 if (!artist) {
                     artist = "曲目" + (i + 1);
@@ -223,8 +223,8 @@
         // 封面图
         // $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
-        $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
-        // $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
+        // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
+        $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
 
         // 歌曲标签
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');

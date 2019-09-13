@@ -30,13 +30,14 @@
                 }
                 xmlHttp.open("Get", '/styles/song_img/' + title + '.jpg', false);
                 xmlHttp.send();
-                if (xmlHttp.status === 404)
+                if (xmlHttp.status === 404){
                     console.log("shibai");
                     cover = "/styles/song_img/default.jpg";
-                else
+                }
+                else{
                     console.log("chenggong");
                     cover = '/styles/song_img/' + title + '.jpg';
-
+                }
                 console.log("**"+cover);
                 // 判断封面图是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
                 // cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图

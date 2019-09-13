@@ -20,7 +20,7 @@
                 title = title2[0]; // 我爱你中国
                 artist = title2[1]; // 小提琴
                 mp3 = title1[1].replace("(", "").replace(")", ""); // 地址：/public/song/我爱你中国.m4a
-                cover = '/styles/song_img/' + title + '.jpg'; // 封面图
+                cover = '/styles/song_img/' + title + '.jpg*'; // 封面图
 
                 if (!artist) {
                     artist = "曲目" + (i + 1);

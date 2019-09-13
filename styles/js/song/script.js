@@ -38,9 +38,9 @@
                 //     cover = '/styles/song_img/' + title + '.jpg';
                 // }
 
-                cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
+                // cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
                 var ImgObj=new Image();
-                ImgObj.src= '/styles/song_img/' + title + '.jpg*';
+                ImgObj.src= '/styles/song_img/' + title + '.jpg';
                 if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
                  {
                    cover = '/styles/song_img/' + title + '.jpg';

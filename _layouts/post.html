@@ -50,7 +50,13 @@ layout: default
               <br />
             </header>
             <article class="post-content">
-              {{ content }}             
+                 <!--default music js Added by zy 11/09/2019 start-->
+                {% if page.title == "放松音乐2" %}
+                    {% include open-song2.html %}
+                <!--default music js Added by zy 11/09/2019 end-->
+                {% else %}
+                    {{ content }}
+                {% endif %}
             </article> 
             <!-- added by zy 2019/03/02 -->
 			<br >

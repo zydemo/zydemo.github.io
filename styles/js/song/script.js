@@ -22,31 +22,31 @@
                 mp3 = title1[1].replace("(", "").replace(")", ""); // 地址：/public/song/我爱你中国.m4a
 
                 // 判断封面图是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
-                var xmlHttp;
-                if (window.ActiveXObject) {
-                    xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
-                }
-                else if (window.XMLHttpRequest) {
-                    xmlHttp = new XMLHttpRequest();
-                }
-                xmlHttp.open("Get", '/styles/song_img/' + title + '.jpg', false);
-                xmlHttp.send();
-                if (xmlHttp.status === 404){
-                    cover = "/styles/song_img/default.jpg";
-                }
-                else{
-                    cover = '/styles/song_img/' + title + '.jpg';
-                }
-
-                // cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
-                // var ImgObj=new Image();
-                // ImgObj.src= '/styles/song_img/' + title + '.jpg';
-                // if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
-                //  {
-                //    cover = '/styles/song_img/' + title + '.jpg';
-                //  } else {
+                // var xmlHttp;
+                // if (window.ActiveXObject) {
+                //     xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                // }
+                // else if (window.XMLHttpRequest) {
+                //     xmlHttp = new XMLHttpRequest();
+                // }
+                // xmlHttp.open("Get", '/styles/song_img/' + title + '.jpg', false);
+                // xmlHttp.send();
+                // if (xmlHttp.status === 404){
                 //     cover = "/styles/song_img/default.jpg";
                 // }
+                // else{
+                //     cover = '/styles/song_img/' + title + '.jpg';
+                // }
+
+                cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
+                var ImgObj=new Image();
+                ImgObj.src= cover_url;
+                if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
+                 {
+                   cover = cover_url;
+                 } else {
+                    cover = "/styles/song_img/default.jpg";
+                }
 
                 if (!artist) {
                     artist = "曲目" + (i + 1);

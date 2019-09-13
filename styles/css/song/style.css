@@ -48,9 +48,9 @@ a {
 /*}*/
 #player {
   width: 500px;
-  height: 130px;
+  height: 140px;
   padding: 25px;
-  margin: 50px auto 45px;
+  margin: 20px auto 45px;
   position: relative;
 }
 #player .cover {

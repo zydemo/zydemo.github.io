@@ -24,12 +24,12 @@
                 // 判断封面图是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
                 // cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
                 var ImgObj=new Image();
-                ImgObj.src= '/styles/song_img/' + title + '.jpg';
+                ImgObj.src= '/styles/song_img/' + title + '.jpg*';
                 if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
                  {
-                   cover = '/styles/song_img/' + title + '.jpg';
+                   cover = '/styles/song_img/' + title + '.jpg**';
                  } else {
-                    cover = "/styles/song_img/default.jpg";
+                    cover = "/styles/song_img/default.jpg***";
                 }
 
                 if (!artist) {

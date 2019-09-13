@@ -180,7 +180,6 @@ a {
 }
 #player .ctrl .song_progress .shuffle {
   background-image: url(/styles/css/song/images/shuffle.png);
-  opacity: 1;
 }
 #player .ctrl .song_progress .shuffle.enable {
   background-image: url(/styles/css/song/images/shuffle2.png);

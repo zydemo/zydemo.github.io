@@ -20,7 +20,17 @@
                 title = title2[0]; // 我爱你中国
                 artist = title2[1]; // 小提琴
                 mp3 = title1[1].replace("(", "").replace(")", ""); // 地址：/public/song/我爱你中国.m4a
-                cover = '/styles/song_img/' + title + '.jpg*'; // 封面图
+
+                // 判断封面图是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
+                cover_url = '/styles/song_img/' + title + '.jpg'; // 封面图
+                var ImgObj=new Image();
+                ImgObj.src= cover_url;
+                if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
+                 {
+                   cover = cover_url;
+                 } else {
+                    cover = "/styles/song_img/default.jpg";
+                }
 
                 if (!artist) {
                     artist = "曲目" + (i + 1);
@@ -195,7 +205,7 @@
         var item = playlist[i],
             newaudio = $('<audio>').html('<source src="' + item.mp3 + '">').appendTo('#player');
         // 判断图片是否存在 https://www.cnblogs.com/hehaha/p/7266878.html
-        url = item.cover;
+        // url = item.cover;
         // var xmlHttp;
         // if (window.ActiveXObject) {
         //     xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
@@ -210,20 +220,20 @@
         // else
         //     $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
 
-        var ImgObj=new Image();
-        ImgObj.src= url;
-        if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
-         {
-           $('.cover img').remove();
-           $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
-         } else {
-           $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');
-        }
+        // var ImgObj=new Image();
+        // ImgObj.src= url;
+        // if(ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0))
+        //  {
+        //    $('.cover img').remove();
+        //    $('.cover').html('<img src="' + item.cover + '" title="' + item.title + '" alt="' + item.album + '">');
+        //  } else {
+        //    $('.cover').html('<img src="/styles/song_img/default.jpg" alt="' + item.album + '">');
+        // }
 
         // 封面图
         // $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
-        // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
+        $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
 
         // 歌曲标签
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');

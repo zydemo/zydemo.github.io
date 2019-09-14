@@ -158,13 +158,12 @@
         }, stop: function () {
             $(this).removeClass('enable');
         }
-    }).children('.pace').css('width', volume * 100 + '%');
+    }).children('.pace').css('width', volume * 100 + '%').attr("title","音量："+volume * 100 + '%');
     // 点击喇叭图标静音和不静音
     $('.mute').click(function () {
         if ($(this).hasClass('enable')) {
             setVolume($(this).data('volume'));
             $(this).removeClass('enable');
-			$(this).attr("title","音量："+volume * 100 + '%');
         } else {
             $(this).data('volume', audio.volume).addClass('enable');
 			$(this).attr("title","静音");
@@ -255,10 +254,10 @@
     $('.playback').on('click', function () {
         if ($(this).hasClass('playing')) {
             pause();
-			$(this).attr("title","暂停");
+			$(this).attr("title","播放");
         } else {
             play();
-			$(this).attr("title","播放");
+			$(this).attr("title","暂停");
         }
     });
     // 上一曲

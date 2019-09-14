@@ -108,12 +108,14 @@
 
     // Update progress
     var setProgress = function (value) {
+		var time = audio.duration;
         var currentSec = parseInt(value % 60) < 10 ? '0' + parseInt(value % 60) : parseInt(value % 60),
-            ratio = value / audio.duration * 100;
+            ratio = value / time * 100;
 
         $('.timer').html(parseInt(value / 60) + ':' + currentSec);
         $('.song_progress .pace').css('width', ratio + '%');
         $('.song_progress .slider a').css('left', ratio + '%');
+		$("#totaltime").html($.jPlayer.convertTime(time));
     }
 
     var updateProgress = function () {

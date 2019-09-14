@@ -157,7 +157,7 @@
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
         //$('.volume .slider a').css('left', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
-		if(title_value > 0){
+		if(value > 0){
 			$('.volume').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
 		}else{
 			$('.volume').attr("title","静音");

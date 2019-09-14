@@ -139,8 +139,7 @@ a {
   background-image: url(/styles/css/song/images/fastforward.png);
 }
 #player .ctrl .control .volume .mute {
-  /*background-image: url(/styles/css/song/images/volume.png);*/
-  background-image: url(/styles/css/song/images/playbar.png) no-repeat 0 9999px;
+  background-image: url(/styles/css/song/images/volume.png);
 }
 #player .ctrl .control .volume .mute.enable {
   background-image: url(/styles/css/song/images/mute.png);

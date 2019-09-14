@@ -7,7 +7,8 @@
     var mp3 = ''; // 歌曲地址：/public/song/我爱你中国.m4a
     var album = ''; // 图片不显示的时候显示的文字: 歌曲.mp3  title[i]+song_format[j]
     var cover = ''; // 封面图
-    var data = [];	
+    var data = [];
+	$('.volume .pace').attr("title","音量："+ parseInt(localStorage.volume * 100)+ '%');
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -146,10 +147,11 @@
     // Volume slider 音量进度条
     var setVolume = function (value) {
         audio.volume = localStorage.volume = value;
-        $('.volume .pace').css('width', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%');
-        $('.volume .slider a').css('left', value * 100 + '%');
-		$('.volume .slider div').attr("title","音量："+ parseInt(value * 100)+ '%');
-		
+        $('.volume .pace').css('width', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
+        //$('.volume .pace').css('width', value * 100 + '%');
+        //$('.volume .slider a').css('left', value * 100 + '%');
+        $('.volume .slider a').css('left', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
+		$('.volume .slider').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;
@@ -158,8 +160,6 @@
             setVolume(ui.value);
             $(this).addClass('enable');
             $('.mute').removeClass('enable');
-			console.log("**"+(ui.value));
-			console.log("***"+(ui));
         }, stop: function () {
             $(this).removeClass('enable');
         }

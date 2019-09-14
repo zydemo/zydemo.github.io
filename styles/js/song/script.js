@@ -256,7 +256,7 @@
         // $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
 		$('.cover').html('<img class="cd" src="/styles/song_img/'+item.title+'.jpg" title="'+item.title+'" alt="'+item.title+'" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
 		// 如果播放的时候封面图才会旋转
-		if (autoplay == true){
+		if (autoplay == true || isPlaying == true){
 			$('.cover img').addClass('rotate');
 		}
 		

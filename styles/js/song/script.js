@@ -117,12 +117,12 @@
         $('.song_progress .slider a').css('left', ratio + '%');
 		var total_time = $.jPlayer.convertTime(time);
 		// $("#totaltime").html(total_time);
+		// 如果获取到了歌曲总时间，则显示，否则显示加载中...
 		if(time >0){
             $("#totaltime").html(total_time);
         }else{
             $("#totaltime").html("加载中...");
         }
-		
     }
 
     var updateProgress = function () {
@@ -252,8 +252,10 @@
     // 播放、暂停按钮
     $('.playback').on('click', function () {
         if ($(this).hasClass('playing')) {
+			$(this).attr("title","暂停");
             pause();
         } else {
+			$(this).attr("title","播放");
             play();
         }
     });

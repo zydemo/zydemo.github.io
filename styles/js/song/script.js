@@ -254,11 +254,11 @@
     // 播放、暂停按钮
     $('.playback').on('click', function () {
         if ($(this).hasClass('playing')) {
-			$(this).attr("title","暂停");
             pause();
+			$(this).attr("title","暂停");
         } else {
-			$(this).attr("title","播放");
             play();
+			$(this).attr("title","播放");
         }
     });
     // 上一曲

@@ -157,7 +157,7 @@ a {
   color: #f60;
   margin-top: 8px;
 }
-.progress .song_line{
+.song_progress .song_line{
   float: left;
   margin: 7px 2px 0;
   text-align: right;

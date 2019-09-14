@@ -147,6 +147,8 @@
         audio.volume = localStorage.volume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
+		$('.mute').attr("title","音量："+value * 100 + '%');
+		$('.pace').attr("title","音量："+value * 100 + '%');
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;
@@ -158,7 +160,7 @@
         }, stop: function () {
             $(this).removeClass('enable');
         }
-    }).children('.pace').css('width', volume * 100 + '%').attr("title","音量："+volume * 100 + '%');
+    }).children('.pace').css('width', volume * 100 + '%');
     // 点击喇叭图标静音和不静音
     $('.mute').click(function () {
         if ($(this).hasClass('enable')) {

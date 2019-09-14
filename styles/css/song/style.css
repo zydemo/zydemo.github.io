@@ -85,7 +85,7 @@ a {
   height: 130px;
 }*/
 
-#player .cover img {
+#player .cover .cd {
 	width: 94%;
 	height: 94%;
 	position: absolute;

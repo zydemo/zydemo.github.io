@@ -148,8 +148,8 @@
         audio.volume = localStorage.volume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
-		$('.volume .mute').attr("title","音量："+getComputedStyle($('.volume .pace'),null).width);
-		$('.volume .pace').attr("title","音量："+value * 100 + '%');
+		$('.volume .mute').attr("title","音量："+ parseInt(value * 100)+ '%');
+		$('.volume .pace').attr("title","音量："+ parseInt(value * 100)+ '%');
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;

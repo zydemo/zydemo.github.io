@@ -148,7 +148,7 @@
         audio.volume = localStorage.volume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
-		$('.volume .mute').attr("title","音量："+value * 100 + '%');
+		$('.volume .mute').attr("title","音量："+$('.volume .pace').style.width);
 		$('.volume .pace').attr("title","音量："+value * 100 + '%');
     }
     // 音量进度条

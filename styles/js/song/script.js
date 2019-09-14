@@ -276,20 +276,25 @@
     if (shuffle === 'true') $('.shuffle').addClass('enable');
     if (repeat == 1) {
         $('.repeat').addClass('once');
+        $('.repeat').attr('title','单曲循环');
     } else if (repeat == 2) {
         $('.repeat').addClass('all');
+        $('.repeat').attr('title','列表循环');
     }
     // 循环播放、单曲循环按钮
     $('.repeat').on('click', function () {
         if ($(this).hasClass('once')) {
             repeat = localStorage.repeat = 2;
             $(this).removeClass('once').addClass('all');
+            $(this).attr('title','列表循环');
         } else if ($(this).hasClass('all')) {
             repeat = localStorage.repeat = 0;
             $(this).removeClass('all');
+            $(this).attr('title','循环');
         } else {
             repeat = localStorage.repeat = 1;
             $(this).addClass('once');
+            $(this).attr('title','单曲循环');
         }
     });
     // 随机播放

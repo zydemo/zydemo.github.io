@@ -161,6 +161,7 @@ a {
   float: left;
   margin: 7px 2px 0;
   text-align: right;
+  color: #fff;
 }
 #player .ctrl .song_progress .repeat, #player .ctrl .song_progress .shuffle {
   background-position: center bottom;

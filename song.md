@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 放松音乐
+title: 休闲音乐
 permalink: /song/
 ---
 

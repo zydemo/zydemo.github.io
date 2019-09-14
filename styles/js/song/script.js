@@ -19,6 +19,13 @@
 		$('.volume').attr("title","静音");
 		$('.volume .pace').attr("title","静音");
 	}
+	
+	// 如果播放的时候封面图才会旋转
+	if (autoplay == true || isPlaying == true){
+		$('.cover img').addClass('rotate');
+	}else{
+		$('.cover img').removeClass('rotate');
+	}
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -255,12 +262,6 @@
 
         // $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
 		$('.cover').html('<img class="cd" src="/styles/song_img/'+item.title+'.jpg" title="'+item.title+'" alt="'+item.title+'" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
-		// 如果播放的时候封面图才会旋转
-		if (autoplay == true || isPlaying == true){
-			$('.cover img').addClass('rotate');
-		}else{
-			$('.cover img').removeClass('rotate');
-		}
 		
         // 歌曲标签
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');

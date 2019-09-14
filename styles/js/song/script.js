@@ -111,8 +111,9 @@
 		var time = audio.duration;
         var currentSec = parseInt(value % 60) < 10 ? '0' + parseInt(value % 60) : parseInt(value % 60),
             ratio = value / time * 100;
-
-        $('.timer').html(parseInt(value / 60) + ':' + currentSec);
+		var before_time = parseInt(value / 60);
+		var before_time2 = before_time < 10 ? '0' + before_time : before_time;
+        $('.timer').html(before_time2 + ':' + currentSec);
         $('.song_progress .pace').css('width', ratio + '%');
         $('.song_progress .slider a').css('left', ratio + '%');
 		var total_time = $.jPlayer.convertTime(time);
@@ -147,8 +148,8 @@
         audio.volume = localStorage.volume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
-		$('.mute').attr("title","音量："+value * 100 + '%');
-		$('.pace').attr("title","音量："+value * 100 + '%');
+		$('.volume .mute').attr("title","音量："+value * 100 + '%');
+		$('.volume .pace').attr("title","音量："+value * 100 + '%');
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;

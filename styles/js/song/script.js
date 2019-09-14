@@ -115,7 +115,14 @@
         $('.timer').html(parseInt(value / 60) + ':' + currentSec);
         $('.song_progress .pace').css('width', ratio + '%');
         $('.song_progress .slider a').css('left', ratio + '%');
-		$("#totaltime").html($.jPlayer.convertTime(time));
+		var total_time = $.jPlayer.convertTime(time);
+		// $("#totaltime").html(total_time);
+		if(time >0){
+            $("#totaltime").html(total_time);
+        }else{
+            $("#totaltime").html("加载中...");
+        }
+		
     }
 
     var updateProgress = function () {

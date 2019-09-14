@@ -55,7 +55,7 @@ a {
 }
 #player .cover {
   /*background: rgba(0, 0, 0, 0.5);*/
-  background: url(/styles/css/song/images/music_icons.png) 0 0 no-repeat;
+  background: url(/styles/css/song/images/music_icons.png) 3px 3px no-repeat;
   border: 1px solid #333;
   position: absolute;
   top: 25px;

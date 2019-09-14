@@ -171,9 +171,9 @@
         if ($(this).hasClass('enable')) {
             setVolume($(this).data('volume'));
             $(this).removeClass('enable');
+			$(this).attr("title","静音");
         } else {
             $(this).data('volume', audio.volume).addClass('enable');
-			$(this).attr("title","静音");
             setVolume(0);
         }
     });

@@ -150,7 +150,7 @@
         $('.volume .slider a').css('left', value * 100 + '%');
 		$('.volume .mute').attr("title","音量："+ parseInt(value * 100)+ '%');
 		$('.volume .pace').attr("title","音量："+ parseInt(value * 100)+ '%');
-		console.log($('.volume .pace').css('width');
+		console.log($('.volume .pace').css('width'));
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;

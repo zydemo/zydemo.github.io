@@ -146,6 +146,7 @@
     // Volume slider 音量进度条
     var setVolume = function (value) {
         audio.volume = localStorage.volume = value;
+		console.log("执行力");
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
 		$('.volume .mute').attr("title","音量："+ parseInt(value * 100)+ '%');

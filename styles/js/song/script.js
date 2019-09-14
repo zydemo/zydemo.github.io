@@ -254,7 +254,7 @@
         // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
 
         // $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
-        $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" title="'+item.title+'" alt="'+item.title+'" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
+        $('.cover').html('<img class="cd rotate" src="/styles/song_img/'+item.title+'.jpg" title="'+item.title+'" alt="'+item.title+'" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
 
         // 歌曲标签
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');

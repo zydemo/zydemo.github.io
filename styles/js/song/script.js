@@ -8,6 +8,7 @@
     var album = ''; // 图片不显示的时候显示的文字: 歌曲.mp3  title[i]+song_format[j]
     var cover = ''; // 封面图
     var data = [];
+	console.log("*"+$('.volume .pace').css('width'));
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -151,7 +152,7 @@
         $('.volume .slider a').css('left', value * 100 + '%');
 		$('.volume .mute').attr("title","音量："+ parseInt(value * 100)+ '%');
 		$('.volume .slider').attr("title","音量："+ parseInt(value * 100)+ '%');
-		console.log("*"+$('.volume .pace').css('width'));
+		
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;
@@ -171,10 +172,10 @@
         if ($(this).hasClass('enable')) {
             setVolume($(this).data('volume'));
             $(this).removeClass('enable');
-			$(this).attr("title","静音");
         } else {
             $(this).data('volume', audio.volume).addClass('enable');
             setVolume(0);
+			$(this).attr("title","静音");
         }
     });
 

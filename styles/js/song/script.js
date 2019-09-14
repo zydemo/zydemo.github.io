@@ -21,11 +21,11 @@
 	}
 	
 	// 如果播放的时候封面图才会旋转
-	if (autoplay == true || isPlaying == true){
-		$('.cover img').addClass('rotate');
+	/*if (autoplay == true || isPlaying == true){
+		$('.cover img').addClass('rotate'); // 封面旋转
 	}else{
-		$('.cover img').removeClass('rotate');
-	}
+		$('.cover img').removeClass('rotate'); // 封面停止旋转
+	}*/
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -111,7 +111,7 @@
         //     console.log("Operation is too fast, audio play fails");
         //     });
         // }
-
+		$('.cover img').addClass('rotate'); // 封面旋转
         $('.playback').addClass('playing');
         timeout = setInterval(updateProgress, 500);
         isPlaying = true;
@@ -280,9 +280,11 @@
         if ($(this).hasClass('playing')) {
             pause();
 			$(this).attr("title","播放");
+			$('.cover img').removeClass('rotate'); // 封面停止旋转
         } else {
             play();
 			$(this).attr("title","暂停");
+			$('.cover img').addClass('rotate'); // 封面旋转
         }
     });
     // 上一曲

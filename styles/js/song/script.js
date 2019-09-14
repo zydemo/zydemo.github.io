@@ -9,6 +9,8 @@
     var cover = ''; // 封面图
     var data = [];
 	console.log("*"+$('.volume .pace').css('width'));
+	console.log(parseInt(ui.value * 100)+ '%');
+	$('.volume .mute').attr("title","音量："+ parseInt(ui.value * 100)+ '%');
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -150,8 +152,7 @@
 		console.log("执行力");
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
-		$('.volume .mute').attr("title","音量："+ parseInt(value * 100)+ '%');
-		$('.volume .slider').attr("title","音量："+ parseInt(value * 100)+ '%');
+		$('.volume .slider div').attr("title","音量："+ parseInt(value * 100)+ '%');
 		
     }
     // 音量进度条
@@ -161,9 +162,8 @@
             setVolume(ui.value);
             $(this).addClass('enable');
             $('.mute').removeClass('enable');
-			console.log("**"+$('.volume .pace').css('width'));
+			console.log("***"+(ui.value));
         }, stop: function () {
-			console.log("***"+$('.volume .pace').css('width'));
             $(this).removeClass('enable');
         }
     }).children('.pace').css('width', volume * 100 + '%');

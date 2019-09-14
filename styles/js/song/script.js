@@ -258,6 +258,8 @@
 		// 如果播放的时候封面图才会旋转
 		if (autoplay == true || isPlaying == true){
 			$('.cover img').addClass('rotate');
+		}else{
+			$('.cover img').removeClass('rotate');
 		}
 		
         // 歌曲标签

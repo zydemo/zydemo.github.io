@@ -8,14 +8,21 @@ permalink: /song/
 {:toc}
 
 
-80后歌曲								{#song}
+经典歌曲								{#song}
 -----------------------------------------------------------------
 
-+ [在我生命中的每一天](/public/song/在我生命中的每一天.m4a)
-<p>/public/song/在我生命中的每一天.m4a</p>
+<p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>
 
-+ [我爱你中国](/public/song/我爱你中国.m4a)
-<p>/public/song/我爱你中国.m4a</p>
+<p>[在我生命中的每一天+成龙/苏慧伦](/public/song/在我生命中的每一天.m4a)</p>
 
-+ [卓亚君-萤火虫](/public/song/卓亚君-萤火虫.mp3)
-<p>/public/song/卓亚君-萤火虫.mp3</p>
+<p>[萤火虫+卓亚君](/public/song/卓亚君-萤火虫.mp3)</p>
+
+<p>[晚秋+毛宁](/public/song/毛宁-晚秋.mp3)</p>
+
+<p>[一路上有你+张学友](/public/song/张学友-一路上有你.mp3)</p>
+
+<p>[一个爱上浪漫的人+孟庭苇](/public/song/孟庭苇-一个爱上浪漫的人.mp3)</p>
+
+<p>[大海+张雨生](/public/song/张雨生-大海.mp3)</p>
+
+<p>[从那以后的你+芹澤廣明](/public/song/从那以后的你.mp3)</p>

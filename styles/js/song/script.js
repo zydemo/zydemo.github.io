@@ -8,7 +8,8 @@
     var album = ''; // 图片不显示的时候显示的文字: 歌曲.mp3  title[i]+song_format[j]
     var cover = ''; // 封面图
     var data = [];
-	//$('.volume .pace').attr("title","音量："+ parseInt(localStorage.volume * 100)+ '%');
+	
+	// 显示音量title，读取本地缓存
 	var title_value = localStorage.volume;
 	if(title_value > 0){
 		var value_percent = parseInt(title_value * 100)+ '%';
@@ -156,10 +157,8 @@
     // Volume slider 音量进度条
     var setVolume = function (value) {
         audio.volume = localStorage.volume = value;
-        //$('.volume .pace').css('width', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
-        //$('.volume .slider a').css('left', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
 		if(value > 0){
 			$('.volume').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
 			$('.volume .pace').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
@@ -167,7 +166,6 @@
 			$('.volume').attr("title","静音");
 			$('.volume .pace').attr("title","静音");
 		}
-		
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;
@@ -188,7 +186,6 @@
         } else {
             $(this).data('volume', audio.volume).addClass('enable');
             setVolume(0);
-			// $(this).attr("title","静音");
         }
     });
 

@@ -108,7 +108,7 @@ a {
 	transition:all 1s linear;
 }
 /*音频播放时CD的旋转动画*/
-#player .cover .cd.rotate {
+#player .cd.rotate {
 	-webkit-animation:rotating 10s 0s linear infinite;
 	-moz-animation:rotating 10s 0s linear infinite;
 	-ms-animation:rotating 10s 0s linear infinite;

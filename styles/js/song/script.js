@@ -19,13 +19,6 @@
 		$('.volume').attr("title","静音");
 		$('.volume .pace').attr("title","静音");
 	}
-	
-	// 如果播放的时候封面图才会旋转
-	/*if (autoplay == true || isPlaying == true){
-		$('.cover img').addClass('rotate'); // 封面旋转
-	}else{
-		$('.cover img').removeClass('rotate'); // 封面停止旋转
-	}*/
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -213,6 +206,7 @@
 
     // Shuffle
     var shufflePlay = function () {
+		$(".playback").attr("title","暂停");
         var time = new Date(),
             lastTrack = currentTrack;
         currentTrack = time.getTime() % playlist.length;

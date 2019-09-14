@@ -11,9 +11,12 @@
 	//$('.volume .pace').attr("title","音量："+ parseInt(localStorage.volume * 100)+ '%');
 	var title_value = localStorage.volume;
 	if(title_value > 0){
-		$('.volume').attr("title","音量："+ parseInt(title_value * 100)+ '%');
+		var value_percent = parseInt(title_value * 100)+ '%';
+		$('.volume').attr("title","音量："+ value_percent);
+		$('.volume .pace').attr("title","音量："+ value_percent);
 	}else{
 		$('.volume').attr("title","静音");
+		$('.volume .pace').attr("title","静音");
 	}
 
     for (var i = 0; i < p.length; i++) {
@@ -159,8 +162,10 @@
         //$('.volume .slider a').css('left', value * 100 + '%').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
 		if(value > 0){
 			$('.volume').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
+			$('.volume .pace').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
 		}else{
 			$('.volume').attr("title","静音");
+			$('.volume .pace').attr("title","静音");
 		}
 		
     }

@@ -162,10 +162,12 @@
     // 点击喇叭图标静音和不静音
     $('.mute').click(function () {
         if ($(this).hasClass('enable')) {
+			$(this).attr("title","音量："+volume * 100 + '%');
             setVolume($(this).data('volume'));
             $(this).removeClass('enable');
         } else {
             $(this).data('volume', audio.volume).addClass('enable');
+			$(this).attr("title","静音");
             setVolume(0);
         }
     });

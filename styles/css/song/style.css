@@ -98,11 +98,12 @@ a {
 	border-radius: 50%; 
 	cursor: pointer;
 	z-index: 99;
-	background:-webkit-radial-gradient(center,circle,transparent,transparent 14%,rgba(255,255,255,0.7) 14%,rgba(255,255,255,0.7) 17%,rgba(255,255,255,0.7) 20%,rgb(87,94,104) 20%,rgb(52,62,75) 100%);
+	background: url(/styles/css/song/images/music_icons.png) 0 0 no-repeat;
+	/*background:-webkit-radial-gradient(center,circle,transparent,transparent 14%,rgba(255,255,255,0.7) 14%,rgba(255,255,255,0.7) 17%,rgba(255,255,255,0.7) 20%,rgb(87,94,104) 20%,rgb(52,62,75) 100%);
 	background:-moz-radial-gradient(center,circle,transparent,transparent 14%,rgba(255,255,255,0.7) 14%,rgba(255,255,255,0.7) 17%,rgba(255,255,255,0.7) 20%,rgb(87,94,104) 20%,rgb(52,62,75) 100%);
 	background:-ms-radial-gradient(center,circle,transparent,transparent 14%,rgba(255,255,255,0.7) 14%,rgba(255,255,255,0.7) 17%,rgba(255,255,255,0.7) 20%,rgb(87,94,104) 20%,rgb(52,62,75) 100%);
 	background:radial-gradient(center,circle,transparent,transparent 14%,rgba(255,255,255,0.7) 14%,rgba(255,255,255,0.7) 17%,rgba(255,255,255,0.7) 20%,rgb(87,94,104) 20%,rgb(52,62,75) 100%);
-
+*/
 	-webkit-transition:all 1s linear;
 	-moz-transition:all 1s linear;
 	-ms-transition:all 1s linear;

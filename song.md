@@ -27,4 +27,6 @@ permalink: /song/
 
 <p>[大海+张雨生](/public/song/张雨生-大海.mp3)</p>
 
+<p>[笑看风云+郑少秋](http://fs.open.kugou.com/59e51f9e22663374fc7eac8e33bceeff/5d7e30da/G083/M08/1A/14/84YBAFgkhveACkvTAEBo5woz7WE944.mp3)</p>
+
 <p>[从那以后的你+芹澤廣明](/public/song/从那以后的你.mp3)</p>

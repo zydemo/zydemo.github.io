@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 休闲音乐
-permalink: /song/#song
+permalink: /song/
 ---
 
 * content

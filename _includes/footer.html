@@ -24,8 +24,8 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('a[href^="http"]').each(function() {
-		    console.log($(this).attr('target'));
-            if ($(this).attr('target') != '_self') {
+		    // 排除自己添加的本窗口打开target属性
+            if ($(this).attr('target') !== '_self') {
                 $(this).attr('target', '_blank');
             }
 		});

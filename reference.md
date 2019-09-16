@@ -67,6 +67,8 @@ Web前端											{#web}
 
 + [BootCDN前端开源项目免费CDN服务](https://www.bootcdn.cn/)
 
++ [StaticfileCDN前端开源项目免费CDN服务](http://www.staticfile.org/)
+
 + [Animate.css插件](https://daneden.github.io/animate.css/)
 
 + [swiper触摸滑动插件](https://www.swiper.com.cn/)

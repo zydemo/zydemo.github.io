@@ -235,9 +235,17 @@ a {
   background-image: url(/styles/css/song/images/shuffle2.png);
 }
 /*增加下载样式*/
-.download{
+#player .ctrl .song_progress a.download{
     background-image: url(/styles/css/song/images/download.png);
     color: #fff;
+    padding: 2px 3px;
+    margin: 5px 10px;
+    text-align: end;
+    width: 57px;
+    height: 20px;
+}
+#player .ctrl .song_progress a:hover{
+    color: #ff6600;
 }
 .slider {
   background: rgba(0, 0, 0, 0.3);

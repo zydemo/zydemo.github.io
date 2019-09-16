@@ -8,17 +8,17 @@
     var album = ''; // 图片不显示的时候显示的文字: 歌曲.mp3  title[i]+song_format[j]
     var cover = ''; // 封面图
     var data = [];
-	
-	// 显示音量title，读取本地缓存
-	var title_value = localStorage.volume;
-	if(title_value > 0){
-		var value_percent = parseInt(title_value * 100)+ '%';
-		$('.volume').attr("title","音量："+ value_percent);
-		$('.volume .pace').attr("title","音量："+ value_percent);
-	}else{
-		$('.volume').attr("title","静音");
-		$('.volume .pace').attr("title","静音");
-	}
+
+    // 显示音量title，读取本地缓存
+    var title_value = localStorage.volume;
+    if (title_value > 0) {
+        var value_percent = parseInt(title_value * 100) + '%';
+        $('.volume').attr("title", "音量：" + value_percent);
+        $('.volume .pace').attr("title", "音量：" + value_percent);
+    } else {
+        $('.volume').attr("title", "静音");
+        $('.volume .pace').attr("title", "静音");
+    }
 
     for (var i = 0; i < p.length; i++) {
         var pi = p[i].innerHTML;
@@ -104,7 +104,7 @@
         //     console.log("Operation is too fast, audio play fails");
         //     });
         // }
-		$('.cover img').addClass('rotate'); // 封面旋转
+        $('.cover img').addClass('rotate'); // 封面旋转
         $('.playback').addClass('playing');
         timeout = setInterval(updateProgress, 500);
         isPlaying = true;
@@ -119,20 +119,20 @@
 
     // Update progress
     var setProgress = function (value) {
-		var time = audio.duration;
+        var time = audio.duration;
         var currentSec = parseInt(value % 60) < 10 ? '0' + parseInt(value % 60) : parseInt(value % 60),
             ratio = value / time * 100;
-		var before_time = parseInt(value / 60);
-		var before_time2 = before_time < 10 ? '0' + before_time : before_time;
+        var before_time = parseInt(value / 60);
+        var before_time2 = before_time < 10 ? '0' + before_time : before_time;
         $('.timer').html(before_time2 + ':' + currentSec);
         $('.song_progress .pace').css('width', ratio + '%');
         $('.song_progress .slider a').css('left', ratio + '%');
-		var total_time = $.jPlayer.convertTime(time);
-		// $("#totaltime").html(total_time);
-		// 如果获取到了歌曲总时间，则显示，否则显示加载中...
-		if(time >0){
+        var total_time = $.jPlayer.convertTime(time);
+        // $("#totaltime").html(total_time);
+        // 如果获取到了歌曲总时间，则显示，否则显示加载中...
+        if (time > 0) {
             $("#totaltime").html(total_time);
-        }else{
+        } else {
             $("#totaltime").html("加载中...");
         }
     }
@@ -159,13 +159,13 @@
         audio.volume = localStorage.volume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
-		if(value > 0){
-			$('.volume').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
-			$('.volume .pace').attr("title","音量："+ parseInt(value * 100)+ '%'); //新增
-		}else{
-			$('.volume').attr("title","静音");
-			$('.volume .pace').attr("title","静音");
-		}
+        if (value > 0) {
+            $('.volume').attr("title", "音量：" + parseInt(value * 100) + '%'); //新增
+            $('.volume .pace').attr("title", "音量：" + parseInt(value * 100) + '%'); //新增
+        } else {
+            $('.volume').attr("title", "静音");
+            $('.volume .pace').attr("title", "静音");
+        }
     }
     // 音量进度条
     var volume = localStorage.volume || 0.5;
@@ -206,7 +206,7 @@
 
     // Shuffle
     var shufflePlay = function () {
-		$(".playback").attr("title","暂停");
+        $(".playback").attr("title", "暂停");
         var time = new Date(),
             lastTrack = currentTrack;
         currentTrack = time.getTime() % playlist.length;
@@ -254,8 +254,8 @@
         // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
 
         // $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
-		$('.cover').html('<img class="cd" src="/styles/song_img/'+item.title+'.jpg" title="'+item.title+'" alt="'+item.title+'" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
-		
+        $('.cover').html('<img class="cd" src="/styles/song_img/' + item.title + '.jpg" title="' + item.title + '" alt="' + item.title + '" onerror="this.src=' + "'" + '/styles/song_img/default.jpg' + "'" + ';this.onerror=' + "'" + 'null' + "'" + '">');
+
         // 歌曲标签
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');
         $('#playlist li').removeClass('playing').eq(i).addClass('playing');
@@ -267,7 +267,7 @@
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);
         audio.addEventListener('ended', ended, false); //为audio元素添加ended事件
-        $('title').html("正在播放: "+item.artist+' - '+item.title); // 更改title值
+        $('title').html("正在播放: " + item.title + ' - ' + item.artist); // 更改title值
     }
 
     loadMusic(currentTrack);
@@ -275,12 +275,12 @@
     $('.playback').on('click', function () {
         if ($(this).hasClass('playing')) {
             pause();
-			$(this).attr("title","播放");
-			$('.cover img').removeClass('rotate'); // 封面停止旋转
+            $(this).attr("title", "播放");
+            $('.cover img').removeClass('rotate'); // 封面停止旋转
         } else {
             play();
-			$(this).attr("title","暂停");
-			$('.cover img').addClass('rotate'); // 封面旋转
+            $(this).attr("title", "暂停");
+            $('.cover img').addClass('rotate'); // 封面旋转
         }
     });
     // 上一曲
@@ -309,25 +309,25 @@
     if (shuffle === 'true') $('.shuffle').addClass('enable');
     if (repeat == 1) {
         $('.repeat').addClass('once');
-        $('.repeat').attr('title','单曲循环');
+        $('.repeat').attr('title', '单曲循环');
     } else if (repeat == 2) {
         $('.repeat').addClass('all');
-        $('.repeat').attr('title','列表循环');
+        $('.repeat').attr('title', '列表循环');
     }
     // 循环播放、单曲循环按钮
     $('.repeat').on('click', function () {
         if ($(this).hasClass('once')) {
             repeat = localStorage.repeat = 2;
             $(this).removeClass('once').addClass('all');
-            $(this).attr('title','列表循环');
+            $(this).attr('title', '列表循环');
         } else if ($(this).hasClass('all')) {
             repeat = localStorage.repeat = 0;
             $(this).removeClass('all');
-            $(this).attr('title','循环');
+            $(this).attr('title', '循环');
         } else {
             repeat = localStorage.repeat = 1;
             $(this).addClass('once');
-            $(this).attr('title','单曲循环');
+            $(this).attr('title', '单曲循环');
         }
     });
     // 随机播放

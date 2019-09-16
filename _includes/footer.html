@@ -25,7 +25,9 @@
 	$(document).ready(function() {
 		$('a[href^="http"]').each(function() {
 		    console.log($(this).attr('target'));
-			$(this).attr('target', '_blank');
+            if ($(this).attr('target') != '_self') {
+                $(this).attr('target', '_blank');
+            }
 		});
 	});
 </script>

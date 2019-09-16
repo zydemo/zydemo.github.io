@@ -243,6 +243,7 @@ a {
     text-align: end;
     width: 57px;
     height: 20px;
+    text-decoration: none;
 }
 #player .ctrl .song_progress a:hover{
     color: #ff6600;

@@ -221,7 +221,6 @@
         playCounts++;
         if (continous == true) isPlaying = true;
         if (repeat == 1) {
-            console.log("1*"+currentTrack);
             play();
         } else {
             if (shuffle === 'true') {
@@ -229,9 +228,7 @@
             } else {
                 if (repeat == 2) {
                     switchTrack(++currentTrack);
-                    console.log("2*"+currentTrack);
                 } else {
-                    console.log("0*"+currentTrack);
                     if (currentTrack < playlist.length) switchTrack(++currentTrack);
                 }
             }
@@ -254,7 +251,6 @@
             newaudio = $('<audio>').html('<source src="' + item.mp3 + '">').appendTo('#player');
         // 封面图
         // $('.cover').html('<img src="/styles/song_img/default.jpg" alt="'+item.album+'">');
-        // $('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
         // $('.cover').html('<img src="'+item.cover+'" title="'+item.title+'" alt="'+item.album+'">');
 
         // $('.cover').html('<img src="/styles/song_img/'+item.title+'.jpg" onerror="this.src='+"'"+'/styles/song_img/default.jpg'+"'"+';this.onerror='+"'"+'null'+"'"+'">');
@@ -271,6 +267,7 @@
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);
         audio.addEventListener('ended', ended, false); //为audio元素添加ended事件
+        $('title').html("正在播放: "+item.title); // 更改title值
     }
 
     loadMusic(currentTrack);

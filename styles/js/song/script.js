@@ -268,6 +268,9 @@
         audio.addEventListener('canplay', afterLoad, false);
         audio.addEventListener('ended', ended, false); //为audio元素添加ended事件
         $('title').html("正在播放: " + item.title + ' - ' + item.artist); // 更改title值
+        // 获取下载音乐链接地址
+        var song_url = $('audio source').val('src')[0].src;
+        $('#download').attr('href',song_url);
     }
 
     loadMusic(currentTrack);

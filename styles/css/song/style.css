@@ -234,7 +234,11 @@ a {
 #player .ctrl .song_progress .shuffle.enable {
   background-image: url(/styles/css/song/images/shuffle2.png);
 }
-
+/*增加下载样式*/
+.download{
+    background-image: url(/styles/css/song/images/download.png);
+    color: #fff;
+}
 .slider {
   background: rgba(0, 0, 0, 0.3);
   height: 5px;

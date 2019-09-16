@@ -267,7 +267,7 @@
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);
         audio.addEventListener('ended', ended, false); //为audio元素添加ended事件
-        $('title').html("正在播放: "+item.title); // 更改title值
+        $('title').html("正在播放: "+item.artist+' - '+item.title); // 更改title值
     }
 
     loadMusic(currentTrack);

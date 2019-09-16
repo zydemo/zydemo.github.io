@@ -157,7 +157,6 @@
     // Volume slider 音量进度条
     var setVolume = function (value) {
         audio.volume = localStorage.volume = value;
-        console.log("*"+audio.volume);
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
 		if(value > 0){
@@ -173,7 +172,6 @@
     $('.volume .slider').slider({
         max: 1, min: 0, step: 0.01, value: volume, slide: function (event, ui) {
             setVolume(ui.value);
-            console.log("**"+ui.value);
             $(this).addClass('enable');
             $('.mute').removeClass('enable');
         }, stop: function () {
@@ -264,6 +262,8 @@
         $('#playlist li').removeClass('playing').eq(i).addClass('playing');
         audio = newaudio[0];
         audio.volume = $('.mute').hasClass('enable') ? 0 : volume;
+        console.log("*"+audio.volume);
+        console.log("**"+volume);
         audio.addEventListener('song_progress', beforeLoad, false);
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);

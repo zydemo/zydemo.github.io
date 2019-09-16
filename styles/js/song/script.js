@@ -261,7 +261,8 @@
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');
         $('#playlist li').removeClass('playing').eq(i).addClass('playing');
         audio = newaudio[0];
-        audio.volume = $('.mute').hasClass('enable') ? 0 : volume;
+        // audio.volume = $('.mute').hasClass('enable') ? 0 : volume; // 此处有问题，改变音量值的时候没有重新获取音量值
+        audio.volume = $('.mute').hasClass('enable') ? 0 : localStorage.volume;
         console.log("*"+audio.volume);
         console.log("**"+volume);
         console.log("***"+localStorage.volume);

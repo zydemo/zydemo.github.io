@@ -48,7 +48,7 @@ a {
 /*}*/
 #player {
   width: 500px;
-  height: 140px;
+  height: 160px;
   padding: 25px;
   margin: 20px auto 45px;
   position: relative;
@@ -239,7 +239,7 @@ a {
     background-image: url(/styles/css/song/images/download.png);
     color: #fff;
     padding: 2px 3px;
-    margin: 5px 10px;
+    margin: 38px -195px 0;
     text-align: end;
     width: 57px;
     height: 20px;

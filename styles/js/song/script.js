@@ -264,6 +264,7 @@
         audio.volume = $('.mute').hasClass('enable') ? 0 : volume;
         console.log("*"+audio.volume);
         console.log("**"+volume);
+        console.log("***"+localStorage.volume);
         audio.addEventListener('song_progress', beforeLoad, false);
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);

@@ -221,6 +221,7 @@
         playCounts++;
         if (continous == true) isPlaying = true;
         if (repeat == 1) {
+            console.log("1*"+currentTrack);
             play();
         } else {
             if (shuffle === 'true') {
@@ -228,7 +229,9 @@
             } else {
                 if (repeat == 2) {
                     switchTrack(++currentTrack);
+                    console.log("2*"+currentTrack);
                 } else {
+                    console.log("0*"+currentTrack);
                     if (currentTrack < playlist.length) switchTrack(++currentTrack);
                 }
             }
@@ -261,15 +264,13 @@
         $('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');
         $('#playlist li').removeClass('playing').eq(i).addClass('playing');
         audio = newaudio[0];
+        // 设置音量
         // audio.volume = $('.mute').hasClass('enable') ? 0 : volume; // 此处有问题，改变音量值的时候没有重新获取音量值
         audio.volume = $('.mute').hasClass('enable') ? 0 : localStorage.volume;
-        console.log("*"+audio.volume);
-        console.log("**"+volume);
-        console.log("***"+localStorage.volume);
         audio.addEventListener('song_progress', beforeLoad, false);
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);
-        audio.addEventListener('ended', ended, false);
+        audio.addEventListener('ended', ended, false); //为audio元素添加ended事件
     }
 
     loadMusic(currentTrack);

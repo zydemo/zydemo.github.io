@@ -10,15 +10,28 @@ $(function () {
     });
 
     function check_user_name() {
-        var len = $('#user_name').val().length;
-        if (len < 5 || len > 20) {
-            error_name = true;
-            $('#user_name').next().show();
-            $('#user_name').next().html('请输入5-20个字符的用户名');
-        } else {
-            $('#user_name').next().hide();
+        var $user_name = $('#user_name');
+        var re = /^\w{5,20}$/;
+        var result = re.test($user_name.val());
+        if (result) {
+            $user_name.next().hide();
             error_name = false;
+        }else{
+            error_name = true;
+            $user_name.next().show();
+            $user_name.next().html('请输入5-20个字符的用户名(包含字母、数字、下划线)');
         }
+
+        // 另一种方法
+        // var len = $('#user_name').val().length;
+        // if (len < 5 || len > 20) {
+        //     error_name = true;
+        //     $('#user_name').next().show();
+        //     $('#user_name').next().html('请输入5-20个字符的用户名');
+        // } else {
+        //     $('#user_name').next().hide();
+        //     error_name = false;
+        // }
     }
 
     $('#pwd').blur(function () {

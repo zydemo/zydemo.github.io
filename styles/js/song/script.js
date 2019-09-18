@@ -9,8 +9,8 @@
     var cover = ''; // 封面图
     var data = [];
 
-    // 显示音量title，读取本地缓存
-    var title_value = localStorage.volume;
+    // 显示音量title，读取本地缓存，如果是无痕浏览开始没有值，加个0.5默认值
+    var title_value = localStorage.volume || 0.5;
     if (title_value > 0) {
         var value_percent = parseInt(title_value * 100) + '%';
         $('.volume').attr("title", "音量：" + value_percent);
@@ -156,18 +156,13 @@
 
     // Volume slider 音量进度条
     var setVolume = function (value) {
-        default_valoume = localStorage.volume || 0.5;
-        console.log("*"+default_valoume);
-        console.log("**"+value);
-        audio.volume = default_valoume = value;
+        audio.volume = localStorage.volume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
         if (value > 0) {
-            console.log("***"+value);
             $('.volume').attr("title", "音量：" + parseInt(value * 100) + '%'); //新增
             $('.volume .pace').attr("title", "音量：" + parseInt(value * 100) + '%'); //新增
         } else {
-            console.log("****"+value);
             $('.volume').attr("title", "静音");
             $('.volume .pace').attr("title", "静音");
         }

@@ -172,6 +172,8 @@
     $('.volume .slider').slider({
         max: 1, min: 0, step: 0.01, value: volume, slide: function (event, ui) {
             setVolume(ui.value);
+            console.log("***"+volume);
+            console.log("*"+ui.value);
             $(this).addClass('enable');
             $('.mute').removeClass('enable');
         }, stop: function () {
@@ -262,8 +264,7 @@
         audio = newaudio[0];
         // 设置音量
         // audio.volume = $('.mute').hasClass('enable') ? 0 : volume; // 此处有问题，改变音量值的时候没有重新获取音量值
-        var default_volume = localStorage.volume || 0.5; // 如果是无痕浏览会报错，加个0.5默认值
-        audio.volume = $('.mute').hasClass('enable') ? 0 : default_volume; 
+        audio.volume = $('.mute').hasClass('enable') ? 0 : localStorage.volume || 0.5; // 如果是无痕浏览会报错，加个0.5默认值
         audio.addEventListener('song_progress', beforeLoad, false);
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);

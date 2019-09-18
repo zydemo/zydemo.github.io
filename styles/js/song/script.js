@@ -9,7 +9,7 @@
     var cover = ''; // 封面图
     var data = [];
 
-    // 显示音量title，读取本地缓存，如果是无痕浏览开始没有值，加个0.5默认值
+    // 显示音量title，读取本地缓存，如果是无痕浏览开始没有值，加个0.5默认值，不然title会显示静音
     var title_value = localStorage.volume || 0.5;
     if (title_value > 0) {
         var value_percent = parseInt(title_value * 100) + '%';

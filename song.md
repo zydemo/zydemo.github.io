@@ -30,8 +30,8 @@ permalink: /song/
 
 <p>[花心+周华健](/public/song/花心.mp3)</p>
 
-<p>[踏浪+徐怀钰](http://fs.open.kugou.com/516333e2b24a578915d515c815fc0296/5d7f1f36/G002/M04/03/05/ooYBAFT_I7iAO0tMADvA06OaQ5E964.mp3)</p>
+<p>[踏浪+徐怀钰](/public/song/踏浪.mp3)</p>
 
-<p>[笑看风云+郑少秋](http://fs.open.kugou.com/59e51f9e22663374fc7eac8e33bceeff/5d7e30da/G083/M08/1A/14/84YBAFgkhveACkvTAEBo5woz7WE944.mp3)</p>
+<p>[笑看风云+郑少秋](/public/song/笑看风云.mp3)</p>
 
 <p>[从那以后的你+芹澤廣明](/public/song/从那以后的你.mp3)</p>

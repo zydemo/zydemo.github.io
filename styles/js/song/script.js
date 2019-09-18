@@ -157,13 +157,17 @@
     // Volume slider 音量进度条
     var setVolume = function (value) {
         default_valoume = localStorage.volume || 0.5;
+        console.log("*"+default_valoume);
+        console.log("**"+value);
         audio.volume = default_valoume = value;
         $('.volume .pace').css('width', value * 100 + '%');
         $('.volume .slider a').css('left', value * 100 + '%');
         if (value > 0) {
+            console.log("***"+value);
             $('.volume').attr("title", "音量：" + parseInt(value * 100) + '%'); //新增
             $('.volume .pace').attr("title", "音量：" + parseInt(value * 100) + '%'); //新增
         } else {
+            console.log("****"+value);
             $('.volume').attr("title", "静音");
             $('.volume .pace').attr("title", "静音");
         }

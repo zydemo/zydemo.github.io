@@ -14,6 +14,8 @@ permalink: /song/
 
 <p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>
 
+<p>[中国+华语群星](/public/song/中国.mp3)</p>
+
 <p>[行吟之旅+深圳FM971民歌味道主题曲](/public/song/行吟之旅.mp3)</p>
 
 <p>[在我生命中的每一天+成龙/苏慧伦](/public/song/在我生命中的每一天.m4a)</p>

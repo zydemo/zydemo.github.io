@@ -161,6 +161,8 @@ jekyll相关										{#jekyll}
 
 + [google](https://www.google.com/)
 
++ [下载Google play应用](https://apps.evozi.com/apk-downloader/)
+
 
 电台/广播					{#radio}
 -----------------------------------------------------------------

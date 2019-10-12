@@ -14,6 +14,8 @@ permalink: /song/
 
 <p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>
 
+<p>[相亲相爱一家人+飞碟群星](/public/song/相亲相爱一家人.mp3)</p>
+
 <p>[中国+华语群星](/public/song/中国.mp3)</p>
 
 <p>[今夜无眠+周冰倩](/public/song/今夜无眠.mp3)</p>

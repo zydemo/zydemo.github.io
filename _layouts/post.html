@@ -17,7 +17,7 @@ layout: default
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
               -->
               <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a>
-              {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title != "英语试题" and page.title != "Python课程" and page.title != "休闲音乐" and page.title != "放松音乐2" %}
+              {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title != "英语试题" and page.title != "Python课程" and page.title != "休闲音乐" and page.title != "视频课程" %}
               <div class="ca" style="float:right;text-decoration:none;">
               	个人分类：<a target="_blank" href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{ page.categories }}</a>
               </div>
@@ -35,6 +35,14 @@ layout: default
               	<!-- 文字跑马灯效果 -->
               	<marquee loop="-1" scrollamount="8">
                 所有音乐仅供个人休闲使用，本站不做任何商业用途（版权归原发布者），严禁下载商用，违者必究！
+            	</marquee>
+              </div>
+              {% endif %}
+              {% if page.title == "视频课程" %}
+              <div class="ca" style="float:right;color: red;">
+              	<!-- 文字跑马灯效果 -->
+              	<marquee loop="-1" scrollamount="8">
+                所有视频仅供个人休闲使用，本站不做任何商业用途（版权归原发布者），严禁下载商用，违者必究！
             	</marquee>
               </div>
               {% endif %}
@@ -61,7 +69,7 @@ layout: default
             </article> 
             <!-- added by zy 2019/03/02 -->
 			<br >
-			{% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title != "Python课程" and page.title != "休闲音乐" and page.title != "放松音乐2" %}
+			{% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title != "Python课程" and page.title != "休闲音乐" and page.title != "视频课程" %}
 				<br >
 				<hr style="border-top:3px solid #2c538f;">
 				<div><b>上一篇：</b>

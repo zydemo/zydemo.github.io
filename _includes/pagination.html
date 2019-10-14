@@ -37,7 +37,7 @@
             {% else %}
 				{% assign index1 = paginator.page|plus:1 %}
 				{% assign index2 = paginator.page|plus:2 %}
-                {% if index1 > paginator.total_pages %}
+                {% if index1 > paginator.total_pages and paginator.total_pages != 4 %}
                     <a href="/page{{paginator.page|plus:-4}}" class="btn btn-outline">{{paginator.page|plus:-4}}</a>
                 {% endif %}
                 {% if index2 > paginator.total_pages %}

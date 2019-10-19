@@ -50,14 +50,14 @@
 	<script>
 		$(function(){
 		    var $wn_input = $("#wn_input");
-		    $wn_input.change(function () {
-                var text = $wn_input.val();
-                $wn_input.attr("title",text);
-            });
-		    $wn_input.keyup(function () {
-		        var text = $wn_input.val();
-                $wn_input.attr("title",text);
-            });
+            // $wn_input.change(function () {
+            //     var text = $wn_input.val();
+            //     $wn_input.attr("title",text);
+            // });
+            // $wn_input.keyup(function () {
+		     //    var text = $wn_input.val();
+            //     $wn_input.attr("title",text);
+            // });
 			$("#wn_btn").click(function(){
 				var value = $("#WnId").val();//获取当前选择项的值
 				var text = $wn_input.val();

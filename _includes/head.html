@@ -46,4 +46,18 @@
 	  		margin-bottom: 10px;
 	  	}
   	</style>
+	<!-- 首页万网搜索 -->
+	<script>
+		$(function(){
+			$("#wn_btn").click(function(){
+				var value = $("#WnId").val();//获取当前选择项的值
+				var text = $("#wn_input").val();
+				if(value === "1"){
+					window.open("https://wn.run/f/#"+text);
+				}else{
+					window.open("http://jiexi.071811.cc/jx.php?url="+text);
+				}
+			});
+		})
+	</script>
 </head>

@@ -138,11 +138,11 @@
 <script>
 	$(function(){
 		$("#wn_btn").click(function(){
-			var value = $("#AreaId").val();//获取当前选择项的值
+			var value = $("#WnId").val();//获取当前选择项的值
 			if(value === "1"){
-				window.open("https://wn.run/f/#"+text);
+				window.open("https://wn.run/f/#"+value);
 			}else{
-				window.open("http://jiexi.071811.cc/jx.php?url="+text);
+				window.open("http://jiexi.071811.cc/jx.php?url="+value);
 			}
 		});
 	})

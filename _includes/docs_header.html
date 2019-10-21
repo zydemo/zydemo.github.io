@@ -9,6 +9,27 @@
     {% else %}
 	    <h1>{{ site.name }}</h1>
 	    <p>{{ site.description }}</p>
+		<form class="navbar-form wn_form">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="万能一下" id="wn_input" style="height:36px;padding: 6px 3px">
+						 <div class="input-group-btn">
+							<div>
+                                <select id="WnId" size="1" class="sel">
+								   <option value="1">万能网解析</option>
+								   <!--<option value="" disabled>—————</option>-->
+								   <option value="2">解析VIP视频</option>
+							   </select>
+							</div>
+						  </div>
+                        <span class="input-group-btn" id="wn_btn">
+                            <button class="btn btn-primary" title="搜索">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </form>
     {% endif %}
   </div>
 </div>

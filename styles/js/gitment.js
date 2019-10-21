@@ -2935,7 +2935,7 @@ function renderComments(_ref2, instance) {
 
   // added 2019/04/15 zero()函数是补零函数，当月日时分秒的值小于10的情况下就在前面加0
   function zero(num){
-	return num>10?num:"0"+num;
+	return num>=10?num:"0"+num;
 	}
 
   comments.forEach(function (comment) {

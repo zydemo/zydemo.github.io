@@ -51,6 +51,8 @@ pdf文档						{#pdf}
 
 - [解密万亿独角兽-蚂蚁金服企业案例研究.pdf](/public/pdf/解密万亿独角兽-蚂蚁金服企业案例研究.pdf)
 
+- [陈纯院士为政治局教授区块链讲稿.pdf](/public/pdf/陈纯院士为政治局教授区块链讲稿.pdf)
+
 word文档						{#word}
 ===================================
 
@@ -73,6 +75,8 @@ ppt文档						{#ppt}
 - [案例库分享](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/案例库分享.pptx)
 
 - [MCN当下面临的挑战](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/MCN当下面临的挑战.pptx)
+
+- [中国交通银行总行区块链战略培训资料](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/中国交通银行总行区块链战略培训资料.pptx)
 
 其它文档						{#other}
 ===================================

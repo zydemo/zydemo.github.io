@@ -7253,6 +7253,8 @@ td.visible-print {
 }
 .qr_btn a{
     border-radius: 100px;
+    display: block;
+    letter-spacing: 5px;
 }
 .qr_box{
     display: none;

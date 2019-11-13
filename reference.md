@@ -112,6 +112,11 @@ Web前端											{#web}
 
 + [金笔头博客-爬虫技术](http://jinbitou.net/crawler)
 
++ [缤纷彩虹天地-技术与资源分享博客](http://blog.cccyun.cc/)
+
++ [卷土博客-现只为做成一件事](https://juantu.cn/)
+
++ [肥柴学习博客-让想象绽放](https://www.cnzknet.com/)
 
 
 jekyll相关										{#jekyll}

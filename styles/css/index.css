@@ -7246,6 +7246,20 @@ td.visible-print {
 	}
 }
 
+/*页面生成二维码样式*/
+.qr_btn{
+    margin: 20px 0;
+    text-align: center;
+}
+.qr_btn a{
+    border-radius: 100px;
+    margin: 0 10px;
+    width: 20%;
+}
+.qr_box{
+    display: none;
+    text-align: center;
+}
 
 /**
 :target{

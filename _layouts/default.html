@@ -103,7 +103,27 @@
      		}
      	}
      </script> -->
-     
+     <!--增加页面二维码功能-->
+    <script>
+        $(function(){
+            // 获取当前页面链接地址
+            $url = window.location.href;
+            $url_before = 'https://api.cnzknet.com/qr/?m=1&e=M&p=8&url=';
+            $('#qr_img').attr("src",$url_before+$url);
+            $('#qr_btn').click(function(){
+                $qr_box = $('#qr_box');
+                /*这个判断的意义是,如果qr-box是隐藏的,那么让它显示出来,如果是显示的,那么就隐藏它*/
+                if($qr_box.is(':hidden'))
+                {
+                  $qr_box.slideDown('slow');
+                  // $(this).text('收起');
+                }else{
+                  $qr_box.slideUp('slow');
+                  // $(this).text('展开');
+                    }
+            });
+        });
+    </script>
 
     <!--ToTop ZY 02/20/2019 end -->
 

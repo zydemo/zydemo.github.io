@@ -1,5 +1,12 @@
 <footer class="footer" role="contentinfo">
 	<div class="container">
+        <!--增加页面二维码功能-->
+         <div class="qr_btn">
+            <a class="btn btn-primary btn-md" id="qr_btn">生成当前页二维码</a>
+            <div id="qr_box" class="qr_box">
+                <img id="qr_img" src="" width="130" height="130" alt="本页链接二维码">
+            </div>
+         </div>
 		<p class="copyright">Copyright &copy; 2019-{{ site.time | date: '%Y' }} <a href="{{site.resume_site}}"><code>{{ site.author }}</code></a>.</p>
 		<p>Powered by <a href="http://jekyllrb.com">Jekyll</a>, themed from <a href="http://lesscss.cn/">Less</a>, refactored by <a href="{{site.url}}">{{ site.author }}</a></p>
 	</div>

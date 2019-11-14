@@ -7256,13 +7256,14 @@ td.visible-print {
 
 /*页面生成二维码样式*/
 .qr_btn{
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     text-align: center;
 }
 .qr_btn a{
     border-radius: 100px;
-    display: block;
+    /*display: block;*/
     letter-spacing: 5px;
+    padding: 8px 25px;
 }
 .qr_box{
     display: none;

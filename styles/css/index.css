@@ -3262,6 +3262,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav:after {
   clear: both;
 }
+@media(max-width: 768px){
+  .nav > li > a{
+    padding: 10px 10px !important;
+  }
+}
+.toolbar{
+  display: inline-block;
+}
 .nav > li {
   position: relative;
   display: block;

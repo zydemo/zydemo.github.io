@@ -10,9 +10,11 @@ permalink: /song/
 
 经典歌曲								{#song}
 -----------------------------------------------------------------
-+ [音乐搜索器](http://music.cccyun.cc/)
++ [音乐搜索器](http://www.musictool.top/)
 
 <p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>
+
+<p>[一曲相思-芒种-野狼disco+未知](/public/song/一曲相思-芒种-野狼disco.mp3)</p>
 
 <p>[相亲相爱一家人+飞碟群星](/public/song/相亲相爱一家人.mp3)</p>
 

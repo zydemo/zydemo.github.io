@@ -311,8 +311,6 @@ jekyll相关										{#jekyll}
 
 + [免费图片上传](http://chuantu.biz/)
 
-+ [看看屋](https://www.kankanwu.com/)
-
 + [vip视频人人搜索](http://vip.renrensousuo.com)
 
 + [实用的倒计时/秒表](http://www.naobiao.com/)
@@ -320,3 +318,8 @@ jekyll相关										{#jekyll}
 + [wn万能命令](https://wn.run/cn/)
 
 + [年会视频制作-节目](http://www.nianhuishipin.cn/)
+
++ [全视频TV-电视节目观看](http://www.qsptv.net/)
+
++ [看看屋](https://www.kankanwu.com/)
+

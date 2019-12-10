@@ -21,6 +21,20 @@ Markdown在线编辑器								{#markdown}
 + [在线测网速网站](http://www.speedtest.cn/)
 
 
+抖音相关										{#douyin}
+-----------------------------------------------------------------
++ [飞瓜数据](https://www.feigua.cn/)
+
++ [抖音运营技巧2019](http://www.uxxsn.com/2633.html)
+
++ [抖音Dou+带货：我花3W烧出来的投放经验](https://new.qq.com/omn/20190922/20190922A0BGSQ00)
+
++ [抖音推出营销利器“POI”（地理位置）](http://www.360doc.com/content/19/0123/09/51517715_810743953.shtml)
+
++ [一文带你了解DOU+和抖音企业号广告](http://tem365.com/archives/6924)
+
+
+
 Python相关										{#python}
 -----------------------------------------------------------------
 + [Python-LeetCode在线做题网站（支持中文)](https://leetcode-cn.com)

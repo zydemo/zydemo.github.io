@@ -14,6 +14,8 @@ permalink: /song/
 
 <p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>
 
+<p>[真心英雄+周华健/成龙/李宗盛/黄耀明](/public/song/真心英雄.mp3)</p>
+
 <p>[一曲相思-芒种-野狼disco+未知](/public/song/一曲相思-芒种-野狼disco.mp3)</p>
 
 <p>[相亲相爱一家人+飞碟群星](/public/song/相亲相爱一家人.mp3)</p>

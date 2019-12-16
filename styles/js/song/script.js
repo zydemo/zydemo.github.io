@@ -81,7 +81,7 @@
     // Load playlist
     for (var i = 0; i < playlist.length; i++) {
         var item = playlist[i];
-        $('#playlist').append('<li>' + '['+(i+1).toString() + '] ' + item.artist + ' - ' + item.title + '</li>');
+        $('#playlist').append('<li>' + '[ '+(i+1).toString() + ' ] ' + item.artist + ' - ' + item.title + '</li>');
     }
 
     var time = new Date(),

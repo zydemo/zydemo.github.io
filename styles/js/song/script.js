@@ -267,7 +267,7 @@
         audio.addEventListener('durationchange', beforeLoad, false);
         audio.addEventListener('canplay', afterLoad, false);
         audio.addEventListener('ended', ended, false); //为audio元素添加ended事件
-        $('title').html("正在播放: " + item.title + ' - ' + item.artist); // 更改title值
+        // $('title').html("正在播放: " + item.title + ' - ' + item.artist); // 更改title值
         // 获取下载音乐链接地址
         var song_url = $('audio source').val('src')[0].src;
         $('#download').attr({'href':song_url,'title':'下载音乐:'+item.title});
@@ -280,10 +280,12 @@
             pause();
             $(this).attr("title", "播放");
             $('.cover img').removeClass('rotate'); // 封面停止旋转
+			$('title').html("暂停播放: " + item.title + ' - ' + item.artist); // 更改title值
         } else {
             play();
             $(this).attr("title", "暂停");
             $('.cover img').addClass('rotate'); // 封面旋转
+			$('title').html("正在播放: " + item.title + ' - ' + item.artist); // 更改title值
         }
     });
     // 上一曲

@@ -60,6 +60,13 @@ word文档						{#word}
 
 - [sublime安装的插件2019](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/sublime安装的插件2019.docx)
 
+- [2020年会桌签](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/2020年会桌签.docx)
+
+- [新媒体培训-公司名短桌签](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/新媒体培训-公司名短桌签.docx)
+
+- [新媒体培训-公司名长桌签](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/新媒体培训-公司名长桌签.docx)
+
+
 
 表格文档						{#excel}
 ===================================

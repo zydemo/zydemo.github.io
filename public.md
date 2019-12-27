@@ -66,6 +66,8 @@ word文档						{#word}
 
 - [新媒体培训-公司名长桌签](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/新媒体培训-公司名长桌签.docx)
 
+- [验房注意事项](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/doc/验房注意事项.docx)
+
 
 
 表格文档						{#excel}

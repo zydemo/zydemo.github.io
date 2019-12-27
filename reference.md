@@ -20,6 +20,10 @@ Markdown在线编辑器								{#markdown}
 
 + [在线测网速网站](http://www.speedtest.cn/)
 
++ [中国种业大数据平台](http://202.127.42.145/home/manageorg)
+
++ [企业信用查询](http://www.gsxt.gov.cn/index.html)
+
 
 抖音相关										{#douyin}
 -----------------------------------------------------------------

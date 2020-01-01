@@ -7,7 +7,7 @@
                 <img id="qr_img" src="" width="130" height="130" alt="本页链接二维码">
             </div>
          </div>
-		<p class="copyright">Copyright &copy; 2019-{{ site.time | date: '%Y' }} <a href="{{site.resume_site}}"><code>{{ site.author }}</code></a>.</p>
+		<p class="copyright">Copyright &copy; 2019-{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }} <a href="{{site.resume_site}}"><code>{{ site.author }}</code></a>.</p>
 		<p>Powered by <a href="http://jekyllrb.com">Jekyll</a>, themed from <a href="http://lesscss.cn/">Less</a>, refactored by <a href="{{site.url}}">{{ site.author }}</a></p>
 	</div>
 </footer>

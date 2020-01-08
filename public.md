@@ -94,3 +94,5 @@ ppt文档						{#ppt}
 - [html魔方图素材.rar](/public/other/img.rar)
 
 - [音乐搜索器源码-多站合一音乐搜索](/public/other/music-master.zip)
+
+- [招行每日答题赢积分.htm](/public/other/招行每日答题赢积分.htm)

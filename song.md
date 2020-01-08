@@ -14,6 +14,8 @@ permalink: /song/
 
 <p>[风吹麦浪+李健](/public/song/风吹麦浪.m4a)</p>
 
+<p>[找一个字代替+邰正宵](/public/song/找一个字代替.mp3)</p>
+
 <p>[这条街+云菲菲/冷漠](/public/song/这条街.m4a)</p>
 
 <p>[我爱你中国+小提琴](/public/song/我爱你中国.m4a)</p>

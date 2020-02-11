@@ -25,7 +25,7 @@ Markdown在线编辑器								{#markdown}
 + [企业信用查询](http://www.gsxt.gov.cn/index.html)
 
 
-抖音相关										{#douyin}
+抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------
 + [飞瓜数据](https://www.feigua.cn/)
 
@@ -36,6 +36,10 @@ Markdown在线编辑器								{#markdown}
 + [抖音推出营销利器“POI”（地理位置）](http://www.360doc.com/content/19/0123/09/51517715_810743953.shtml)
 
 + [一文带你了解DOU+和抖音企业号广告](http://tem365.com/archives/6924)
+
++ [社群营销第一节](https://v.qq.com/x/page/s0531uxr2ae.html)
+
++ [社群营销与运营B站](https://www.bilibili.com/video/av36722886)
 
 
 

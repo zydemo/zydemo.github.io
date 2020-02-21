@@ -31,6 +31,8 @@ pdf文档						{#pdf}
 
 - [社群营销与运营](/public/pdf/社群营销与运营.pdf)
 
+- [社群营销与运营-简版](/public/pdf/社群营销与运营-简版.pdf)
+
 - [CNNIC-第43次中国互联网络发展状况统计报告](/public/pdf/CNNIC-第43次中国互联网络发展状况统计报告.pdf)
 
 - [2018年电商行业研究报告.pdf](/public/pdf/2018年电商行业研究报告.pdf)
@@ -89,9 +91,14 @@ ppt文档						{#ppt}
 
 - [中国交通银行总行区块链战略培训资料](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/中国交通银行总行区块链战略培训资料.pptx)
 
+- [社群营销-配套PPT](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/社群营销-配套PPT.pptx)
+
+
 其它文档						{#other}
 ===================================
 - [html魔方图素材.rar](/public/other/img.rar)
+
+- [社群营销图片](/public/other/社群营销图片.png)
 
 - [音乐搜索器源码-多站合一音乐搜索](/public/other/music-master.zip)
 

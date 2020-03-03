@@ -22,7 +22,11 @@ Markdown在线编辑器								{#markdown}
 
 + [中国种业大数据平台](http://202.127.42.145/home/manageorg)
 
-+ [企业信用查询](http://www.gsxt.gov.cn/index.html)
++ [国家企业信用信息公示系统](http://www.gsxt.gov.cn/index.html)
+
++ [百度企业信用查询](https://xin.baidu.com/)
+
++ [JSON在线解析及格式化验证](https://www.json.cn/)
 
 
 抖音/社群营销相关										{#douyin}

@@ -59,7 +59,7 @@ Python相关										{#python}
 
 + [Pycharm注册码-lanyus](http://idea.lanyus.com/)
 
-+ [Pycharm注册码最新版本2019激活码及破解补丁激活](https://blog.csdn.net/nobleman__/article/details/85730001)
++ [pycharm2020激活码](https://segmentfault.com/a/1190000020150477?utm_source=tag-newest)
 
 + [**我要自学网-不错的学习软件网站](https://www.51zxw.net/)
 

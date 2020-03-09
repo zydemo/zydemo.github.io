@@ -195,7 +195,7 @@ jekyll相关										{#jekyll}
 + [下载Google play应用](https://apps.evozi.com/apk-downloader/)
 
 
-电台/广播					{#radio}
+电台/广播/音乐					{#radio}
 -----------------------------------------------------------------
 
 + [河北音乐广播](https://www.qingting.fm/radios/1649)
@@ -203,6 +203,10 @@ jekyll相关										{#jekyll}
 + [北京新闻广播](https://www.qingting.fm/radios/339)
 
 + [电视直播-网络电视](http://www.hao5.net/)
+
++ [网易云音乐](https://music.163.com/)
+
++ [QQ音乐](https://y.qq.com/)
 
 
 手机浏览器书签									{#mobile}

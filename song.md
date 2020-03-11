@@ -12,9 +12,6 @@ permalink: /song/
 -----------------------------------------------------------------
 + [音乐搜索器](http://www.musictool.top/)
 
-+ [网易云音乐](https://music.163.com/)
-
-+ [QQ音乐](https://y.qq.com/)
 
 <p>[风吹麦浪+李健](/public/song/风吹麦浪.m4a)</p>
 

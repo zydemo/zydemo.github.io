@@ -15,6 +15,8 @@ permalink: /song/
 
 <p>[风吹麦浪+李健](/public/song/风吹麦浪.m4a)</p>
 
+<p>[我最亲爱的+张惠妹](/public/song/我最亲爱的-张惠妹.mp3)</p>
+
 <p>[找一个字代替+邰正宵](/public/song/找一个字代替.mp3)</p>
 
 <p>[这条街+云菲菲/冷漠](/public/song/这条街.m4a)</p>

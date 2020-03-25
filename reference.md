@@ -45,6 +45,18 @@ Markdown在线编辑器								{#markdown}
 
 + [社群营销与运营B站](https://www.bilibili.com/video/av36722886)
 
++ [短视频行业130页深度分析：抖音vs快手深度复盘与前瞻](https://www.toutiao.com/i6807585292199920140)
+
++ [免费正版高清图片、视频素材库](https://pixabay.com/zh/)
+
++ [抖音百万级点赞视频制作系列教程](https://www.ixigua.com/pseries/6802860832716751372_6778656021616263683/)
+
++ [慕思姚吉庆：从零直播经验到拿下15万＋订单，是如何做到的？](https://www.toutiao.com/a6807710281314075148)
+
++ [好的短视频从脚本制作开始，学会这3招，还怕做不出好脚本？](https://www.toutiao.com/a6745249090365342219)
+
++ [抖音超级干货：从入门到运营，全攻略](https://www.toutiao.com/a6766932379249410563)
+
 
 
 Python相关										{#python}

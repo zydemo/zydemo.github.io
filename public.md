@@ -93,6 +93,8 @@ ppt文档						{#ppt}
 
 - [社群营销-配套PPT](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/社群营销-配套PPT.pptx)
 
+- [今日头条新人培训.pptx](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/今日头条新人培训.pptx)
+
 
 其它文档						{#other}
 ===================================

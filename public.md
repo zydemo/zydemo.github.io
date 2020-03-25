@@ -85,15 +85,15 @@ word文档						{#word}
 ppt文档						{#ppt}
 ===================================
 
-- [案例库分享](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/案例库分享.pptx)
+- [案例库分享](/public/ppt/案例库分享.pptx)
 
 - [MCN当下面临的挑战](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/MCN当下面临的挑战.pptx)
 
 - [中国交通银行总行区块链战略培训资料](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/中国交通银行总行区块链战略培训资料.pptx)
 
-- [社群营销-配套PPT](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/社群营销-配套PPT.pptx)
+- [社群营销-配套PPT](/public/ppt/社群营销-配套PPT.pptx)
 
-- [今日头条新人培训.pptx](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/今日头条新人培训.pptx)
+- [今日头条新人培训.pptx](/public/ppt/今日头条新人培训.pptx)
 
 
 其它文档						{#other}

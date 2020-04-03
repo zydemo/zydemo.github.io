@@ -57,6 +57,17 @@ Markdown在线编辑器								{#markdown}
 
 + [抖音超级干货：从入门到运营，全攻略](https://www.toutiao.com/a6766932379249410563)
 
++ [抖音/快手等视频去水印](https://dy.kukutool.com/douyin.html)
+
++ [抖音/快手等视频去水印](https://sy.kuakuavideo.com/douyin.html)
+
++ [卡思数据-视频全网分析平台](https://www.caasdata.com/)
+
++ [内容神器-查热点](http://www.5ce.com/)
+
++ [抖抖侠-短视频数据化中心](https://www.doudouxia.com/)
+
+
 
 
 Python相关										{#python}

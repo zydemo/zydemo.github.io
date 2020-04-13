@@ -69,6 +69,9 @@ Markdown在线编辑器								{#markdown}
 
 + [抖查查-短视频数据分析平台](https://www.douchacha.com/)
 
++ [抖音企业管理平台](https://e.douyin.com/site/)
+
++ [深夜自媒体-抖音运营干货](https://www.shenyeseo.com/category/yunyinganhuo/)
 
 
 Python相关										{#python}

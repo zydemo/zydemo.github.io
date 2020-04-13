@@ -370,3 +370,4 @@ jekyll相关										{#jekyll}
 
 + [看看屋](https://www.kankanwu.com/)
 
++ [酷读电子书下载网站](http://www.kudubook.com/)

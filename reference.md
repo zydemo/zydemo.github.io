@@ -73,6 +73,8 @@ Markdown在线编辑器								{#markdown}
 
 + [深夜自媒体-抖音运营干货](https://www.shenyeseo.com/category/yunyinganhuo/)
 
++ [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
+
 
 Python相关										{#python}
 -----------------------------------------------------------------

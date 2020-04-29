@@ -76,6 +76,7 @@ Markdown在线编辑器								{#markdown}
 + [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
 
 
+
 Python相关										{#python}
 -----------------------------------------------------------------
 + [Python-LeetCode在线做题网站（支持中文)](https://leetcode-cn.com)
@@ -375,3 +376,5 @@ jekyll相关										{#jekyll}
 + [酷读电子书下载网站](http://www.kudubook.com/)
 
 + [FCPX资源站-音乐音效](http://www.mfcpx.com/other/audio/)
+
++ [Microsoft模板（WORD/EXCEL/PPT）](https://templates.office.com/)

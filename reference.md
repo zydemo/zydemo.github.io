@@ -28,6 +28,8 @@ Markdown在线编辑器								{#markdown}
 
 + [JSON在线解析及格式化验证](https://www.json.cn/)
 
++ [实用的倒计时/秒表](http://www.naobiao.com/)
+
 
 抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------
@@ -203,16 +205,6 @@ jekyll相关										{#jekyll}
 
 
 
-关于成人教育									{#education}
------------------------------------------------------------------
-
-+ [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
-
-+ [学信网](https://www.chsi.com.cn/)
-
-+ [2018年北京市成人高等学校招生专业目录](https://www.bjeea.cn/html/ckcz/zyml/2018/0823/71484.html)
-
-
 邮箱/google					{#mail}
 -----------------------------------------------------------------
 
@@ -239,6 +231,15 @@ jekyll相关										{#jekyll}
 + [网易云音乐](https://music.163.com/)
 
 + [QQ音乐](https://y.qq.com/)
+
++ [口袋影院](http://0.cqdnpfc.cn)
+
++ [全视频TV-电视节目观看](http://www.qsptv.net/)
+
++ [看看屋](https://www.kankanwu.com/)
+
++ [vip视频人人搜索](http://vip.renrensousuo.com)
+
 
 
 手机浏览器书签									{#mobile}
@@ -316,6 +317,17 @@ jekyll相关										{#jekyll}
 
 + [伴读听书-老梁的四大名著情商课](http://www.bandubb.com/category/tingjian/)
 
+
+关于成人教育									{#education}
+-----------------------------------------------------------------
+
++ [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
+
++ [学信网](https://www.chsi.com.cn/)
+
++ [2018年北京市成人高等学校招生专业目录](https://www.bjeea.cn/html/ckcz/zyml/2018/0823/71484.html)
+
+
 其它												{#other}
 -----------------------------------------------------------------
 
@@ -361,17 +373,9 @@ jekyll相关										{#jekyll}
 
 + [在线图像优化器](https://imagecompressor.com/zh/)
 
-+ [vip视频人人搜索](http://vip.renrensousuo.com)
-
-+ [实用的倒计时/秒表](http://www.naobiao.com/)
-
 + [wn万能命令](https://wn.run/cn/)
 
 + [年会视频制作-节目](http://www.nianhuishipin.cn/)
-
-+ [全视频TV-电视节目观看](http://www.qsptv.net/)
-
-+ [看看屋](https://www.kankanwu.com/)
 
 + [酷读电子书下载网站](http://www.kudubook.com/)
 

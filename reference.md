@@ -382,6 +382,12 @@ jekyll相关										{#jekyll}
 
 + [酷读电子书下载网站](http://www.kudubook.com/)
 
++ [ePUBee电子书库](http://cn.epubee.com/books/)
+
++ [智奇搜书](https://zqbook.top/)
+
++ [鸠摩搜书](https://www.jiumodiary.com/)
+
 + [FCPX资源站-音乐音效](http://www.mfcpx.com/other/audio/)
 
 + [Microsoft模板（WORD/EXCEL/PPT）](https://templates.office.com/)

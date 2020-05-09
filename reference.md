@@ -391,3 +391,8 @@ jekyll相关										{#jekyll}
 + [FCPX资源站-音乐音效](http://www.mfcpx.com/other/audio/)
 
 + [Microsoft模板（WORD/EXCEL/PPT）](https://templates.office.com/)
+
++ [在线APK/MD5/URL查毒-腾讯手机管家官方网站）](https://m.qq.com/security_lab/scans_online.jsp)
+
++ [金刚-腾讯apk安全详细检测）](https://service.security.tencent.com/kingkong)
+

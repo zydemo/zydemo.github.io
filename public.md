@@ -55,6 +55,8 @@ pdf文档						{#pdf}
 
 - [2019产业互联网白皮书.pdf](/public/pdf/2019产业互联网白皮书.pdf)
 
+- [群星互动公司介绍2019.pdf](/public/pdf/群星互动公司介绍2019.pdf)
+
 - [2019社交和内容趋势观察（短视频、KOL、内容付费）-AdMaster](/public/pdf/2019社交和内容趋势观察.pdf)
 
 - [2019中国MCN行业发展白皮书](/public/pdf/2019中国MCN行业发展白皮书.pdf)
@@ -62,6 +64,7 @@ pdf文档						{#pdf}
 - [双面诡臣-和坤传.pdf](/public/pdf/双面诡臣-和坤传.pdf)
 
 - [2020人才趋势报告.pdf](/public/pdf/2020人才趋势报告.pdf)
+
 
 
 

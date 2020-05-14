@@ -302,7 +302,7 @@ jekyll相关										{#jekyll}
 
 + [北京市住房和城乡建设网站-共有产权住房](http://zzfws.bjjs.gov.cn/enroll/home.jsp)
 
-+ [北京市居住证服务平台](https://gaj.beijing.gov.cn/fwxt/)
++ [北京市居住证服务平台](https://jzz.gaj.beijing.gov.cn/)
 
 + [北京市积分落户服务专栏](http://www.bjrbj.gov.cn/jflh/)
 

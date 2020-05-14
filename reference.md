@@ -247,6 +247,8 @@ jekyll相关										{#jekyll}
 
 + [vip视频人人搜索](http://vip.renrensousuo.com)
 
++ [中国评书网](http://www.zgpingshu.com/#down)
+
 
 
 手机浏览器书签									{#mobile}

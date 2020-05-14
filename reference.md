@@ -33,6 +33,8 @@ Markdown在线编辑器								{#markdown}
 
 抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------
++ [字节跳动-小店/开店帮助中心](http://opendoc.jinritemai.com/notice/)
+
 + [飞瓜数据](https://www.feigua.cn/)
 
 + [抖音运营技巧2019](http://www.uxxsn.com/2633.html)
@@ -76,6 +78,7 @@ Markdown在线编辑器								{#markdown}
 + [深夜自媒体-抖音运营干货](https://www.shenyeseo.com/category/yunyinganhuo/)
 
 + [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
+
 
 
 

@@ -79,7 +79,7 @@ Markdown在线编辑器								{#markdown}
 
 + [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
 
-
++ [微赞-企业视频直播营销系统](https://www.vzan.com/)
 
 
 Python相关										{#python}

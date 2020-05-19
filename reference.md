@@ -30,6 +30,8 @@ Markdown在线编辑器								{#markdown}
 
 + [实用的倒计时/秒表](http://www.naobiao.com/)
 
++ [Apowersoft-免费在线录屏软件](https://www.apowersoft.cn/free-online-screen-recorder)
+
 
 抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------

@@ -71,6 +71,10 @@ pdf文档						{#pdf}
 
 - [展望东北种植业-小趋势-中周期-大时代.pdf](/public/pdf/展望东北种植业-小趋势-中周期-大时代.pdf)
 
+- [新媒体营销概述.pdf](/public/pdf/新媒体营销概述.pdf)
+
+
+
 
 
 word文档						{#word}
@@ -110,6 +114,25 @@ ppt文档						{#ppt}
 - [社群营销-配套PPT](/public/ppt/社群营销-配套PPT.pptx)
 
 - [今日头条新人培训.pptx](/public/ppt/今日头条新人培训.pptx)
+
+- [1-微博营销经典案例-褚橙案例分享](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/1-微博营销经典案例-褚橙案例分享.pptx)
+
+- [2-本来生活网-褚橙](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/2-本来生活网-褚橙.ppt)
+
+- [3-江小白营销案例分享](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/3-江小白营销案例分享.pptx)
+
+- [4-星巴克营销策略分析](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/4-星巴克营销策略分析.ppt)
+
+- [5-星巴克的社群营销](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/5-星巴克的社群营销.pptx)
+
+- [6-故宫印象营销](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/6-故宫印象营销.pptx)
+
+- [7-故宫营销案例分析](/public/ppt/7-故宫营销案例分析.ppt)
+
+- [8-三只松鼠案例分析报告](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/8-三只松鼠案例分析报告.pptx)
+
+- [新媒体团队组建和架构](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/新媒体团队组建和架构.pptx)
+
 
 
 其它文档						{#other}

@@ -119,7 +119,7 @@ ppt文档						{#ppt}
 
 - [2-本来生活网-褚橙](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/2-本来生活网-褚橙.ppt)
 
-- [3-江小白营销案例分享](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/3-江小白营销案例分享.pptx)
+- [3-江小白营销案例分享](/public/ppt/3-江小白营销案例分享.pptx)
 
 - [4-星巴克营销策略分析](https://view.officeapps.live.com/op/view.aspx?src=https://zydemo.github.io/public/ppt/4-星巴克营销策略分析.ppt)
 

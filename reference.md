@@ -39,6 +39,20 @@ Markdown在线编辑器								{#markdown}
 
 + [飞瓜数据](https://www.feigua.cn/)
 
++ [卡思数据-视频全网分析平台](https://www.caasdata.com/)
+
++ [内容神器-查热点](http://www.5ce.com/)
+
++ [抖抖侠-短视频数据化中心](https://www.doudouxia.com/)
+
++ [抖查查-短视频数据分析平台](https://www.douchacha.com/)
+
++ [抖燃传媒-短视频数据分析平台](https://www.yingduncd.com/)
+
++ [抖音企业管理平台](https://e.douyin.com/site/)
+
++ [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
+
 + [抖音运营技巧2019](http://www.uxxsn.com/2633.html)
 
 + [抖音Dou+带货：我花3W烧出来的投放经验](https://new.qq.com/omn/20190922/20190922A0BGSQ00)
@@ -67,19 +81,7 @@ Markdown在线编辑器								{#markdown}
 
 + [抖音/快手等视频去水印](https://sy.kuakuavideo.com/douyin.html)
 
-+ [卡思数据-视频全网分析平台](https://www.caasdata.com/)
-
-+ [内容神器-查热点](http://www.5ce.com/)
-
-+ [抖抖侠-短视频数据化中心](https://www.doudouxia.com/)
-
-+ [抖查查-短视频数据分析平台](https://www.douchacha.com/)
-
-+ [抖音企业管理平台](https://e.douyin.com/site/)
-
 + [深夜自媒体-抖音运营干货](https://www.shenyeseo.com/category/yunyinganhuo/)
-
-+ [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
 
 + [微赞-企业视频直播营销系统](https://www.vzan.com/)
 

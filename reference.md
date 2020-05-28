@@ -429,3 +429,5 @@ jekyll相关										{#jekyll}
 + [优设-设计师学习平台](https://www.uisdc.com/)
 
 + [优设-优优教程网](https://uiiiuiii.com/)
+
++ [PPT模板、素材下载](http://www.1ppt.com/)

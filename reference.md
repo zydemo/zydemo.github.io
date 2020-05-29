@@ -95,6 +95,10 @@ Markdown在线编辑器								{#markdown}
 
 + [快手运营指导手册](http://www.opp2.com/179628.html)
 
++ [快手官网电商学习资料](https://www.kwaixiaodian.com/university/article?id=1DGeBfeGi3)
+
+
+
 
 
 

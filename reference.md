@@ -73,6 +73,8 @@ Markdown在线编辑器								{#markdown}
 
 + [新片场-视频素材库（****极力推荐**）](https://www.xinpianchang.com/)
 
++ [右糖-线上视频制作平台（****极力推荐**）](https://lightmv.cn/)
+
 + [抖音百万级点赞视频制作系列教程](https://www.ixigua.com/pseries/6802860832716751372_6778656021616263683/)
 
 + [慕思姚吉庆：从零直播经验到拿下15万＋订单，是如何做到的？](https://www.toutiao.com/a6807710281314075148)

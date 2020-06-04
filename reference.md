@@ -437,3 +437,6 @@ jekyll相关										{#jekyll}
 + [优设-优优教程网](https://uiiiuiii.com/)
 
 + [PPT模板、素材下载](http://www.1ppt.com/)
+
++ [不错的电子手册制作模板网站-金印客](http://www.kinker.cn/template/)
+

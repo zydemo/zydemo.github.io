@@ -58,14 +58,40 @@
 		     //    var text = $wn_input.val();
             //     $wn_input.attr("title",text);
             // });
+			$("#WnId").click(function () {
+				var value = $("#WnId").val();//获取当前选择项的值
+				if(value){
+				    if(value === "1"){
+				        this.setAttribute("placeholder","解析VIP视频");
+					}else if(value === "2"){
+				        this.setAttribute("placeholder","解析VIP视频");
+					}else if(value === "3"){
+				        this.setAttribute("placeholder","请输入大学名称");
+					}else{
+				        this.setAttribute("placeholder","请输入专业名称");
+					}
+				}
+            });
+
 			$("#wn_btn").click(function(){
 				var value = $("#WnId").val();//获取当前选择项的值
 				var text = $wn_input.val();
-				if(value === "1"){
-					window.open("https://wn.run/f/#"+text);
-				}else{
-					window.open("http://jiexi.071811.cc/jx.php?url="+text);
+				if(value){
+				    if(value === "1"){
+				        window.open("https://wn.run/f/#"+text);
+					}else if(value === "2"){
+				        window.open("http://jiexi.071811.cc/jx.php?url="+text);
+					}else if(value === "3"){
+				        window.open("https://job.youzan.com/api/schools/searchV2?searchKey="+text);
+					}else{
+				        window.open("https://job.youzan.com/api/majors/search?searchKey="+text);
+					}
 				}
+				// if(value === "1"){
+				// 	window.open("https://wn.run/f/#"+text);
+				// }else{
+				// 	window.open("http://jiexi.071811.cc/jx.php?url="+text);
+				// }
 			});
 		})
 	</script>

@@ -60,7 +60,8 @@
             //     $wn_input.attr("title",text);
             // });
 			$WnId.click(function () {
-				var value = $WnId.val();//获取当前选择项的值
+                var $wn_input = $("#wn_input");
+                var value = $WnId.val();//获取当前选择项的值
 				if(value){
 				    if(value === "1"){
 				        $wn_input.setAttribute("placeholder","解析VIP视频");

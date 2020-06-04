@@ -61,7 +61,6 @@
             // });
 
 			$WnId.click(function () {
-                // var $wn_input = $("#wn_input");
                 var value = $WnId.val();//获取当前选择项的值
 				if(value){
 					if(value === "1"){
@@ -79,7 +78,8 @@
 			$("#wn_btn").click(function(){
 			    var value = $WnId.val();//获取当前选择项的值
 				var text = $wn_input.val();
-				console.log(text !== "");
+				console.log("***",text.length);
+				if(text.length)
 				if(value){
 				    if(value === "1"){
 				        window.open("https://wn.run/f/#"+text);

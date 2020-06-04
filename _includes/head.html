@@ -50,6 +50,8 @@
 	<script>
 		$(function(){
 		    var $wn_input = $("#wn_input");
+		    var $WnId = $("#WnId");
+		    var value = $WnId.val();//获取当前选择项的值
             // $wn_input.change(function () {
             //     var text = $wn_input.val();
             //     $wn_input.attr("title",text);
@@ -58,23 +60,22 @@
 		     //    var text = $wn_input.val();
             //     $wn_input.attr("title",text);
             // });
-			$("#WnId").click(function () {
-				var value = $("#WnId").val();//获取当前选择项的值
+			$WnId.click(function () {
+
 				if(value){
 				    if(value === "1"){
-				        this.setAttribute("placeholder","解析VIP视频");
+				        $wn_input.setAttribute("placeholder","解析VIP视频");
 					}else if(value === "2"){
-				        this.setAttribute("placeholder","解析VIP视频");
+				        $wn_input.setAttribute("placeholder","解析VIP视频");
 					}else if(value === "3"){
-				        this.setAttribute("placeholder","请输入大学名称");
+				        $wn_input.setAttribute("placeholder","请输入大学名称");
 					}else{
-				        this.setAttribute("placeholder","请输入专业名称");
+				        $wn_input.setAttribute("placeholder","请输入专业名称");
 					}
 				}
             });
 
 			$("#wn_btn").click(function(){
-				var value = $("#WnId").val();//获取当前选择项的值
 				var text = $wn_input.val();
 				if(value){
 				    if(value === "1"){

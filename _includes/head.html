@@ -51,7 +51,6 @@
 		$(function(){
 		    var $wn_input = $("#wn_input");
 		    var $WnId = $("#WnId");
-		    var value = $WnId.val();//获取当前选择项的值
             // $wn_input.change(function () {
             //     var text = $wn_input.val();
             //     $wn_input.attr("title",text);
@@ -63,7 +62,7 @@
 
 			$WnId.click(function () {
                 // var $wn_input = $("#wn_input");
-                // var value = $WnId.val();//获取当前选择项的值
+                var value = $WnId.val();//获取当前选择项的值
 				if(value){
 					if(value === "1"){
 						$wn_input.attr("placeholder","万能一下");
@@ -78,8 +77,9 @@
             });
 
 			$("#wn_btn").click(function(){
-			    // var value = $WnId.val();//获取当前选择项的值
+			    var value = $WnId.val();//获取当前选择项的值
 				var text = $wn_input.val();
+				console.log(text !== "");
 				if(value){
 				    if(value === "1"){
 				        window.open("https://wn.run/f/#"+text);

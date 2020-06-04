@@ -78,14 +78,12 @@
 			$("#wn_btn").click(function(){
 			    var value = $WnId.val();//获取当前选择项的值
 				var text = $wn_input.val();
-				alert("***",$wn_input.value.length);
 				if(value){
 				    if(value === "1"){
 				        window.open("https://wn.run/f/#"+text);
 					}else if(value === "2"){
 				        window.open("http://jiexi.071811.cc/jx.php?url="+text);
-					}else if(value === "3" && $wn_input.value.length >0){
-				        alert("*3**",$wn_input.value.length);
+					}else if(value === "3"){
 				        window.open("https://job.youzan.com/api/schools/searchV2?searchKey="+text);
 					}else{
 				        window.open("https://job.youzan.com/api/majors/search?searchKey="+text);

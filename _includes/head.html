@@ -61,14 +61,17 @@
             // });
 			$WnId.click(function () {
                 var $wn_input = $("#wn_input");
+                console.log("**",$wn_input);
                 var value = $WnId.val();//获取当前选择项的值
 				if(value){
 				    if(value === "1"){
 				        $wn_input.setAttribute("placeholder","解析VIP视频");
 					}else if(value === "2"){
+				        console.log("*2*",$wn_input);
 				        $wn_input.setAttribute("placeholder","解析VIP视频");
 					}else if(value === "3"){
 				        $wn_input.setAttribute("placeholder","请输入大学名称");
+				        console.log("*3*",$wn_input);
 					}else{
 				        $wn_input.setAttribute("placeholder","请输入专业名称");
 					}

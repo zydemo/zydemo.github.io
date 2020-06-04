@@ -59,23 +59,40 @@
 		     //    var text = $wn_input.val();
             //     $wn_input.attr("title",text);
             // });
+            // $WnId.bind("change",function () {
+				// // var $wn_input = $("#wn_input");
+				// var value = $WnId.val();//获取当前选择项的值
+				// if(value){
+				// 	if(value === "1"){
+				// 		$("#wn_input").setAttribute("placeholder","解析VIP视频");
+				// 	}else if(value === "2"){
+				// 		$wn_input.setAttribute("placeholder","解析VIP视频");
+				// 	}else if(value === "3"){
+				// 		$wn_input.setAttribute("placeholder","请输入大学名称");
+				// 	}else{
+				// 		$wn_input.setAttribute("placeholder","请输入专业名称");
+				// 	}
+				// }
+            // });
+            //
+
 			$WnId.click(function () {
                 var $wn_input = $("#wn_input");
-                console.log("**",$wn_input);
                 var value = $WnId.val();//获取当前选择项的值
+
 				if(value){
-				    if(value === "1"){
-				        $wn_input.setAttribute("placeholder","解析VIP视频");
+					if(value === "1"){
+						$wn_input.attr("placeholder","解析VIP视频");
 					}else if(value === "2"){
-				        console.log("*2*",$wn_input);
-				        $wn_input.setAttribute("placeholder","解析VIP视频");
+						$wn_input.attr("placeholder","解析VIP视频");
 					}else if(value === "3"){
-				        $wn_input.setAttribute("placeholder","请输入大学名称");
-				        console.log("*3*",$wn_input);
+						$wn_input.attr("placeholder","请输入大学名称");
 					}else{
-				        $wn_input.setAttribute("placeholder","请输入专业名称");
+						$wn_input.attr("placeholder","请输入专业名称");
 					}
 				}
+
+
             });
 
 			$("#wn_btn").click(function(){

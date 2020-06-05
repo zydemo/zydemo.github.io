@@ -34,6 +34,9 @@ Markdown在线编辑器								{#markdown}
 
 + [Apowersoft-非常好用电脑投屏手机软件](http://am.apowersoft.com/)
 
++ [慢慢买-历史价格查询](http://tool.manmanbuy.com/HistoryLowest.aspx)
+
++ [过客网-历史价格查询](http://www.tool168.cn/history/)
 
 抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------
@@ -50,6 +53,8 @@ Markdown在线编辑器								{#markdown}
 + [抖查查-短视频数据分析平台](https://www.douchacha.com/)
 
 + [抖燃传媒-短视频数据分析平台](https://www.yingduncd.com/)
+
++ [短鱼儿-短视频数据分析平台](https://www.duanyuer.com/)
 
 + [抖音企业管理平台](https://e.douyin.com/site/)
 
@@ -283,6 +288,8 @@ jekyll相关										{#jekyll}
 + [爱课程视频课程](http://www.icourses.cn/home/)
 
 + [w3cschool在线学习课程](https://www.w3cschool.cn/)
+
++ [哔哩哔哩-PR学习](https://search.bilibili.com/all?keyword=pr)
 
 + [正则表达式测试](http://tool.oschina.net/regex/)
 

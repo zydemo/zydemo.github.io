@@ -104,7 +104,7 @@ Markdown在线编辑器								{#markdown}
 
 + [快手官网电商学习资料](https://www.kwaixiaodian.com/university/article?id=1DGeBfeGi3)
 
-
++ [达人记-淘宝直播大数据统计平台](http://www.darenji.com/)
 
 
 

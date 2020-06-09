@@ -56,6 +56,8 @@ Markdown在线编辑器								{#markdown}
 
 + [短鱼儿-短视频数据分析平台](https://www.duanyuer.com/)
 
++ [抖商传媒-分享短视频行业最新干货](http://www.2gou.com/)
+
 + [抖音企业管理平台](https://e.douyin.com/site/)
 
 + [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
@@ -288,6 +290,8 @@ jekyll相关										{#jekyll}
 + [爱课程视频课程](http://www.icourses.cn/home/)
 
 + [w3cschool在线学习课程](https://www.w3cschool.cn/)
+
++ [腾讯课堂](https://ke.qq.com/)
 
 + [哔哩哔哩-PR学习](https://search.bilibili.com/all?keyword=pr)
 

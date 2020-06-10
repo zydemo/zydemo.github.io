@@ -80,7 +80,21 @@ Markdown在线编辑器								{#markdown}
 
 + [新片场-视频素材库（****极力推荐**）](https://www.xinpianchang.com/)
 
++ [V电影-国内最大的短视频分享平台（****极力推荐**）](https://www.vmovier.com/)
+
 + [右糖-线上视频制作平台（****极力推荐**）](https://lightmv.cn/)
+
++ [爱给-免费视频音乐特效素材（****极力推荐**）](http://www.aigei.com/)
+
++ [VJ师网-专业的素材共享平台（****极力推荐**）](https://www.vjshi.com/)
+
++ [傲视网-专业视频素材交易平台（****极力推荐**）](http://www.aoao365.com/)
+
++ [Pexels Videos-国外免费素材分享平台无需注册（****极力推荐**）](https://www.pexels.com/videos/)
+
++ [pixabay-免费高质量视频（****极力推荐**）](https://pixabay.com/zh/videos/)
+
++ [Stock Footage for Free-全世界范围内搜集免费的视频素材（****极力推荐**）](https://www.dareful.com/)
 
 + [抖音百万级点赞视频制作系列教程](https://www.ixigua.com/pseries/6802860832716751372_6778656021616263683/)
 

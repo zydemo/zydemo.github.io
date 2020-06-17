@@ -465,3 +465,4 @@ jekyll相关										{#jekyll}
 
 + [不错的电子手册制作模板网站-金印客](http://www.kinker.cn/template/)
 
++ [未来智库-获取最新报告](https://www.vzkoo.com/)

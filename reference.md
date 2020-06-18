@@ -52,6 +52,8 @@ Markdown在线编辑器								{#markdown}
 
 + [抖查查-短视频数据分析平台](https://www.douchacha.com/)
 
++ [小葫芦-短视频数据分析平台](https://www.xiaohulu.com/)
+
 + [抖燃传媒-短视频数据分析平台](https://www.yingduncd.com/)
 
 + [短鱼儿-短视频数据分析平台](https://www.duanyuer.com/)

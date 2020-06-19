@@ -270,6 +270,8 @@ jekyll相关										{#jekyll}
 
 + [下载Google play应用](https://apps.evozi.com/apk-downloader/)
 
++ [Google插件扩展下载网](https://www.extfans.com/)
+
 
 电视/广播/音乐/视频					{#radio}
 -----------------------------------------------------------------

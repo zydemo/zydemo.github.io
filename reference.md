@@ -26,6 +26,8 @@ Markdown在线编辑器								{#markdown}
 
 + [百度企业信用查询](https://xin.baidu.com/)
 
++ [文库社-下载百度文库文档](https://www.wenku.zone/)
+
 + [JSON在线解析及格式化验证](https://www.json.cn/)
 
 + [实用的倒计时/秒表](http://www.naobiao.com/)

@@ -28,7 +28,9 @@ Markdown在线编辑器								{#markdown}
 
 + [文库社-下载百度文库文档](https://www.wenku.zone/)
 
-+ [JSON在线解析及格式化验证](https://www.json.cn/)
++ [JSON在线解析及格式化验证](https://www.json.cn/)https://cli.im/
+
++ [草料二维码生成-解码](https://cli.im/)
 
 + [实用的倒计时/秒表](http://www.naobiao.com/)
 

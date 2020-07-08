@@ -451,6 +451,8 @@ jekyll相关										{#jekyll}
 
 + [鸠摩搜书](https://www.jiumodiary.com/)
 
++ [国外IT类电子书库](http://www.allitebooks.org/)
+
 + [FCPX资源站-音乐音效](http://www.mfcpx.com/other/audio/)
 
 + [Microsoft模板（WORD/EXCEL/PPT）](https://templates.office.com/)

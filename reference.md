@@ -489,5 +489,7 @@ jekyll相关										{#jekyll}
 
 + [北京市人力资源和社会保障局](http://rsj.beijing.gov.cn/)
 
-+ [迅捷画图-思维导图在线设计（部分收费）](hhttps://www.liuchengtu.com/)
++ [迅捷画图-思维导图在线设计（部分收费）](https://www.liuchengtu.com/)
 
++ [果壳玻壳-破解软件网](https://www.ghpym.com/category/all)
++ 

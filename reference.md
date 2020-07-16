@@ -56,7 +56,7 @@ Markdown在线编辑器								{#markdown}
 
 + [内容神器-查热点](http://www.5ce.com/)
 
-+ [抖抖侠-短视频数据化中心](https://www.doudouxia.com/)
++ [抖抖侠-短视频数据化中心（****极力推荐**）](https://www.doudouxia.com/)
 
 + [抖查查-短视频数据分析平台](https://www.douchacha.com/)
 
@@ -92,19 +92,19 @@ Markdown在线编辑器								{#markdown}
 
 + [V电影-国内最大的短视频分享平台（****极力推荐**）](https://www.vmovier.com/)
 
-+ [右糖-线上视频制作平台（****极力推荐**）](https://lightmv.cn/)
++ [右糖-线上视频制作平台](https://lightmv.cn/)
 
-+ [爱给-免费视频音乐特效素材（****极力推荐**）](http://www.aigei.com/)
++ [爱给-免费视频音乐特效素材](http://www.aigei.com/)
 
-+ [VJ师网-专业的素材共享平台（****极力推荐**）](https://www.vjshi.com/)
++ [VJ师网-专业的素材共享平台](https://www.vjshi.com/)
 
-+ [傲视网-专业视频素材交易平台（****极力推荐**）](http://www.aoao365.com/)
++ [傲视网-专业视频素材交易平台](http://www.aoao365.com/)
 
-+ [Pexels Videos-国外免费素材分享平台无需注册（****极力推荐**）](https://www.pexels.com/videos/)
++ [Pexels Videos-国外免费素材分享平台无需注册](https://www.pexels.com/videos/)
 
-+ [pixabay-免费高质量视频（****极力推荐**）](https://pixabay.com/zh/videos/)
++ [pixabay-免费高质量视频](https://pixabay.com/zh/videos/)
 
-+ [Stock Footage for Free-全世界范围内搜集免费的视频素材（****极力推荐**）](https://www.dareful.com/)
++ [Stock Footage for Free-全世界范围内搜集免费的视频素材](https://www.dareful.com/)
 
 + [抖音百万级点赞视频制作系列教程](https://www.ixigua.com/pseries/6802860832716751372_6778656021616263683/)
 
@@ -489,7 +489,6 @@ jekyll相关										{#jekyll}
 
 + [北京市人力资源和社会保障局](http://rsj.beijing.gov.cn/)
 
-+ [迅捷画图-思维导图在线设计（部分收费）](https://www.liuchengtu.com/)
++ [迅捷画图-思维导图在线设计（破解Xmind已存网盘）](https://www.liuchengtu.com/)
 
-+ [果壳玻壳-破解软件网](https://www.ghpym.com/category/all)
-+ 
++ [果壳玻壳-破解软件网（****极力推荐**）](https://www.ghpym.com/category/all)

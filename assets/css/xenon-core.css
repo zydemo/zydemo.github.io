@@ -8962,7 +8962,9 @@ a.text-yellow:hover {
 }
 
 .text-gray {
-    color: #555
+    /*color: #555*/
+    color: #4e4d4d;
+    font-weight: bold;
 }
 
 a.text-gray:hover {

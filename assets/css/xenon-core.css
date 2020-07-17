@@ -972,7 +972,8 @@ body {
 }
 
 .sidebar-menu .main-menu a {
-    color: #979898;
+    /*color: #979898;*/
+    color: #babbbb;
     text-decoration: none;
     display: block;
     padding: 13px 5px;
@@ -1015,7 +1016,8 @@ body {
     font-family: FontAwesome;
     content: '\f107';
     float: right;
-    color: #6d747a;
+    /*color: #6d747a;*/
+    color: #babbbb;
     margin-left: 10px;
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);

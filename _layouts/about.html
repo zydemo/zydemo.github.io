@@ -59,7 +59,7 @@
                     <div class="panel panel-default">
                         {{ content }}
                         <blockquote>
-                        <p>返回网站首页，请点击<a href="https://zydemo.github.io/" style="color: #fff;background-color: #2457bf;font-weight: bold;padding: .2em .6em .3em;">zydemo.github.io</a></p>
+                        <p>返回网站首页，请点击<a href="{{site.url}}" style="color: #fff;background-color: #2457bf;font-weight: bold;padding: .2em .6em .3em;">zydemo.github.io</a></p>
                         </blockquote>
                         <blockquote>
                         <p>返回上一个导航页，请点击<a href="https://zydemo.github.io/zy365" style="color: #fff;background-color: #2457bf;font-weight: bold;padding: .2em .6em .3em;">ZY365</a>或左上角LOGO</p>
@@ -77,7 +77,7 @@
                     <div class="footer-text">
                         &copy; 2019 - {{ "today" | date: "%Y" }}
                         <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>WebStack</strong></a> ,design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>
-						,refactored by <a href="{{site.resume_site}}" target="_blank" style="color: #43759e;">{{ site.author }}</a>.
+						,refactored by <a href="{{site.url}}" target="_blank" style="color: #43759e;">{{ site.author }}</a>.
                     </div>
                     <div class="go-up">
                         <a href="#" rel="go-top">

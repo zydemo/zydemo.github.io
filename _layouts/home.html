@@ -48,26 +48,26 @@
     <div>
       <button id="myBtn" title="Back to top" style="display: none;">Top</button>
     </div>
-	<script type="text/javascript">
-		// Ò³Ãæ¼ÓÔØºóÖ´ÐÐ
-		window.onload = function(){
-			var totop = document.getElementById("myBtn");
-			// Ò³ÃæË¢ÐÂµÄÊ±ºòÏÈÒþ²Ø
-			totop.style.display = "none";     		
-			$("#myBtn").click(function(){	      
-			$('html,body').animate({scrollTop: '0px'}, 500);
-			});
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
-			function scrollFunction() {	    	
-				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					// document.getElementById("myBtn").style.display = "block";
-					$('#myBtn').fadeIn();
-				} else {
-					// document.getElementById("myBtn").style.display = "none";
-					$('#myBtn').fadeOut();
-				}
-			}
+    <script type="text/javascript">
+      	// é¡µé¢åŠ è½½åŽæ‰§è¡Œ
+      	window.onload = function(){
+	    	var totop = document.getElementById("myBtn");
+     		// é¡µé¢åˆ·æ–°çš„æ—¶å€™å…ˆéšè—
+     		totop.style.display = "none";
+		    $("#myBtn").click(function(){
+	    	$('html,body').animate({scrollTop: '0px'}, 500);
+	    	});
+	    	// When the user scrolls down 20px from the top of the document, show the button
+		    window.onscroll = function() {scrollFunction()};
+		    function scrollFunction() {
+		    	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    		// document.getElementById("myBtn").style.display = "block";
+		    		$('#myBtn').fadeIn();
+		     	} else {
+		     		// document.getElementById("myBtn").style.display = "none";
+		     		$('#myBtn').fadeOut();
+		     	}
+		    }
 		}
       </script>
 	  

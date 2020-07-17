@@ -55,3 +55,33 @@
     margin-top: 50px;
 
 }
+
+
+/* Top Added by zy 17/07/2020 */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #bb0000;
+  color: #bb0000;
+  background-color: white;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  opacity: 0.75;
+}
+
+#myBtn:hover {
+  background-color: #bb0000;
+  color: white;
+}
+
+
+
+
+

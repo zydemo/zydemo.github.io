@@ -43,7 +43,34 @@
     <div class="page-container">
         {{ content }}
     </div>
-    
+	
+	<!-- Back TO TOP -->
+    <div>
+      <button id="myBtn" title="Back to top" style="display: none;">Top</button>
+    </div>
+	<script type="text/javascript">
+		// 页面加载后执行
+		window.onload = function(){
+			var totop = document.getElementById("myBtn");
+			// 页面刷新的时候先隐藏
+			totop.style.display = "none";     		
+			$("#myBtn").click(function(){	      
+			$('html,body').animate({scrollTop: '0px'}, 500);
+			});
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {	    	
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					// document.getElementById("myBtn").style.display = "block";
+					$('#myBtn').fadeIn();
+				} else {
+					// document.getElementById("myBtn").style.display = "none";
+					$('#myBtn').fadeOut();
+				}
+			}
+		}
+      </script>
+	  
     <!-- Bottom Scripts -->
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/TweenMax.min.js"></script>

@@ -72,6 +72,8 @@ Markdown在线编辑器								{#markdown}
 
 + [抖音企业管理平台](https://e.douyin.com/site/)
 
++ [官方合作的星图认证MCN信息](https://star.toutiao.com/promote/mcn)
+
 + [前沿课堂-2020年私域流量争夺战(视频)](https://www.tmtpost.com/watch/B9U3Uz)
 
 + [抖音运营技巧2019](http://www.uxxsn.com/2633.html)

@@ -126,6 +126,8 @@ Markdown在线编辑器								{#markdown}
 
 + [微赞-企业视频直播营销系统](https://www.vzan.com/)
 
++ [OBS-视频直播录制软件](https://obsproject.com/)
+
 + [互联网上最全的快手运营手册](http://www.360doc.com/content/18/0801/21/58201251_775010599.shtml)
 
 + [个人如何运营好快手](https://www.dunsh.cn/news/7577.html)

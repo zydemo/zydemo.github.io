@@ -501,3 +501,5 @@ jekyll相关										{#jekyll}
 + [迅捷画图-思维导图在线设计（破解Xmind已存网盘）](https://www.liuchengtu.com/)
 
 + [果壳玻壳-破解软件网（****极力推荐**）](https://www.ghpym.com/category/all)
+
++ [经典后台管理模板：X-admin](http://x.xuebingsi.com/)

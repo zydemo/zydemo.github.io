@@ -169,6 +169,9 @@ Python相关										{#python}
 
 + [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 
++ [可视化代码执行-测试专用](http://www.pythontutor.com/)
+
+
 
 深度学习/机器学习/微信小程序					{#wechat}
 -----------------------------------------------------------------

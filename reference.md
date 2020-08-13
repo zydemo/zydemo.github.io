@@ -171,6 +171,51 @@ Python相关										{#python}
 
 + [可视化代码执行-测试专用](http://www.pythontutor.com/)
 
++ [正则表达式测试](http://tool.oschina.net/regex/)
+
++ [Python-思否](https://segmentfault.com/t/python)
+
++ [Python123](https://www.python123.io/)
+
++ [三大案例学会Python网络爬虫](https://study.163.com/course/introduction.htm?courseId=1005001016)
+
++ [Python-在线手册](https://docs.pythontab.com/)
+
++ [猿学365-在线学习网站](https://www.yuanxue365.com/)
+
++ [Python packages查找软件包（PyPI）](https://pypi.org/)
+
++ [Python3网络爬虫开发实战](https://germey.gitbooks.io/python3webspider/)
+
++ [Python学习资料-从入门到高薪……](https://blog.csdn.net/aitaozi11/article/details/79765768)
+
++ [Python学习资源汇总最新版-脚本之家公众号](https://mp.weixin.qq.com/s/YBdhwAjjhRIerczgyyllNg)
+
++ [Python3-菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
+
++ [廖雪峰网站Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
++ [机器学习速成课程](https://developers.google.cn/machine-learning/crash-course/)
+
++ [Django博客开发教程:开发前的准备](https://www.django.cn/course/show-32.html)
+
++ [我的个人博客之旅：从jekyll到hexo](https://blog.csdn.net/u011475210/article/details/79023429)
+
+
+在线课程					{#lesson}
+-----------------------------------------------------------------
++ [网易云课堂](https://study.163.com/)
+
++ [中国大学MOOC](https://www.icourse163.org/)
+
++ [爱课程视频课程](http://www.icourses.cn/home/)
+
++ [w3cschool在线学习课程](https://www.w3cschool.cn/)
+
++ [腾讯课堂](https://ke.qq.com/)
+
++ [哔哩哔哩-PR学习](https://search.bilibili.com/all?keyword=pr)
+
 
 
 深度学习/机器学习/微信小程序					{#wechat}
@@ -317,48 +362,6 @@ jekyll相关										{#jekyll}
 
 手机浏览器书签									{#mobile}
 -----------------------------------------------------------------
-
-+ [网易云课堂](https://study.163.com/)
-
-+ [中国大学MOOC](https://www.icourse163.org/)
-
-+ [爱课程视频课程](http://www.icourses.cn/home/)
-
-+ [w3cschool在线学习课程](https://www.w3cschool.cn/)
-
-+ [腾讯课堂](https://ke.qq.com/)
-
-+ [哔哩哔哩-PR学习](https://search.bilibili.com/all?keyword=pr)
-
-+ [正则表达式测试](http://tool.oschina.net/regex/)
-
-+ [Python-思否](https://segmentfault.com/t/python)
-
-+ [Python123](https://www.python123.io/)
-
-+ [三大案例学会Python网络爬虫](https://study.163.com/course/introduction.htm?courseId=1005001016)
-
-+ [Python-在线手册](https://docs.pythontab.com/)
-
-+ [猿学365-在线学习网站](https://www.yuanxue365.com/)
-
-+ [Python packages查找软件包（PyPI）](https://pypi.org/)
-
-+ [Python3网络爬虫开发实战](https://germey.gitbooks.io/python3webspider/)
-
-+ [Python学习资料-从入门到高薪……](https://blog.csdn.net/aitaozi11/article/details/79765768)
-
-+ [Python学习资源汇总最新版-脚本之家公众号](https://mp.weixin.qq.com/s/YBdhwAjjhRIerczgyyllNg)
-
-+ [Python3-菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
-
-+ [廖雪峰网站Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
-
-+ [机器学习速成课程](https://developers.google.cn/machine-learning/crash-course/)
-
-+ [Django博客开发教程:开发前的准备](https://www.django.cn/course/show-32.html)
-
-+ [我的个人博客之旅：从jekyll到hexo](https://blog.csdn.net/u011475210/article/details/79023429)
 
 + [中央国家机关住房资金管理中心](http://www.zzz.gov.cn/)
 

@@ -149,8 +149,6 @@ Python相关										{#python}
 
 + [pyspider的基本使用](https://www.jianshu.com/p/ce9d26d32bcf)
 
-+ [机器学习三剑客之Pandas](https://www.jianshu.com/p/7414364992e4)
-
 + [Pycharm注册码-lanyus](http://idea.lanyus.com/)
 
 + [pycharm2020激活码](https://segmentfault.com/a/1190000020150477?utm_source=tag-newest)
@@ -195,8 +193,6 @@ Python相关										{#python}
 
 + [廖雪峰网站Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 
-+ [机器学习速成课程](https://developers.google.cn/machine-learning/crash-course/)
-
 + [Django博客开发教程:开发前的准备](https://www.django.cn/course/show-32.html)
 
 + [我的个人博客之旅：从jekyll到hexo](https://blog.csdn.net/u011475210/article/details/79023429)
@@ -225,6 +221,11 @@ Python相关										{#python}
 + [李飞飞课程主页](http://cs231n.stanford.edu/)
 
 + [微信小程序开发官网](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+
++ [机器学习三剑客之Pandas](https://www.jianshu.com/p/7414364992e4)
+
++ [机器学习速成课程](https://developers.google.cn/machine-learning/crash-course/)
+
 
 
 Web前端											{#web}

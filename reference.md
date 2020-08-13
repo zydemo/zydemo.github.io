@@ -386,6 +386,8 @@ jekyll相关										{#jekyll}
 
 + [阿里巴巴集团社会招聘](https://job.alibaba.com/zhaopin/positionList.htm)
 
++ [阿里云开发者社区-官方镜像站](https://developer.aliyun.com/mirror/)
+
 + [职友集-找工作](https://www.jobui.com/)
 
 + [申旭阔编舞《海草舞》分解教学](http://n.miaopai.com/media/Q-HI~fWZufaFRmFSpcKvItshxX6~Y7OP)

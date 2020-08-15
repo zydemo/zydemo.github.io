@@ -40,6 +40,8 @@ Markdown在线编辑器								{#markdown}
 
 + [实用的倒计时/秒表](http://www.naobiao.com/)
 
++ [各种在线查询实用工具（****极力推荐**）](https://www.supfree.net/)
+
 + [Apowersoft-免费在线录屏软件](https://www.apowersoft.cn/free-online-screen-recorder)
 
 + [Apowersoft-非常好用电脑投屏手机软件](http://am.apowersoft.com/)

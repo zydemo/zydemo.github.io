@@ -82,6 +82,7 @@ layout: home
                     <i class="fa-bars"></i>
                 </a>
             </li>
+
             <!-- <li class="dropdown hover-line language-switcher">
                 <a href="../cn/zy365.html" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
@@ -100,6 +101,7 @@ layout: home
                 </ul>
             </li> -->
         </ul>
+        <div id="settime" class="set_time"></div>
         <a href="https://github.com/{{ site.github_username }}" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
     </nav>
 
@@ -236,3 +238,55 @@ layout: home
         pos = $(href).position().top - 30;
     });
 </script>
+<!--显示北京时间-->
+    <script>
+        window.onload = function () {
+            // var bTn = document.getElementById('btn');
+            // var beginbTn = document.getElementById('begin');
+            function nowtime() {
+                var userurl = 'http://quan.suning.com/getSysTime.do';
+                var $settime = document.getElementById('settime');
+                var now = new Date();
+                var week = getdate(now);
+                $.ajax({
+                    type: 'get',
+                    url: userurl,
+                    dataType: 'json',
+                    success: function (data) {
+                        $settime.innerHTML = data.sysTime2.replace(/(\d{4}).(\d{1,2}).(\d{1,2})/g, '$1年$2月$3日') + "，" + toweek(week[0]);
+                    }
+                });
+            }
+            nowtime();
+            setInterval(nowtime, 1000);
+            // beginbTn.onclick = function () {
+            //     nowtime();
+            //     var timer = setInterval(nowtime, 1000);
+            //     bTn.onclick = function () {
+            //         clearInterval(timer);
+            //     };
+            // };
+            function getdate(ev) {
+                var week = ev.getDay(); //星期（值0-6）
+                return [week];
+            }
+            function toweek(num) {
+                switch (num) {
+                    case 0:
+                        return '星期天';
+                    case 1:
+                        return '星期一';
+                    case 2:
+                        return '星期二';
+                    case 3:
+                        return '星期三';
+                    case 4:
+                        return '星期四';
+                    case 5:
+                        return '星期五';
+                    case 6:
+                        return '星期六';
+                }
+            }
+        }
+    </script>

@@ -9062,3 +9062,12 @@ pre {
         padding-bottom: 48px
     }
 }
+.set_time{
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    left: 8%;
+    color: #ff6600;
+    background-color: #fff;
+
+}

@@ -45,7 +45,10 @@
       logo: /assets/images/logos/google.png
       url: https://www.google.com/
       description: 全球最大的UI学习分享平台
-    
+    - title: Baidu
+      logo: /assets/images/logos/baidu.png
+      url: https://www.baidu.com/
+      description: 百度一下，你就知道
 
 - name: 社区资讯
   icon: linecons-doc

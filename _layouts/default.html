@@ -109,7 +109,8 @@
             // 获取当前页面链接地址
             $url = window.location.href;
             // $url_before = 'https://api.cnzknet.com/qr/?m=1&e=M&p=8&url=';
-            $url_before = 'https://cli.im/api/qrcode/code?text=';
+            // $url_before = 'https://cli.im/api/qrcode/code?text=';
+            $url_before = 'http://qr.topscan.com/api.php?text=';
             $('#qr_img').attr("src",$url_before+$url);
             $('#qr_btn').click(function(){
                 $qr_box = $('#qr_box');

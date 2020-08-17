@@ -194,7 +194,7 @@ layout: home
                 url: userurl,
                 dataType: 'json',
                 success: function (data) {
-                    $settime.innerHTML = data.sysTime2.replace(/(\d{4}).(\d{1,2}).(\d{1,2})/g, '$1年$2月$3日') + "，" + toweek(week[0]);
+                    $settime.innerHTML = data.sysTime2.replace(/(\d{4}).(\d{1,2}).(\d{1,2})/g, '$1年$2月$3日') + " " + toweek(week[0]);
                 }
             });
         }

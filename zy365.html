@@ -202,12 +202,17 @@ layout: home
             var hour = d.getHours();
             var minute = d.getMinutes();
             var second = d.getSeconds();
+            var time_result = " "+todou(hour)
+                +":"+todou(minute)
+                +":"+todou(second)+ " " + toweek(week[0]);
+            document.title =
+                todou(month)
+                +"/"+todou(date)
+                + time_result;
             $settime.innerHTML =  d.getFullYear()+"年"
                 +todou(month)
                 +"月"+todou(date)+"日"
-                +" "+todou(hour)
-                +":"+todou(minute)
-                +":"+todou(second)+ " " + toweek(week[0]);
+                + time_result;
         }
         // 小于10的数字补位
         function todou(ev) {

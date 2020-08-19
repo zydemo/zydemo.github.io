@@ -228,14 +228,30 @@ layout: home
                 url: userurl,
                 dataType: 'json',
                 success: function (data) {
-                   //  $settime.innerHTML = data.sysTime2.replace(/(\d{4}).(\d{1,2}).(\d{1,2})/g, '$1年$2月$3日') + " " + toweek(week[0]);
-                    var i = 0;
-                    updateNum();
-                    setInterval(updateNum, 1000);
-                   function updateNum()
-                    {
-                        dateAdd(data.sysTime2,++i)
+                     //  $settime.innerHTML = data.sysTime2.replace(/(\d{4}).(\d{1,2}).(\d{1,2})/g, '$1年$2月$3日') + " " + toweek(week[0]);
+                    //  解决延迟方法
+                    var startTime = new Date().getTime();
+                    // console.log(startTime);
+                    var count = 0;
+                    function fixed() {
+                        count++;
+                        var offset = new Date().getTime() - (startTime + count * 1000);
+                        var nextTime = 1000 - offset;
+                        if (nextTime < 0) nextTime = 0;
+                        setTimeout(fixed, nextTime);
+                        dateAdd(data.sysTime2,count);
+                        // console.log(new Date().getTime() - (startTime + count * 1000));
                     }
+                    setTimeout(fixed, 1000);
+
+                    // 以下方法有延迟
+                   //  var i = 0;
+                   //  updateNum();
+                   //  setInterval(updateNum, 1000);
+                   // function updateNum()
+                   //  {
+                   //      dateAdd(data.sysTime2,++i);
+                   //  }
                 }
             });
         }

@@ -512,4 +512,6 @@ jekyll相关										{#jekyll}
 
 + [果壳玻壳-破解软件网（****极力推荐**）](https://www.ghpym.com/category/all)
 
++ [懒得勤快-破解软件网（****极力推荐**）](https://masuit.com/)
+
 + [经典后台管理模板：X-admin](http://x.xuebingsi.com/)

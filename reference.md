@@ -50,6 +50,8 @@ Markdown在线编辑器								{#markdown}
 
 + [过客网-历史价格查询](http://www.tool168.cn/history/)
 
++ [gitee码云](https://gitee.com/)
+
 抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------
 + [字节跳动-小店/开店帮助中心](http://opendoc.jinritemai.com/notice/)

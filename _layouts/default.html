@@ -103,30 +103,6 @@
      		}
      	}
      </script> -->
-     <!--增加页面二维码功能-->
-    <script>
-        $(function(){
-            // 获取当前页面链接地址
-            $url = window.location.href;
-            // $url_before = 'https://api.cnzknet.com/qr/?m=1&e=M&p=8&url=';
-            // $url_before = 'https://cli.im/api/qrcode/code?text=';
-            // 以下链接为：https://www.liantu.com/pingtai/
-            $url_before = 'http://qr.topscan.com/api.php?text=';
-            $('#qr_img').attr("src",$url_before+$url);
-            $('#qr_btn').click(function(){
-                $qr_box = $('#qr_box');
-                /*这个判断的意义是,如果qr-box是隐藏的,那么让它显示出来,如果是显示的,那么就隐藏它*/
-                if($qr_box.is(':hidden'))
-                {
-                  $qr_box.slideDown('slow');
-                  // $(this).text('收起');
-                }else{
-                  $qr_box.slideUp('slow');
-                  // $(this).text('展开');
-                    }
-            });
-        });
-    </script>
 
     <!--ToTop ZY 02/20/2019 end -->
 
@@ -168,5 +144,37 @@
     {% endif %}
     <!--default music js Added by zy 11/09/2019 end-->
     {% include footer.html %}
+	   <!--增加页面二维码功能-->
+	<script src="{{ '/styles/js/jquery.qrcode.min.js' | prepend: site.baseurl }}"></script>
+    <script>
+        $(function(){
+            // 获取当前页面链接地址
+            // $url_before = 'https://api.cnzknet.com/qr/?m=1&e=M&p=8&url=';
+            // $url_before = 'https://cli.im/api/qrcode/code?text=';
+            // 以下链接为：https://www.liantu.com/pingtai/
+            // $url_before = 'http://qr.topscan.com/api.php?text=';
+            // $url_before = 'https://cli.im/api/qrcode/code?text=';
+            // $('#qr_img').attr("src",$url_before+$url);
+			var $url = window.location.href;
+			$("#qrcode").qrcode({
+            width: 130,
+            height: 130,
+            correctLevel: 0,
+            text: $url
+          });
+            $('#qr_btn').click(function(){
+                $qr_box = $('#qr_box');
+                /*这个判断的意义是,如果qr-box是隐藏的,那么让它显示出来,如果是显示的,那么就隐藏它*/
+                if($qr_box.is(':hidden'))
+                {
+                  $qr_box.slideDown('slow');
+                  // $(this).text('收起');
+                }else{
+                  $qr_box.slideUp('slow');
+                  // $(this).text('展开');
+                    }
+            });
+        });
+    </script>
   </body>
 </html>

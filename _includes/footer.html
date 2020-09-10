@@ -4,7 +4,8 @@
          <div class="qr_btn">
             <a class="btn btn-primary btn-md" id="qr_btn">生成当前页二维码</a>
             <div id="qr_box" class="qr_box">
-                <img id="qr_img" src="" width="130" height="130" alt="本页链接二维码">
+                <div id="qrcode"></div>
+                <!--<img id="qr_img" src="" width="130" height="130" alt="本页链接二维码">-->
             </div>
          </div>
 		<p class="copyright">Copyright &copy; 2019-{{ "today" | date: "%Y" }} <a href="{{site.resume_site}}"><code>{{ site.author }}</code></a>.</p>

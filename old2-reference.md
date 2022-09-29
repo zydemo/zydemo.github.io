@@ -8,7 +8,7 @@ permalink: /reference/
 {:toc}
 
 
-常用工具								{#tools}
+Markdown在线编辑器								{#markdown}
 -----------------------------------------------------------------
 + [不错的网站导航-格栅知识圈](https://nav.geshanzsq.com/)
 
@@ -24,7 +24,7 @@ permalink: /reference/
 
 + [在线测网速网站](http://www.speedtest.cn/)
 
-+ [中国种业大数据平台](http://202.127.42.145/bigdataNew/home/ManageOrg)
++ [中国种业大数据平台](http://202.127.42.145/home/manageorg)
 
 + [国家企业信用信息公示系统](http://www.gsxt.gov.cn/index.html)
 
@@ -42,24 +42,6 @@ permalink: /reference/
 
 + [各种在线查询实用工具（****极力推荐**）](https://www.supfree.net/)
 
-+ [酷丫图床-免费图片上传接口（****极力推荐**）](http://img.coolcr.cn/)
-
-+ [内网穿透工具（****admin的qq邮箱**）](https://suidao.io/#/)
-
-+ [不错的截图软件-snipaste](https://zh.snipaste.com/)
-
-+ [微软语音合成工具](https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#features)
-
-+ [程序员网址导航coderutil](http://www.coderutil.com/)
-
-+ [摹客-前端开发协作平台（****极力推荐**）](https://www.mockplus.cn/)
-
-+ [蓝湖-产品文档和设计图共享平台（****极力推荐**）](https://lanhuapp.com/)
-
-+ [在线接口测试-谷Ge插件下载](https://getman.cn/)
-
-+ [在线接口测试（****可存历史记录**）](https://www.sojson.com/http/test.html)
-
 + [Apowersoft-免费在线录屏软件](https://www.apowersoft.cn/free-online-screen-recorder)
 
 + [Apowersoft-非常好用电脑投屏手机软件](http://am.apowersoft.com/)
@@ -70,80 +52,9 @@ permalink: /reference/
 
 + [gitee码云](https://gitee.com/)
 
-+ [gitee-printzy博客](https://printzy.gitee.io/reference/)
-
-+ [github-zydemo博客](https://zydemo.github.io/reference/)
-
-+ [github-printzy博客](https://printzy.github.io/reference/)
-
-
-测试/Linux相关								{#testing}
------------------------------------------------------------------
-+ [牛客网-笔试题库面试经验](https://www.nowcoder.com/)
-
-+ [禅道-缺陷管理工具](https://demo.zentao.net/user-login.html)
-
-+ [Java在线调试工具-IT屋](https://www.it1352.com/Onlinetools/details/4)
-
-+ [Java在线调试工具-菜鸟工具](https://c.runoob.com/compile/10/)
-
-+ [Linux命令大全](https://www.linuxcool.com/)
-
-+ [centos7安装mysql5.7步骤](https://wwwxz.blog.csdn.net/article/details/121515102)
-
-- [centos7安装mysql5.7步骤-本地图片版](/public/other/centos7安装mysql5.7.jpg)
-
-+ [httpbin在线接口测试](http://httpbin.org/)
-
-+ [jmeter官网](https://jmeter.apache.org/download_jmeter.cgi)
-
-+ [webxml-web服务接口](http://www.webxml.com.cn/zh_cn/index.aspx)
-
-+ [华测教育-在线商城演示地址](http://shop-xo.hctestedu.com/)
-
-+ [测码课堂-在线商城演示地址](http://39.98.138.157/shopxo/index.php)
-
-+ [在线商城开源地址](https://shopxo.net/)
-
-
-
-
-北京市/新闻资讯类							{#bjnews}
------------------------------------------------------------------
-+ [中央国家机关住房资金管理中心](http://www.zzz.gov.cn/)
-
-+ [北京市住房公积金平台](http://gjj.beijing.gov.cn/)
-
-+ [北京市第一中级人民法院](http://bj1zy.chinacourt.gov.cn/index.shtml)
-
-+ [北京市小客车指标](https://xkczb.jtw.beijing.gov.cn/)
-
-+ [北京市住房和城乡建设网站-共有产权住房](http://gycq.zjw.beijing.gov.cn/enroll/home.jsp)
-
-+ [北京市居住证服务平台](https://jzz.gaj.beijing.gov.cn/)
-
-+ [北京市积分落户服务专栏](http://rsj.beijing.gov.cn/ywsite/jflh/)
-
-+ [北京市人力资源和社会保障局](http://rsj.beijing.gov.cn/)
-
-+ [北京市自然人电子税务局](https://etax.chinatax.gov.cn)
-
-+ [北京统一登录平台-北京市人民政府](http://www.beijing.gov.cn/)
-
-+ [北京地铁线路图](https://map.bjsubway.com/)
-
-+ [新闻资讯-今日头条](https://www.toutiao.com/)
-
-+ [i黑马](http://www.iheima.com/)
-
-+ [字节跳动内推官网](https://jobs.bytedance.com/experienced/position)
-
-
 抖音/社群营销相关										{#douyin}
 -----------------------------------------------------------------
 + [字节跳动-小店/开店帮助中心](http://opendoc.jinritemai.com/notice/)
-
-+ [字节跳动官方-巨量大学](https://school.oceanengine.com/premium/course)
 
 + [飞瓜数据](https://www.feigua.cn/)
 
@@ -162,12 +73,6 @@ permalink: /reference/
 + [短鱼儿-短视频数据分析平台](https://www.duanyuer.com/)
 
 + [抖商传媒-分享短视频行业最新干货](http://www.2gou.com/)
-
-+ [微播易—数据驱动的短视频KOL交易平台](http://www.weiboyi.com/report)
-
-+ [上海艾瑞市场咨询-研究报告](https://report.iresearch.cn/)
-
-+ [人人都是自媒体](http://www.woshizmt.cn/category/douyin/)
 
 + [抖音企业管理平台](https://e.douyin.com/site/)
 
@@ -198,8 +103,6 @@ permalink: /reference/
 + [右糖-线上视频制作平台](https://lightmv.cn/)
 
 + [爱给-免费视频音乐特效素材](http://www.aigei.com/)
-
-+ [牛片网-视频素材](https://www.6pian.cn/)
 
 + [VJ师网-专业的素材共享平台](https://www.vjshi.com/)
 
@@ -252,17 +155,9 @@ Python相关										{#python}
 
 + [Pycharm注册码-lanyus](http://idea.lanyus.com/)
 
-+ [**pycharm的各种设置，配置](https://www.cnblogs.com/hackerer/p/11532893.html)
-
 + [pycharm2020激活码](https://segmentfault.com/a/1190000020150477?utm_source=tag-newest)
 
 + [**我要自学网-不错的学习软件网站](https://www.51zxw.net/)
-
-+ [**干货！python爬虫100个入门项目 续](https://zhuanlan.zhihu.com/p/75036835)
-
-+ [**老男孩IT教育武沛齐python讲解](https://pythonav.com/index/)
-
-+ [搜狗微信公众号爬虫详解](https://zhuanlan.zhihu.com/p/270296193)
 
 + [edx国外大规模开放在线课堂平台](https://www.edx.org/)
 
@@ -300,8 +195,6 @@ Python相关										{#python}
 
 + [Python3-菜鸟教程](http://www.runoob.com/python3/python3-tutorial.html)
 
-+ [python3白月黑羽教程](http://www.python3.vip/)
-
 + [廖雪峰网站Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 
 + [Django博客开发教程:开发前的准备](https://www.django.cn/course/show-32.html)
@@ -321,8 +214,6 @@ Python相关										{#python}
 
 + [腾讯课堂](https://ke.qq.com/)
 
-+ [英语学习-新东方多媒体学习库](http://www.nlc.cn/dsb_zyyfw/sytc/sp/)
-
 + [哔哩哔哩-PR学习](https://search.bilibili.com/all?keyword=pr)
 
 
@@ -335,30 +226,15 @@ Python相关										{#python}
 
 + [微信小程序开发官网](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
-+ [微信公众平台](https://mp.weixin.qq.com/)
-
 + [机器学习三剑客之Pandas](https://www.jianshu.com/p/7414364992e4)
 
 + [机器学习速成课程](https://developers.google.cn/machine-learning/crash-course/)
 
-在线电商相关											{#online}
------------------------------------------------------------------
-+ [码工助手](https://www.gaoding.com/dianshang/zhuangxiu)
-
-+ [在线小程序制作-逸狐网](https://www.1hwang.com/web/index.php?c=user&a=login&)
-
-+ [阿里妈妈-万堂书院](https://shuyuan.taobao.com/)
-
-+ [开淘网-淘宝学习](https://www.kaitao.cn/)
-
-+ [派代网-中国电子商务交流分享平台](https://www.paidai.com/)
 
 
 Web前端											{#web}
 -----------------------------------------------------------------
 + [Bootstrap中文网](http://www.bootcss.com/)
-
-+ [JavaScript教程手册-MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
 + [Bootstrap最受欢迎的WEB项目及组件](https://v3.bootcss.com/)
 
@@ -400,13 +276,7 @@ Web前端											{#web}
 
 + [程序员在线工具](http://www.ofmonkey.com/)
 
-+ [uTools-工具集成插件](https://u.tools/)
-
-+ [ShowDoc-在线API接口文档托管](https://www.showdoc.com.cn/128719739414963?page_id=2513278140891548)
-
 + [源码素材网-网页特效](http://www.codesc.net/)
-
-+ [**好用的正则在线测试](https://regex101.com/)
 
 
 相关博客											{#about-blog}
@@ -458,6 +328,7 @@ jekyll相关										{#jekyll}
 
 邮箱/google					{#mail}
 -----------------------------------------------------------------
+
 + [163邮箱](https://mail.163.com/)
 
 + [126邮箱](https://mail.126.com/)
@@ -470,11 +341,10 @@ jekyll相关										{#jekyll}
 
 + [Google插件扩展下载网](https://www.extfans.com/)
 
-+ [google play-APP官网](https://play.google.com/store/search?q&c=apps&hl=zh-CN)
-
 
 电视/广播/音乐/视频					{#radio}
 -----------------------------------------------------------------
+
 + [河北音乐广播](https://www.qingting.fm/radios/1649)
 
 + [北京新闻广播](https://www.qingting.fm/radios/339)
@@ -485,8 +355,6 @@ jekyll相关										{#jekyll}
 
 + [QQ音乐](https://y.qq.com/)
 
-+ [洛雪音乐助手源码github](https://github.com/lyswhut/lx-music-desktop/releases)
-
 + [口袋影院（****极力推荐**）](http://0.cqdnpfc.cn)
 
 + [全视频TV-电视节目观看](http://www.qsptv.net/)
@@ -495,27 +363,29 @@ jekyll相关										{#jekyll}
 
 + [vip视频人人搜索](http://vip.renrensousuo.com)
 
-+ [TVB视频解析VIP](http://vip.tvyb10.com/)
-
 + [中国评书网](http://www.zgpingshu.com/#down)
 
-+ [高品质音乐下载分享](https://t00y.com/file/12530638-409835773)
-
-+ [真不卡影院](https://www.zhenbuka.com/vodtype/1/)
-
-+ [伴读听书-老梁的四大名著情商课](http://www.bandubb.com/category/tingjian/)
-
-+ [申旭阔编舞《海草舞》分解教学](http://n.miaopai.com/media/Q-HI~fWZufaFRmFSpcKvItshxX6~Y7OP)
-
-+ [年会视频制作-节目](http://www.nianhuishipin.cn/)
-
-+ [新农民影视](http://v.nongminys.com/)
-
-+ [天猫TV](https://www.baiduqian.com/)
 
 
 手机浏览器书签									{#mobile}
 -----------------------------------------------------------------
+
++ [中央国家机关住房资金管理中心](http://www.zzz.gov.cn/)
+
++ [北京市住房公积金平台](http://gjj.beijing.gov.cn/)
+
++ [非法集资案件登记平台](http://ecidcwc.mps.gov.cn/port/index)
+
++ [北京市第一中级人民法院](http://bj1zy.chinacourt.gov.cn/index.shtml)
+
++ [北京市小客车指标](https://www.bjhjyd.gov.cn/index.html)
+
++ [北京市住房和城乡建设网站-共有产权住房](http://zzfws.bjjs.gov.cn/enroll/home.jsp)
+
++ [北京市居住证服务平台](https://jzz.gaj.beijing.gov.cn/)
+
++ [北京市积分落户服务专栏](http://www.bjrbj.gov.cn/jflh/)
+
 + [信用房地产](http://credit.fangchan.com/)
 
 + [贝壳找房](https://bj.ke.com/)
@@ -526,14 +396,18 @@ jekyll相关										{#jekyll}
 
 + [职友集-找工作](https://www.jobui.com/)
 
++ [申旭阔编舞《海草舞》分解教学](http://n.miaopai.com/media/Q-HI~fWZufaFRmFSpcKvItshxX6~Y7OP)
+
 + [DiskGenius-数据恢复软件](http://www.diskgenius.cn/)
 
 + [神策数据分析使用手册-大数据分析](https://www.sensorsdata.cn/manual/)
 
 + [集搜客GooSeeker-Python使用xslt提取网页数据](http://www.gooseeker.com/doc/thread-1688-1-2.html)
 
++ [伴读听书-老梁的四大名著情商课](http://www.bandubb.com/category/tingjian/)
 
-关于教育									{#education}
+
+关于成人教育									{#education}
 -----------------------------------------------------------------
 
 + [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
@@ -541,10 +415,6 @@ jekyll相关										{#jekyll}
 + [学信网](https://www.chsi.com.cn/)
 
 + [迁木网-出国留学网站](http://www.qianmu.org/)
-
-+ [古诗文网](https://www.gushiwen.cn/)
-
-+ [劝学网-兵法精粹](http://www.quanxue.cn/CT_BingFa/index.html)
 
 + [2018年北京市成人高等学校招生专业目录](https://www.bjeea.cn/html/ckcz/zyml/2018/0823/71484.html)
 
@@ -572,6 +442,8 @@ jekyll相关										{#jekyll}
 
 + [QuickLook 空格键预览文件工具](https://pooi.moe/QuickLook/)
 
++ [派代网-中国电子商务交流分享平台](http://www.paidai.com/)
+
 + [极客战记(编程类休闲手游)](https://codecombat.163.com/)
 
 + [办公资源-办公素材文档下载](http://www.bangongziyuan.com/)
@@ -582,17 +454,19 @@ jekyll相关										{#jekyll}
 
 + [短网址生成](http://dwz.wailian.work/)
 
++ [i黑马](http://www.iheima.com/)
+
 + [在线文件病毒扫描](http://www.virscan.org/language/zh-cn/)
 
 + [google](https://www.google.com.hk/)
 
 + [免费图片上传](http://chuantu.biz/)
 
-+ [不错的在线图片转文字（****极力推荐**）](https://app.xunjiepdf.com/ocr)
-
 + [在线图像优化器](https://imagecompressor.com/zh/)
 
 + [wn万能命令](https://wn.run/cn/)
+
++ [年会视频制作-节目](http://www.nianhuishipin.cn/)
 
 + [酷读电子书下载网站](http://www.kudubook.com/)
 
@@ -628,13 +502,13 @@ jekyll相关										{#jekyll}
 
 + [优设-优优教程网](https://uiiiuiii.com/)
 
-+ [脚步网-简历模板在线制作](https://www.jiaobu365.com/resume/index.html)
-
 + [PPT模板、素材下载](http://www.1ppt.com/)
 
 + [不错的电子手册制作模板网站-金印客](http://www.kinker.cn/template/)
 
 + [未来智库-获取最新报告](https://www.vzkoo.com/)
+
++ [北京市人力资源和社会保障局](http://rsj.beijing.gov.cn/)
 
 + [迅捷画图-思维导图在线设计（破解Xmind已存网盘）](https://www.liuchengtu.com/)
 
@@ -642,10 +516,4 @@ jekyll相关										{#jekyll}
 
 + [懒得勤快-破解软件网（****极力推荐**）](https://masuit.com/)
 
-+ [夜雨聆风-实用软件及教程分享（****极力推荐**）](https://www.yeyulingfeng.com/)
-
-+ [六音软件-实用软件及教程分享（****极力推荐**）](https://www.sixyin.com/)
-
 + [经典后台管理模板：X-admin](http://x.xuebingsi.com/)
-
-+ [联想官网-制作Win10系统安装U盘和安装纯净版Win10的通用教程](http://iknow.lenovo.com.cn/detail/dc_177365.html)
